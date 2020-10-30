@@ -15,6 +15,10 @@ class NotesController extends AppController {
  */
 	public $components = array('Paginator');
 
+	public function denuncias($denuncia = null, $modulo = null){
+	    $this->set(compact('denuncia','modulo'));
+	}
+	
 /**
  * index method
  *

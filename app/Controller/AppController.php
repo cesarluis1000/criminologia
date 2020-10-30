@@ -44,8 +44,8 @@ class AppController extends Controller {
             ),
 			//Ruta de logeo
             'loginRedirect' => array(
-                'controller' => 'users',
-                'action' => 'index'
+                'controller' => 'notes',
+                'action' => 'denuncias'
             ),
             'authorize' => array(
                 'Actions' => array('actionPath' => 'controllers')
@@ -78,9 +78,96 @@ class AppController extends Controller {
 		    $allow = array_merge($allow,array('index','edit','view','add','delete','options'));		    		    
 		}*/
 		//$this->Auth->allow($allow);
-		$this->Auth->allow('login','logout','display','login2','index2','add2','edit2','view2','delete2');
+		$this->Auth->allow('denuncias','login','logout','display','login2','index2','add2','edit2','view2','delete2');
 	
-		$this->__checkAuth();				
+		$this->__checkAuth();
+		$this->__observatorio();
+	}
+	
+	private function __observatorio(){
+	    //Acciones que utilizarar el layout observatorio	    
+	    $this->acciones_ecommerce = array('denuncias');
+	    if (in_array($this->action, $this->acciones_ecommerce)){
+	        $this->layout = 'observatorio';
+	    }
+	    $a_denuncias = array(
+	        'Delitos' => array(
+	            'MODULO I',
+	            'MODULO II',
+	            'MODULO III',
+	            'MODULO IV',
+	            'Reporte Comisaria',
+	            'Reporte Mapa de Calor',
+	            'Reporte Regional',
+	            'Reporte'),	        
+	        'Faltas' => array(
+	            'Denuncia de Faltas',
+	            'Faltas',
+	            'Intervenidos por Faltas',
+	            'Reporte',
+	            'Reporte Regional',
+	            'Reporte Comisaria',
+	            'Reporte Mapa de Calor'),
+	        'Accidentes de transito' => array(
+	            'MODULO I',
+	            'MODULO II',
+	            'MODULO III',
+	            'MODULO IV',
+	            'Reporte',
+	            'Reporte Regional',
+	            'Reporte Comisaria',
+	            'Reporte Mapa de Calor'),
+	        'Operaciones policiales' => array(
+	            'MODULO I',
+	            'MODULO II',
+	            'MODULO III',
+	            'MODULO IV',
+	            'MODULO V',
+	            'MODULO VI',
+	            'MODULO VII',
+	            'MODULO VIII',
+	            'Reporte',
+	            'Reporte Regional',
+	            'Reporte Comisaria',
+	            'Reporte Mapa de Calor'),
+	        'Detenidos' => array(
+	            'MODULO I',
+	            'MODULO II',
+	            'MODULO III',
+	            'MODULO IV',
+	            'MODULO V',
+	            'Reporte',
+	            'Reporte Regional',
+	            'Reporte Comisaria',
+	            'Reporte Mapa de Calor'),
+	        'Ocurrencia de calle' => array(
+	            'MODULO I',
+	            'MODULO II',
+	            'MODULO III',
+	            'Reporte',
+	            'Reporte Regional',
+	            'Reporte Comisaria',
+	            'Reporte Mapa de Calor'),
+	        'Registro de fallecidos' => array(
+	            'MODULO I',
+	            'MODULO II',
+	            'MODULO III',
+	            'MODULO IV',
+	            'Reporte',
+	            'Reporte Regional',
+	            'Reporte Comisaria',
+	            'Reporte Mapa de Calor'),
+	        'Medidas de produccion' => array(
+	            'MODULO I',
+	            'MODULO II',
+	            'MODULO III',
+	            'Reporte',
+	            'Reporte Regional',
+	            'Reporte Comisaria',
+	            'Reporte Mapa de Calor')
+	        );
+	    
+	    $this->set(compact('a_denuncias'));
 	}
 	
 	public function options(){	    

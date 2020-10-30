@@ -31,24 +31,15 @@
 		</div>
 		
 		<div id="content" class="row">
-			<!-- logeado -->
-			<?php if(!empty($currentUser)): ?>
-				<!-- Menu -->
-				<div class="col-md-2">
-					<?php echo $this->element('menu'); ?>
-				</div>
-				<!-- Vista -->
-				<div class="index col-md-10">
-					<?php echo $this->Flash->render(); ?>
-					<?php echo $this->fetch('content'); ?>
-				</div>
-			<?php else: ?>
-				<!-- Vista -->
-				<div class="index col-md-12">
-					<?php echo $this->Flash->render(); ?>
-					<?php echo $this->fetch('content'); ?>
-				</div>
-			<?php endif; ?>
+			<!-- Menu -->
+			<div class="col-md-2">
+				<?php echo $this->element('ecommerce_menu'); ?>
+			</div>
+			<!-- Vista -->
+			<div class="index col-md-10">
+				<?php echo $this->Flash->render(); ?>
+				<?php echo $this->fetch('content'); ?>
+			</div>
 		</div>
 		
 		<div id="footer" class="alert alert-info text-right">			
