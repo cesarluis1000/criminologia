@@ -44,7 +44,7 @@
 		
 		<div id="footer" class="alert alert-info text-right">			
 			<h4>
-				<?php echo 'Desarrollado por el Observatoio del Delito y la Criminalidad'; ?>
+				<?php echo 'Desarrollado por el Observatoio del Delito y la Criminalidad de la Policia'; ?>
 			</h4>
 		</div>
 		
