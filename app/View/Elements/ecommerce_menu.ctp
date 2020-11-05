@@ -24,12 +24,14 @@
                 										<?php echo '&nbsp;'.'&nbsp;'.$denuncias_nombre; ?>
                 										</td>
                 									</tr>
-            									<?php foreach ($rows as $aplicacion):?>
+            									<?php foreach ($rows as $index => $aplicacion):?>
                 									<tr>
                 										<td>
-                										<?php $modulo_nombre = ($denuncias == $denuncia && $aplicacion == $modulo)?'<strong class="text-danger">'.$aplicacion.'</strong>':$aplicacion ?>
+                										<?php $modulo_nombre = ($denuncias == $denuncia && $index == $modulo)?
+                										'<strong class="text-danger">'.$aplicacion.'</strong>':
+                										          $aplicacion ?>
                 										<?php echo $this->Html->link($this->Html->tag('span', '', array('class' => 'glyphicon glyphicon-list text-primary')).'&nbsp;'.$modulo_nombre,
-                										    array('controller'=>'notes', 'action'=>'denuncias',$denuncias, $aplicacion),array('escape'=>false,'class'=>'menu-level2') ); ?>
+                										    array('controller'=>'notes', 'action'=>'denuncias',$denuncias, $index),array('escape'=>false,'class'=>'menu-level2') ); ?>
                 										</td>
                 									</tr>
             									<?php endforeach;?>

@@ -87,9 +87,11 @@ class AppController extends Controller {
 	private function __observatorio(){
 	    //Acciones que utilizarar el layout observatorio	    
 	    $this->acciones_ecommerce = array('denuncias');
+	    
 	    if (in_array($this->action, $this->acciones_ecommerce)){
 	        $this->layout = 'observatorio';
 	    }
+	    
 	    $a_denuncias = array(
 	        'Delitos' => array(
 	            'MODULO I' =>'Localización de la dependencia policial',
