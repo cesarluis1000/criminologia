@@ -119,7 +119,7 @@ class AppController extends Controller {
 	            'Reporte Regional' =>'Reporte Regional',
 	            'Reporte Comisaria' =>'Reporte Comisaria',
 	            'Reporte Mapa de Calor' =>'Reporte Mapa de Calor'),
-	        'Operaciones policiales' => array(
+	        'Operativos policiales' => array(
 	            'MODULO I' =>'Localización de la dependencia policial',
 	            'MODULO II' =>'Características del operativo policial',
 	            'MODULO III' =>'Características de los detenidos',
@@ -132,7 +132,7 @@ class AppController extends Controller {
 	            'Reporte Regional' =>'Reporte Regional',
 	            'Reporte Comisaria' =>'Reporte Comisaria',
 	            'Reporte Mapa de Calor' =>'Reporte Mapa de Calor'),
-	        'Detenidos' => array(
+	        'Interveciones Detenidos' => array(
 	            'MODULO I' =>'Localización de la dependencia policial',
 	            'MODULO II' =>'Características del detenido',
 	            'MODULO III' =>'Vehículos robados y recuperados',
