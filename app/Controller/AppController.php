@@ -98,10 +98,10 @@ class AppController extends Controller {
 	            'MODULO II' =>'Características de la denuncia policial',
 	            'MODULO III' =>'Características de la victima',
 	            'MODULO IV' =>'Características del presunto victimario',
-	            'Reporte Comisaria' =>'Reporte Comisaria',
-	            'Reporte Mapa de Calor' =>'Reporte Mapa de Calor',
+	            'Reporte' =>'Reporte',
 	            'Reporte Regional' =>'Reporte Regional',
-	            'Reporte' =>'Reporte'),	        
+	            'Reporte Comisaria' =>'Reporte Comisaria',
+	            'Reporte Mapa de Calor' =>'Reporte Mapa de Calor'),	        
 	        'Faltas' => array(
 	            'Denuncia de Faltas' =>'Denuncia de Faltas',
 	            'Faltas' =>'Faltas',
