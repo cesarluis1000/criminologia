@@ -159,7 +159,7 @@ class AppController extends Controller {
 	            'Reporte Regional' =>'Reporte Regional',
 	            'Reporte Comisaria' =>'Reporte Comisaria',
 	            'Reporte Mapa de Calor' =>'Reporte Mapa de Calor'),
-	        'Medidas de produccion' => array(
+	        'Produccion Policial' => array(
 	            'MODULO I' =>'Localización de la dependencia policial',
 	            'MODULO II' =>'Características de la producción policial',
 	            'MODULO III' =>'Características del fallecido',
