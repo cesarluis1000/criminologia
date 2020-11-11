@@ -33,7 +33,7 @@ CREATE TABLE `acos` (
   PRIMARY KEY (`id`),
   KEY `idx_acos_lft_rght` (`lft`,`rght`),
   KEY `idx_acos_alias` (`alias`)
-) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=86 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,7 +42,7 @@ CREATE TABLE `acos` (
 
 LOCK TABLES `acos` WRITE;
 /*!40000 ALTER TABLE `acos` DISABLE KEYS */;
-INSERT INTO `acos` VALUES (1,NULL,NULL,NULL,'controllers',1,82),(8,1,NULL,NULL,'Groups',2,13),(9,8,NULL,NULL,'index',3,4),(10,8,NULL,NULL,'view',5,6),(11,8,NULL,NULL,'add',7,8),(12,8,NULL,NULL,'edit',9,10),(13,8,NULL,NULL,'delete',11,12),(20,1,NULL,NULL,'Pages',14,17),(21,20,NULL,NULL,'display',15,16),(22,1,NULL,NULL,'Parametros',18,29),(23,22,NULL,NULL,'index',19,20),(24,22,NULL,NULL,'view',21,22),(25,22,NULL,NULL,'add',23,24),(26,22,NULL,NULL,'edit',25,26),(27,22,NULL,NULL,'delete',27,28),(46,1,NULL,NULL,'Users',30,47),(47,46,NULL,NULL,'login',31,32),(48,46,NULL,NULL,'logout',33,34),(49,46,NULL,NULL,'index',35,36),(50,46,NULL,NULL,'view',37,38),(51,46,NULL,NULL,'add',39,40),(52,46,NULL,NULL,'edit',41,42),(53,46,NULL,NULL,'delete',43,44),(54,1,NULL,NULL,'AclExtras',48,49),(55,1,NULL,NULL,'DebugKit',50,57),(56,55,NULL,NULL,'ToolbarAccess',51,56),(57,56,NULL,NULL,'history_state',52,53),(58,56,NULL,NULL,'sql_explain',54,55),(61,46,NULL,NULL,'initDB',45,46),(62,1,NULL,NULL,'Permisos',58,71),(63,62,NULL,NULL,'roles',59,60),(64,62,NULL,NULL,'aplicaciones',61,62),(65,62,NULL,NULL,'add',63,64),(66,62,NULL,NULL,'acceso',65,66),(67,62,NULL,NULL,'edit',67,68),(68,62,NULL,NULL,'delete',69,70),(73,1,NULL,NULL,'Menus',72,81),(74,73,NULL,NULL,'index',73,74),(75,73,NULL,NULL,'add',75,76),(79,73,NULL,NULL,'delete',77,78),(80,73,NULL,NULL,'edit',79,80);
+INSERT INTO `acos` VALUES (1,NULL,NULL,NULL,'controllers',1,92),(8,1,NULL,NULL,'Groups',2,13),(9,8,NULL,NULL,'index',3,4),(10,8,NULL,NULL,'view',5,6),(11,8,NULL,NULL,'add',7,8),(12,8,NULL,NULL,'edit',9,10),(13,8,NULL,NULL,'delete',11,12),(20,1,NULL,NULL,'Pages',14,17),(21,20,NULL,NULL,'display',15,16),(22,1,NULL,NULL,'Parametros',18,29),(23,22,NULL,NULL,'index',19,20),(24,22,NULL,NULL,'view',21,22),(25,22,NULL,NULL,'add',23,24),(26,22,NULL,NULL,'edit',25,26),(27,22,NULL,NULL,'delete',27,28),(46,1,NULL,NULL,'Users',30,47),(47,46,NULL,NULL,'login',31,32),(48,46,NULL,NULL,'logout',33,34),(49,46,NULL,NULL,'index',35,36),(50,46,NULL,NULL,'view',37,38),(51,46,NULL,NULL,'add',39,40),(52,46,NULL,NULL,'edit',41,42),(53,46,NULL,NULL,'delete',43,44),(54,1,NULL,NULL,'AclExtras',48,49),(55,1,NULL,NULL,'DebugKit',50,57),(56,55,NULL,NULL,'ToolbarAccess',51,56),(57,56,NULL,NULL,'history_state',52,53),(58,56,NULL,NULL,'sql_explain',54,55),(61,46,NULL,NULL,'initDB',45,46),(62,1,NULL,NULL,'Permisos',58,71),(63,62,NULL,NULL,'roles',59,60),(64,62,NULL,NULL,'aplicaciones',61,62),(65,62,NULL,NULL,'add',63,64),(66,62,NULL,NULL,'acceso',65,66),(67,62,NULL,NULL,'edit',67,68),(68,62,NULL,NULL,'delete',69,70),(73,1,NULL,NULL,'Menus',72,81),(74,73,NULL,NULL,'index',73,74),(75,73,NULL,NULL,'add',75,76),(79,73,NULL,NULL,'delete',77,78),(80,73,NULL,NULL,'edit',79,80),(81,1,NULL,NULL,'Denuncias',82,91),(82,81,NULL,NULL,'index',83,84),(83,81,NULL,NULL,'add',85,86),(84,81,NULL,NULL,'edit',87,88),(85,81,NULL,NULL,'delete',89,90);
 /*!40000 ALTER TABLE `acos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -129,7 +129,7 @@ CREATE TABLE `cake_sessions` (
 
 LOCK TABLES `cake_sessions` WRITE;
 /*!40000 ALTER TABLE `cake_sessions` DISABLE KEYS */;
-INSERT INTO `cake_sessions` VALUES ('p16e2dqg86nqurevga9vf5iude','Config|a:3:{s:9:\"userAgent\";s:32:\"86d17842d1bb9518ae3b1fff5ad38b76\";s:4:\"time\";i:1604953385;s:9:\"countdown\";i:10;}',1604953385);
+INSERT INTO `cake_sessions` VALUES ('dba01js97btdj8ukhghf5mp52d','Config|a:3:{s:9:\"userAgent\";s:32:\"1d233e4971a4aba88aa86f8c949f81e7\";s:4:\"time\";i:1605115189;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605115190),('jar96lqoj1cs96ta1ak41n3bul','Config|a:3:{s:9:\"userAgent\";s:32:\"1d233e4971a4aba88aa86f8c949f81e7\";s:4:\"time\";i:1605047112;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605047112);
 /*!40000 ALTER TABLE `cake_sessions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -144,7 +144,7 @@ CREATE TABLE `categoria_comisarias` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -167,7 +167,7 @@ CREATE TABLE `comisarias` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -177,6 +177,73 @@ CREATE TABLE `comisarias` (
 LOCK TABLES `comisarias` WRITE;
 /*!40000 ALTER TABLE `comisarias` DISABLE KEYS */;
 /*!40000 ALTER TABLE `comisarias` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `denuncias`
+--
+
+DROP TABLE IF EXISTS `denuncias`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `denuncias` (
+  `id` int(11) NOT NULL,
+  `region_policial_id` int(11) NOT NULL,
+  `macro_region_id` int(11) NOT NULL,
+  `departamento_id` int(11) NOT NULL,
+  `provincia_id` int(11) NOT NULL,
+  `distrito_id` int(11) NOT NULL,
+  `comisaria_id` int(11) NOT NULL,
+  `tipo_dependencia_policial_id` int(11) NOT NULL,
+  `tipo_comisaria_id` int(11) NOT NULL,
+  `categoria_comisaria_id` int(11) NOT NULL,
+  `tipo_unidad_especializada_id` int(11) NOT NULL,
+  `situacion_hecho_id` int(11) NOT NULL,
+  `tipo_tramite_hecho_id` int(11) NOT NULL,
+  `total_resolucion` int(11) DEFAULT NULL,
+  `total_documentos_formulado_id` int(11) NOT NULL,
+  `total_bandas_desarticuladas` int(11) DEFAULT NULL,
+  `total_detenidos_captura_bandas` int(11) DEFAULT NULL,
+  `total_organizacion_criminal` int(11) DEFAULT NULL,
+  `total_personas_desaparecidas` int(11) DEFAULT NULL,
+  `total_personas_aparecidas` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_denuncias_region_policiales1_idx` (`region_policial_id`),
+  KEY `fk_denuncias_macro_regiones1_idx` (`macro_region_id`),
+  KEY `fk_denuncias_departamentos1_idx` (`departamento_id`),
+  KEY `fk_denuncias_provincias1_idx` (`provincia_id`),
+  KEY `fk_denuncias_distritos1_idx` (`distrito_id`),
+  KEY `fk_denuncias_comisarias1_idx` (`comisaria_id`),
+  KEY `fk_denuncias_tipo_dependencia_policiales1_idx` (`tipo_dependencia_policial_id`),
+  KEY `fk_denuncias_tipo_comisarias1_idx` (`tipo_comisaria_id`),
+  KEY `fk_denuncias_categoria_comisarias1_idx` (`categoria_comisaria_id`),
+  KEY `fk_denuncias_tipo_unidad_especializadas1_idx` (`tipo_unidad_especializada_id`),
+  KEY `fk_denuncias_situacion_hecho1_idx` (`situacion_hecho_id`),
+  KEY `fk_denuncias_tipo_tramite_hechos1_idx` (`tipo_tramite_hecho_id`),
+  KEY `fk_denuncias_total_documentos_formulados1_idx` (`total_documentos_formulado_id`),
+  CONSTRAINT `fk_denuncias_categoria_comisarias1` FOREIGN KEY (`categoria_comisaria_id`) REFERENCES `categoria_comisarias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_comisarias1` FOREIGN KEY (`comisaria_id`) REFERENCES `comisarias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_departamentos1` FOREIGN KEY (`departamento_id`) REFERENCES `departamentos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_distritos1` FOREIGN KEY (`distrito_id`) REFERENCES `distritos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_macro_regiones1` FOREIGN KEY (`macro_region_id`) REFERENCES `macro_regiones` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_provincias1` FOREIGN KEY (`provincia_id`) REFERENCES `provincias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_region_policiales1` FOREIGN KEY (`region_policial_id`) REFERENCES `region_policiales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_situacion_hecho1` FOREIGN KEY (`situacion_hecho_id`) REFERENCES `situacion_hechos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_tipo_comisarias1` FOREIGN KEY (`tipo_comisaria_id`) REFERENCES `tipo_comisarias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_tipo_dependencia_policiales1` FOREIGN KEY (`tipo_dependencia_policial_id`) REFERENCES `tipo_dependencia_policiales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_tipo_tramite_hechos1` FOREIGN KEY (`tipo_tramite_hecho_id`) REFERENCES `tipo_tramite_hechos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_tipo_unidad_especializadas1` FOREIGN KEY (`tipo_unidad_especializada_id`) REFERENCES `tipo_unidad_especializadas` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_total_documentos_formulados1` FOREIGN KEY (`total_documentos_formulado_id`) REFERENCES `total_documentos_formulados` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `denuncias`
+--
+
+LOCK TABLES `denuncias` WRITE;
+/*!40000 ALTER TABLE `denuncias` DISABLE KEYS */;
+/*!40000 ALTER TABLE `denuncias` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -190,7 +257,7 @@ CREATE TABLE `departamentos` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -213,7 +280,7 @@ CREATE TABLE `distritos` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -265,7 +332,7 @@ CREATE TABLE `macro_regiones` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -407,7 +474,7 @@ CREATE TABLE `provincias` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -430,7 +497,7 @@ CREATE TABLE `region_policiales` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -443,26 +510,26 @@ LOCK TABLES `region_policiales` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `situacion_hecho`
+-- Table structure for table `situacion_hechos`
 --
 
-DROP TABLE IF EXISTS `situacion_hecho`;
+DROP TABLE IF EXISTS `situacion_hechos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `situacion_hecho` (
+CREATE TABLE `situacion_hechos` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `situacion_hecho`
+-- Dumping data for table `situacion_hechos`
 --
 
-LOCK TABLES `situacion_hecho` WRITE;
-/*!40000 ALTER TABLE `situacion_hecho` DISABLE KEYS */;
-/*!40000 ALTER TABLE `situacion_hecho` ENABLE KEYS */;
+LOCK TABLES `situacion_hechos` WRITE;
+/*!40000 ALTER TABLE `situacion_hechos` DISABLE KEYS */;
+/*!40000 ALTER TABLE `situacion_hechos` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -476,7 +543,7 @@ CREATE TABLE `tipo_comisarias` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -499,7 +566,7 @@ CREATE TABLE `tipo_dependencia_policiales` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -522,7 +589,7 @@ CREATE TABLE `tipo_tramite_hechos` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -545,7 +612,7 @@ CREATE TABLE `tipo_unidad_especializadas` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -568,7 +635,7 @@ CREATE TABLE `total_documentos_formulados` (
   `id` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -627,4 +694,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-11-10  1:56:56
+-- Dump completed on 2020-11-11 11:36:54

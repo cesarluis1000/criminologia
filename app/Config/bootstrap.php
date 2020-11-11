@@ -58,8 +58,21 @@ Cache::config('default', array('engine' => 'File'));
  * Inflector::rules('plural', array('rules' => array(), 'irregular' => array(), 'uninflected' => array()));
  */
  
-Inflector::rules('singular', array('rules' => array(), 'irregular' => array('microredes'=>'microred'), 'uninflected' => array()));
-Inflector::rules('plural', array('rules' => array(), 'irregular' => array('microred'=>'microredes'), 'uninflected' => array()));
+Inflector::rules('singular', array('rules' => array(), 'irregular' => array(
+    'microredes'=>'microred',
+    'region_policiales'=>'region_policial',
+    'macro_regiones'=>'macro_region',
+    'provincias'=>'provincia',
+    'tipo_dependencia_policiales'=>'tipo_dependencia_policial'
+), 'uninflected' => array()));
+
+Inflector::rules('plural', array('rules' => array(), 'irregular' => array(
+    'microred'=>'microredes',
+    'region_policial'=>'region_policiales',
+    'macro_region'=>'macro_regiones',
+    'provincia'=>'provincias',
+    'tipo_dependencia_policial'=>'tipo_dependencia_policiales'
+), 'uninflected' => array()));
  
 CakePlugin::load('DebugKit');
 CakePlugin::load('AclExtras');
