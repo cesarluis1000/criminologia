@@ -54,7 +54,7 @@ class DenunciasController extends AppController {
  *
  * @return void
  */
-	public function add() {
+	public function add($denuncia = null, $modulo = null) {
 		if ($this->request->is('post')) {
 			$this->Denuncia->create();
 			if ($this->Denuncia->save($this->request->data)) {
@@ -77,7 +77,7 @@ class DenunciasController extends AppController {
 		$situacionHechos = $this->Denuncia->SituacionHecho->find('list');
 		$tipoTramiteHechos = $this->Denuncia->TipoTramiteHecho->find('list');
 		$totalDocumentosFormulados = $this->Denuncia->TotalDocumentosFormulado->find('list');
-		$this->set(compact('regionPolicials', 'macroRegions', 'departamentos', 'provincias', 'distritos', 'comisarias', 'tipoDependenciaPolicials', 'tipoComisarias', 'categoriaComisarias', 'tipoUnidadEspecializadas', 'situacionHechos', 'tipoTramiteHechos', 'totalDocumentosFormulados'));
+		$this->set(compact('denuncia','modulo','regionPolicials', 'macroRegions', 'departamentos', 'provincias', 'distritos', 'comisarias', 'tipoDependenciaPolicials', 'tipoComisarias', 'categoriaComisarias', 'tipoUnidadEspecializadas', 'situacionHechos', 'tipoTramiteHechos', 'totalDocumentosFormulados'));
 	}
 
 /**

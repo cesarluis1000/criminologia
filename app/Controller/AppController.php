@@ -87,11 +87,25 @@ class AppController extends Controller {
 	private function __observatorio(){
 	    //Acciones que utilizarar el layout observatorio	    
 	    $this->acciones_ecommerce = array('denuncias');
+	    $this->controladores = array('denuncias');
 	    
 	    if (in_array($this->action, $this->acciones_ecommerce)){
 	        $this->layout = 'observatorio';
 	    }
 	    
+	    if (in_array($this->params['controller'], $this->controladores)){
+	        $this->layout = 'observatorio';
+	    }
+	    
+	    $a_simulador = array(
+	        'Delitos' => array(
+	            array(
+	                'controller' => 'denuncias',
+	                'action' => 'add',
+	                'alias' => 'Localización de la dependencia policial'
+	            ),
+	    ));
+	        
 	    $a_denuncias = array(
 	        'Delitos' => array(
 	            'MODULO I' =>'Localización de la dependencia policial',
@@ -169,7 +183,7 @@ class AppController extends Controller {
 	            'Reporte Mapa de Calor' =>'Reporte Mapa de Calor')
 	        );
 	    
-	    $this->set(compact('a_denuncias'));
+	    $this->set(compact('a_denuncias','a_simulador'));
 	}
 	
 	public function options(){	    

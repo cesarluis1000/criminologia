@@ -1,13 +1,12 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * Provincia Model
+ * Distrito Model
  *
- * @property Departamento $Departamento
+ * @property Provincia $Provincia
  * @property Denuncia $Denuncia
- * @property Distrito $Distrito
  */
-class Provincia extends AppModel {
+class Distrito extends AppModel {
 
 /**
  * Display field
@@ -25,9 +24,9 @@ class Provincia extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Departamento' => array(
-			'className' => 'Departamento',
-			'foreignKey' => 'departamento_id',
+		'Provincia' => array(
+			'className' => 'Provincia',
+			'foreignKey' => 'provincia_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
@@ -42,20 +41,7 @@ class Provincia extends AppModel {
 	public $hasMany = array(
 		'Denuncia' => array(
 			'className' => 'Denuncia',
-			'foreignKey' => 'provincia_id',
-			'dependent' => false,
-			'conditions' => '',
-			'fields' => '',
-			'order' => '',
-			'limit' => '',
-			'offset' => '',
-			'exclusive' => '',
-			'finderQuery' => '',
-			'counterQuery' => ''
-		),
-		'Distrito' => array(
-			'className' => 'Distrito',
-			'foreignKey' => 'provincia_id',
+			'foreignKey' => 'distrito_id',
 			'dependent' => false,
 			'conditions' => '',
 			'fields' => '',

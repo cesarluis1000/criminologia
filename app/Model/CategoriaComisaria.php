@@ -1,12 +1,11 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * Departamento Model
+ * CategoriaComisaria Model
  *
  * @property Denuncia $Denuncia
- * @property Provincia $Provincia
  */
-class Departamento extends AppModel {
+class CategoriaComisaria extends AppModel {
 
 /**
  * Display field
@@ -26,20 +25,7 @@ class Departamento extends AppModel {
 	public $hasMany = array(
 		'Denuncia' => array(
 			'className' => 'Denuncia',
-			'foreignKey' => 'departamento_id',
-			'dependent' => false,
-			'conditions' => '',
-			'fields' => '',
-			'order' => '',
-			'limit' => '',
-			'offset' => '',
-			'exclusive' => '',
-			'finderQuery' => '',
-			'counterQuery' => ''
-		),
-		'Provincia' => array(
-			'className' => 'Provincia',
-			'foreignKey' => 'departamento_id',
+			'foreignKey' => 'categoria_comisaria_id',
 			'dependent' => false,
 			'conditions' => '',
 			'fields' => '',
