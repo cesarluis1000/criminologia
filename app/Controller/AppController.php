@@ -44,8 +44,8 @@ class AppController extends Controller {
             ),
 			//Ruta de logeo
             'loginRedirect' => array(
-                'controller' => 'notes',
-                'action' => 'denuncias'
+                'controller' => 'denuncias',
+                'action' => 'add'
             ),
             'authorize' => array(
                 'Actions' => array('actionPath' => 'controllers')

@@ -55,6 +55,8 @@ class DenunciasController extends AppController {
  * @return void
  */
 	public function add($denuncia = null, $modulo = null) {
+	    
+	    /*
 		if ($this->request->is('post')) {
 			$this->Denuncia->create();
 			if ($this->Denuncia->save($this->request->data)) {
@@ -63,7 +65,8 @@ class DenunciasController extends AppController {
 			} else {
 				$this->Flash->error(__('The denuncia could not be saved. Please, try again.'));
 			}
-		}
+		}*/
+		
 		$regionPolicials = $this->Denuncia->RegionPolicial->find('list');
 		$macroRegions = $this->Denuncia->MacroRegion->find('list');
 		$departamentos = $this->Denuncia->Departamento->find('list');
