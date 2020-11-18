@@ -81,7 +81,7 @@ echo $this->Form->create('Denuncia', array(
           <div class="col-sm-6, col-md-5">          
     		<h4>E. Otros Datos</h4>
           <?php 
-          echo $this->Form->input('situacion_denuncia_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $situacionDenuncias,'empty' => 'Seleccionar'));
+          echo $this->Form->input('situacion_denuncia_id',array('label'=>array('text'=> 'Registro del proceso de investigación preliminar','class'=>'control-label col-sm-6'),'options'=> $situacionDenuncias,'empty' => 'Seleccionar'));
 	       ?>
 		</div>
 	</div>
