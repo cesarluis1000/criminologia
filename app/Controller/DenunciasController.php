@@ -90,35 +90,24 @@ class DenunciasController extends AppController {
  * @param string $id
  * @return void
  */
-	public function edit($id = null) {
-		if (!$this->Denuncia->exists($id)) {
-			throw new NotFoundException(__('Invalid denuncia'));
-		}
-		if ($this->request->is(array('post', 'put'))) {
-			if ($this->Denuncia->save($this->request->data)) {
-				$this->Flash->success(__('The denuncia has been saved.'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Flash->error(__('The denuncia could not be saved. Please, try again.'));
-			}
-		} else {
-			$options = array('conditions' => array('Denuncia.' . $this->Denuncia->primaryKey => $id));
-			$this->request->data = $this->Denuncia->find('first', $options);
-		}
-		$regionPolicials = $this->Denuncia->RegionPolicial->find('list');
-		$macroRegions = $this->Denuncia->MacroRegion->find('list');
-		$departamentos = $this->Denuncia->Departamento->find('list');
-		$provincias = $this->Denuncia->Provincium->find('list');
-		$distritos = $this->Denuncia->Distrito->find('list');
-		$comisarias = $this->Denuncia->Comisarium->find('list');
-		$tipoDependenciaPolicials = $this->Denuncia->TipoDependenciaPolicial->find('list');
-		$tipoComisarias = $this->Denuncia->TipoComisarium->find('list');
-		$categoriaComisarias = $this->Denuncia->CategoriaComisarium->find('list');
-		$tipoUnidadEspecializadas = $this->Denuncia->TipoUnidadEspecializada->find('list');
-		$situacionHechos = $this->Denuncia->SituacionHecho->find('list');
-		$tipoTramiteHechos = $this->Denuncia->TipoTramiteHecho->find('list');
-		$totalDocumentosFormulados = $this->Denuncia->TotalDocumentosFormulado->find('list');
-		$this->set(compact('regionPolicials', 'macroRegions', 'departamentos', 'provincias', 'distritos', 'comisarias', 'tipoDependenciaPolicials', 'tipoComisarias', 'categoriaComisarias', 'tipoUnidadEspecializadas', 'situacionHechos', 'tipoTramiteHechos', 'totalDocumentosFormulados'));
+	public function edit($denuncia = null, $modulo = null) {
+	    $modalidadDenuncias = $this->Denuncia->ModalidadDenuncia->find('list');
+	    $fuentePrincipales = $this->Denuncia->FuentePrincipal->find('list');
+	    $tipoVias = $this->Denuncia->TipoVia->find('list');
+	    $genericos = $this->Denuncia->Generico->find('list');
+	    $especificos = $this->Denuncia->Especifico->find('list');
+	    $modalidades = $this->Denuncia->Modalidad->find('list');
+	    $subModalidades = $this->Denuncia->SubModalidad->find('list');
+	    $detalles = $this->Denuncia->Detalle->find('list');
+	    $lugarOcurrencias = $this->Denuncia->LugarOcurrencia->find('list');
+	    $formaMedioUtilizados = $this->Denuncia->FormaMedioUtilizado->find('list');
+	    $presuntasCausas = $this->Denuncia->PresuntasCausa->find('list');	    
+	    $cometidoOrganizacionCriminales = $this->Denuncia->CometidoOrganizacionCriminal->find('list');
+	    $derivadaMps = $this->Denuncia->DerivadaMp->find('list');
+	    $nombreFiscalias = $this->Denuncia->NombreFiscalia->find('list');
+	    $situacionDenuncias = $this->Denuncia->SituacionDenuncia->find('list');
+	    $this->set(compact('denuncia','modulo','modalidadDenuncias', 'fuentePrincipales', 'tipoVias', 'especificos', 'genericos', 'modalidades', 'subModalidades', 
+	        'detalles', 'lugarOcurrencias', 'formaMedioUtilizados', 'presuntasCausas', 'cometidoOrganizacionCriminales', 'derivadaMps', 'nombreFiscalias', 'situacionDenuncias'));
 	}
 
 /**

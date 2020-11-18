@@ -63,7 +63,12 @@ Inflector::rules('singular', array('rules' => array(), 'irregular' => array(
     'region_policiales'=>'region_policial',
     'macro_regiones'=>'macro_region',
     'provincias'=>'provincia',
-    'tipo_dependencia_policiales'=>'tipo_dependencia_policial'
+    'tipo_dependencia_policiales'=>'tipo_dependencia_policial',
+    'fuente_principales' =>'fuente_principal',
+    'modalidades' =>'modalidad',
+    'sub_modalidades' =>'sub_modalidad',
+    'cometido_organizacion_criminales' =>'cometido_organizacion_criminal',
+    'nombre_fiscalias' =>'nombre_fiscalia'
 ), 'uninflected' => array()));
 
 Inflector::rules('plural', array('rules' => array(), 'irregular' => array(
@@ -71,7 +76,12 @@ Inflector::rules('plural', array('rules' => array(), 'irregular' => array(
     'region_policial'=>'region_policiales',
     'macro_region'=>'macro_regiones',
     'provincia'=>'provincias',
-    'tipo_dependencia_policial'=>'tipo_dependencia_policiales'
+    'tipo_dependencia_policial'=>'tipo_dependencia_policiales',
+    'fuente_principal' =>'fuente_principales',
+    'modalidad' =>'modalidades',
+    'sub_modalidad' =>'sub_modalidades',
+    'cometido_organizacion_criminal' =>'cometido_organizacion_criminales',
+    'nombre_fiscalia' =>'nombre_fiscalias'
 ), 'uninflected' => array()));
  
 CakePlugin::load('DebugKit');

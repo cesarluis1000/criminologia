@@ -129,7 +129,7 @@ CREATE TABLE `cake_sessions` (
 
 LOCK TABLES `cake_sessions` WRITE;
 /*!40000 ALTER TABLE `cake_sessions` DISABLE KEYS */;
-INSERT INTO `cake_sessions` VALUES ('bf98d9sjqjbr58hcqkpv1gc2dq','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605292484;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605292484),('dba01js97btdj8ukhghf5mp52d','Config|a:3:{s:9:\"userAgent\";s:32:\"1d233e4971a4aba88aa86f8c949f81e7\";s:4:\"time\";i:1605115189;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605115190),('jar96lqoj1cs96ta1ak41n3bul','Config|a:3:{s:9:\"userAgent\";s:32:\"1d233e4971a4aba88aa86f8c949f81e7\";s:4:\"time\";i:1605047112;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605047112);
+INSERT INTO `cake_sessions` VALUES ('5dgarapi9pe6kqh7inl4c5mpg4','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377014;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605377014),('5s6lmtvkm7pqt4aehg77vla2t3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605372296;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605372296),('8sfhjnde679v4ldj209s4eukg4','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377014;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605377014),('hmsruausj9a4vvspaam5qbnn06','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605297335;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605297335),('hq5e9m80kpr06eq8usg4loifs7','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605297335;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605297335),('kuae7cosg7rpa0j1r6oaho71k3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377021;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605377021),('m6060igtube1uabn0dsbpkeko3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605543175;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605543175),('pc7aqi54cojtn4ohkt7da6lb62','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377048;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605377049),('tqo3dvd3i3r381r5q1paplotmm','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605659966;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605659967);
 /*!40000 ALTER TABLE `cake_sessions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -155,6 +155,30 @@ LOCK TABLES `categoria_comisarias` WRITE;
 /*!40000 ALTER TABLE `categoria_comisarias` DISABLE KEYS */;
 INSERT INTO `categoria_comisarias` VALUES (1,'SECTORIAL'),(2,'NO SECTORIAL');
 /*!40000 ALTER TABLE `categoria_comisarias` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `cometido_organizacion_criminales`
+--
+
+DROP TABLE IF EXISTS `cometido_organizacion_criminales`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `cometido_organizacion_criminales` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cometido_organizacion_criminales`
+--
+
+LOCK TABLES `cometido_organizacion_criminales` WRITE;
+/*!40000 ALTER TABLE `cometido_organizacion_criminales` DISABLE KEYS */;
+INSERT INTO `cometido_organizacion_criminales` VALUES (1,'SI'),(2,'NO');
+/*!40000 ALTER TABLE `cometido_organizacion_criminales` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -209,6 +233,38 @@ CREATE TABLE `denuncias` (
   `total_organizacion_criminal` int(11) DEFAULT NULL,
   `total_personas_desaparecidas` int(11) DEFAULT NULL,
   `total_personas_aparecidas` int(11) DEFAULT NULL,
+  `id_sidopl` int(11) DEFAULT NULL,
+  `fecha_registro_denuncia` datetime DEFAULT NULL,
+  `modalidad_denuncia_id` int(11) NOT NULL,
+  `fuente_principal_id` int(11) NOT NULL,
+  `otro` varchar(250) DEFAULT NULL,
+  `fecha_ocurrencia` datetime DEFAULT NULL,
+  `ubigeo_id` int(11) NOT NULL,
+  `tipo_via_id` int(11) NOT NULL,
+  `cuadra` varchar(250) DEFAULT NULL,
+  `direccion` varchar(250) DEFAULT NULL,
+  `numero` varchar(45) DEFAULT NULL,
+  `urbanizacion` varchar(250) DEFAULT NULL,
+  `latitud` varchar(45) DEFAULT NULL,
+  `longitud` varchar(45) DEFAULT NULL,
+  `generico_id` int(11) NOT NULL,
+  `especifico_id` int(11) NOT NULL,
+  `modalidad_id` int(11) NOT NULL,
+  `sub_modalidad_id` int(11) NOT NULL,
+  `detalle_id` int(11) NOT NULL,
+  `lugar_ocurrencia_id` int(11) NOT NULL,
+  `forma_medio_utilizado_id` int(11) NOT NULL,
+  `presuntas_causa_id` int(11) NOT NULL,
+  `estado_encontro_victima` varchar(250) DEFAULT NULL,
+  `estado_fisico_mental_victima` varchar(250) DEFAULT NULL,
+  `cometido_organizacion_criminal_id` int(11) NOT NULL,
+  `nro_victimas` int(11) DEFAULT NULL,
+  `nro_presuntos_victimarios` int(11) DEFAULT NULL,
+  `tramite_hecho` varchar(250) DEFAULT NULL,
+  `documento_formulado` varchar(250) DEFAULT NULL,
+  `derivada_mp_id` int(11) NOT NULL,
+  `nombre_fiscalia_id` int(11) NOT NULL,
+  `situacion_denuncia_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_denuncias_region_policiales1_idx` (`region_policial_id`),
   KEY `fk_denuncias_macro_regiones1_idx` (`macro_region_id`),
@@ -223,19 +279,51 @@ CREATE TABLE `denuncias` (
   KEY `fk_denuncias_situacion_hecho1_idx` (`situacion_hecho_id`),
   KEY `fk_denuncias_tipo_tramite_hechos1_idx` (`tipo_tramite_hecho_id`),
   KEY `fk_denuncias_total_documentos_formulados1_idx` (`total_documentos_formulado_id`),
+  KEY `fk_denuncias_modalidad_denuncias1_idx` (`modalidad_denuncia_id`),
+  KEY `fk_denuncias_fuente_principales1_idx` (`fuente_principal_id`),
+  KEY `fk_denuncias_genericos1_idx` (`generico_id`),
+  KEY `fk_denuncias_especificos1_idx` (`especifico_id`),
+  KEY `fk_denuncias_modalidades1_idx` (`modalidad_id`),
+  KEY `fk_denuncias_sub_modalidades1_idx` (`sub_modalidad_id`),
+  KEY `fk_denuncias_ubigeos1_idx` (`ubigeo_id`),
+  KEY `fk_denuncias_tipo_vias1_idx` (`tipo_via_id`),
+  KEY `fk_denuncias_lugar_ocurrencias1_idx` (`lugar_ocurrencia_id`),
+  KEY `fk_denuncias_forma_medio_utilizados1_idx` (`forma_medio_utilizado_id`),
+  KEY `fk_denuncias_presuntas_causas1_idx` (`presuntas_causa_id`),
+  KEY `fk_denuncias_cometido_organizacion_criminales1_idx` (`cometido_organizacion_criminal_id`),
+  KEY `fk_denuncias_derivada_al_mps1_idx` (`derivada_mp_id`),
+  KEY `fk_denuncias_nombre_fiscalias1_idx` (`nombre_fiscalia_id`),
+  KEY `fk_denuncias_situacion_denuncias1_idx` (`situacion_denuncia_id`),
+  KEY `fk_denuncias_detalles1_idx` (`detalle_id`),
   CONSTRAINT `fk_denuncias_categoria_comisarias1` FOREIGN KEY (`categoria_comisaria_id`) REFERENCES `categoria_comisarias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_cometido_organizacion_criminales1` FOREIGN KEY (`cometido_organizacion_criminal_id`) REFERENCES `cometido_organizacion_criminales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_comisarias1` FOREIGN KEY (`comisaria_id`) REFERENCES `comisarias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_departamentos1` FOREIGN KEY (`departamento_id`) REFERENCES `departamentos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_derivada_al_mps1` FOREIGN KEY (`derivada_mp_id`) REFERENCES `derivada_mps` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_detalles1` FOREIGN KEY (`detalle_id`) REFERENCES `detalles` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_distritos1` FOREIGN KEY (`distrito_id`) REFERENCES `distritos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_especificos1` FOREIGN KEY (`especifico_id`) REFERENCES `especificos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_forma_medio_utilizados1` FOREIGN KEY (`forma_medio_utilizado_id`) REFERENCES `forma_medio_utilizados` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_fuente_principales1` FOREIGN KEY (`fuente_principal_id`) REFERENCES `fuente_principales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_genericos1` FOREIGN KEY (`generico_id`) REFERENCES `genericos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_lugar_ocurrencias1` FOREIGN KEY (`lugar_ocurrencia_id`) REFERENCES `lugar_ocurrencias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_macro_regiones1` FOREIGN KEY (`macro_region_id`) REFERENCES `macro_regiones` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_modalidad_denuncias1` FOREIGN KEY (`modalidad_denuncia_id`) REFERENCES `modalidad_denuncias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_modalidades1` FOREIGN KEY (`modalidad_id`) REFERENCES `modalidades` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_nombre_fiscalias1` FOREIGN KEY (`nombre_fiscalia_id`) REFERENCES `nombre_fiscalias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_presuntas_causas1` FOREIGN KEY (`presuntas_causa_id`) REFERENCES `presuntas_causas` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_provincias1` FOREIGN KEY (`provincia_id`) REFERENCES `provincias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_region_policiales1` FOREIGN KEY (`region_policial_id`) REFERENCES `region_policiales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_situacion_denuncias1` FOREIGN KEY (`situacion_denuncia_id`) REFERENCES `situacion_denuncias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_situacion_hecho1` FOREIGN KEY (`situacion_hecho_id`) REFERENCES `situacion_hechos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_sub_modalidades1` FOREIGN KEY (`sub_modalidad_id`) REFERENCES `sub_modalidades` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_tipo_comisarias1` FOREIGN KEY (`tipo_comisaria_id`) REFERENCES `tipo_comisarias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_tipo_dependencia_policiales1` FOREIGN KEY (`tipo_dependencia_policial_id`) REFERENCES `tipo_dependencia_policiales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_tipo_tramite_hechos1` FOREIGN KEY (`tipo_tramite_hecho_id`) REFERENCES `tipo_tramite_hechos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_tipo_unidad_especializadas1` FOREIGN KEY (`tipo_unidad_especializada_id`) REFERENCES `tipo_unidad_especializadas` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_denuncias_total_documentos_formulados1` FOREIGN KEY (`total_documentos_formulado_id`) REFERENCES `total_documentos_formulados` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  CONSTRAINT `fk_denuncias_tipo_vias1` FOREIGN KEY (`tipo_via_id`) REFERENCES `tipo_vias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_total_documentos_formulados1` FOREIGN KEY (`total_documentos_formulado_id`) REFERENCES `total_documentos_formulados` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_denuncias_ubigeos1` FOREIGN KEY (`ubigeo_id`) REFERENCES `ubigeos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -273,6 +361,54 @@ INSERT INTO `departamentos` VALUES (1,'AMAZONAS'),(2,'ANCASH'),(3,'APURIMAC'),(4
 UNLOCK TABLES;
 
 --
+-- Table structure for table `derivada_mps`
+--
+
+DROP TABLE IF EXISTS `derivada_mps`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `derivada_mps` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `derivada_mps`
+--
+
+LOCK TABLES `derivada_mps` WRITE;
+/*!40000 ALTER TABLE `derivada_mps` DISABLE KEYS */;
+INSERT INTO `derivada_mps` VALUES (1,'SI'),(2,'NI');
+/*!40000 ALTER TABLE `derivada_mps` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `detalles`
+--
+
+DROP TABLE IF EXISTS `detalles`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `detalles` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `detalles`
+--
+
+LOCK TABLES `detalles` WRITE;
+/*!40000 ALTER TABLE `detalles` DISABLE KEYS */;
+INSERT INTO `detalles` VALUES (1,'LEVANTE'),(2,'BUJIAZO'),(3,'DE ESPECIES'),(4,'ESCALAMIENTO'),(5,'ESTACIONAMIENTO'),(6,'ESTUCHE'),(7,'FORADO'),(8,'LANZA'),(9,'MONRRA'),(10,'Otros'),(11,'SISTEMÁTICO'),(12,'TARJETAZO'),(13,'TENDERO'),(14,'ARREBATO'),(15,'Asalto y Robo a Vehículos'),(16,'BUJIAZO'),(17,'COGOTE'),(18,'ESCAPE'),(19,'JALONAZO'),(20,'LANZA'),(21,'MARCA'),(22,'Otros'),(23,'PEPEAZO'),(24,'PILLAJE O RAPIÑA'),(25,'RAQUETEO'),(26,'AUTOPARTES'),(27,'CARTERA'),(28,'CELULAR'),(29,'DINERO'),(30,'CUENTO CAMBIASO'),(31,'CUENTO CASA'),(32,'CUENTO CASCADA'),(33,'CUENTO TERRENO'),(34,'CUENTO TINKA'),(35,'CUENTO TRABAJO'),(36,'CUENTO VEHÍCULO PROPIO'),(37,'CUENTO VISA'),(38,'Otros (especificar)'),(39,'SEUDO PROFESIONAL'),(40,'TARJETA DE CRÉDITO');
+/*!40000 ALTER TABLE `detalles` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `distritos`
 --
 
@@ -297,6 +433,102 @@ LOCK TABLES `distritos` WRITE;
 /*!40000 ALTER TABLE `distritos` DISABLE KEYS */;
 INSERT INTO `distritos` VALUES (1,'CORONEL GREGORIO ALBARRACIN LANCHIPA',174),(2,'POCOLLAY',174),(3,'CALANA',174),(4,'TACNA',174),(5,'SAMA',174),(6,'CIUDAD NUEVA',174),(7,'ITE',101),(8,'ILO',97),(9,'ALTO DE LA ALIANZA',174),(10,'PACHIA',174),(11,'ESTIQUE-PAMPA',178),(12,'ESTIQUE',178),(13,'TARUCACHI',178),(14,'INCLAN',174),(15,'LOCUMBA',101),(16,'EL ALGARROBAL',97),(17,'PALCA',174),(18,'HEROES ALBARRACIN',178),(19,'CURIBAYA',33),(20,'SITAJARA',178),(21,'QUILAHUANI',33),(22,'PACOCHA',97),(23,'TARATA',178),(24,'HUANUARA',33),(25,'TICACO',178),(26,'ILABAYA',101),(27,'SAMEGUA',120),(28,'PUNTA DE BOMBON',98),(29,'CAIRANI',33),(30,'SUSAPAYA',178),(31,'DEAN VALDIVIA',98),(32,'CAMILACA',33),(33,'MEJIA',98),(34,'CAPAZO',69),(35,'CANDARAVE',33),(36,'ISLAY',98),(37,'TORATA',120),(38,'MOQUEGUA',120),(39,'CUCHUMBAYA',120),(40,'PISACOMA',53),(41,'COCACHACRA',98),(42,'MOLLENDO',98),(43,'LA CAPILLA',73),(44,'CAMANA',30),(45,'QUINISTAQUILLAS',73),(46,'JOSE MARIA QUIMPER',30),(47,'KELLUYO',53),(48,'SAN CRISTOBAL',120),(49,'DESAGUADERO',53),(50,'SAMUEL PASTOR',30),(51,'QUEQUEÑA',12),(52,'OMATE',73),(53,'SANTA ROSA',69),(54,'YARABAMBA',12),(55,'POLOBAYA',12),(56,'MOLLEBAYA',12),(57,'CARUMAS',120),(58,'PUQUINA',73),(59,'QUILCA',30),(60,'COALAQUE',73),(61,'HUACULLANI',53),(62,'SOCABAYA',12),(63,'POCSI',12),(64,'JACOBO HUNTER',12),(65,'SABANDIA',12),(66,'CONDURIRI',69),(67,'JOSE LUIS BUSTAMANTE Y RIVERO',12),(68,'TIABAYA',12),(69,'SACHACA',12),(70,'CHARACATO',12),(71,'LA JOYA',12),(72,'PAUCARPATA',12),(73,'SANTA RITA DE SIGUAS',12),(74,'AREQUIPA',12),(75,'MATALAQUE',73),(76,'YANAHUARA',12),(77,'UCHUMAYO',12),(78,'NICOLAS DE PIEROLA',30),(79,'ZEPITA',53),(80,'SAN JUAN DE SIGUAS',12),(81,'COPANI',195),(82,'MARIANO MELGAR',12),(83,'CHOJATA',73),(84,'MARISCAL CACERES',30),(85,'MIRAFLORES',12),(86,'CHIGUATA',12),(87,'ALTO SELVA ALEGRE',12),(88,'CUTURAPI',195),(89,'POMATA',53),(90,'ANAPIA',195),(91,'LLOQUE',73),(92,'UNICACHI',195),(93,'YUNGUYO',195),(94,'OLLARAYA',195),(95,'CERRO COLORADO',12),(96,'TINICACHI',195),(97,'JULI',53),(98,'CAYMA',12),(99,'YUNGA',73),(100,'VITOR',12),(101,'SANTA ISABEL DE SIGUAS',12),(102,'URACA',42),(103,'MAJES',44),(104,'OCOÑA',30),(105,'PILCUYO',69),(106,'ICHUÑA',73),(107,'SAN ANTONIO',150),(108,'UBINAS',73),(109,'PICHACANI',150),(110,'ILAVE',69),(111,'YURA',12),(112,'SAN JUAN DE TARUCANI',12),(113,'HUANCA',44),(114,'CHUCUITO',150),(115,'MARIANO NICOLAS VALCARCEL',30),(116,'PLATERIA',150),(117,'HUANCARQUI',42),(118,'IRAY',58),(119,'APLAO',42),(120,'PUNO',150),(121,'TIQUILLACA',150),(122,'ATICO',38),(123,'MAÑAZO',150),(124,'LLUTA',44),(125,'TIPAN',42),(126,'VILQUE',150),(127,'CARAVELI',38),(128,'RIO GRANDE',58),(129,'CHALA',38),(130,'ACHOMA',44),(131,'PAUCARCOLLA',150),(132,'UÑON',42),(133,'MACA',44),(134,'CABANILLAS',163),(135,'ATUNCOLLA',150),(136,'YANQUE',44),(137,'CHUQUIBAMBA',58),(138,'COATA',150),(139,'HUAMBO',44),(140,'CABANACONDE',44),(141,'SAN ANTONIO DE CHUCA',44),(142,'HUATA',150),(143,'CHAPARRA',38),(144,'CABANA',163),(145,'PAMPACOLCA',42),(146,'VIRACO',42),(147,'ANDARAY',58),(148,'AYO',42),(149,'CHIVAY',44),(150,'COPORAQUE',44),(151,'YANAQUIHUA',58),(152,'ICHUPAMPA',44),(153,'YAUCA',38),(154,'MACHAGUAY',42),(155,'ATIQUIPA',38),(156,'CAPACHICA',150),(157,'CABANILLA',109),(158,'MADRIGAL',44),(159,'TILALI',124),(160,'CARACOTO',163),(161,'CONIMA',124),(162,'CHICHAS',58),(163,'HUANUHUANU',38),(164,'TUTI',44),(165,'PUSI',83),(166,'ANDAGUA',42),(167,'CAHUACHO',38),(168,'LARI',44),(169,'QUICACHA',38),(170,'SANTA LUCIA',109),(171,'JULIACA',163),(172,'PARATIA',109),(173,'TAURIA',106),(174,'JAQUI',38),(175,'SAYLA',106),(176,'AMANTANI',150),(177,'CALAPUJA',109),(178,'CHILCAYMARCA',42),(179,'CALLALLI',44),(180,'TAPAY',44),(181,'TARACO',83),(182,'QUECHUALLA',106),(183,'TORO',106),(184,'CORCULLA',142),(185,'SARA SARA',142),(186,'PAUSA',142),(187,'MOHO',124),(188,'CAMINACA',18),(189,'SAN JOSE DE USHUA',142),(190,'SALAMANCA',58),(191,'PALCA',109),(192,'SAMAN',18),(193,'COTAHUASI',106),(194,'SIBAYO',44),(195,'LAMPA',109),(196,'PARARCA',142),(197,'NICASIO',109),(198,'HUAYRAPATA',124),(199,'ACARI',38),(200,'ACHAYA',18),(201,'LOMAS',38),(202,'TOMEPAMPA',106),(203,'CHOCO',42),(204,'CHARCANA',106),(205,'ROSASPATA',83),(206,'PULLO',138),(207,'CONDOROMA',71),(208,'PUYUSCA',138),(209,'VILAVILA',109),(210,'BELLA UNION',38),(211,'ALCA',106),(212,'HUANCANE',83),(213,'VILQUE CHICO',83),(214,'LAMPA',142),(215,'MARCABAMBA',142),(216,'CHUPA',18),(217,'COLTA',142),(218,'OCUVIRI',109),(219,'CHUMPI',138),(220,'MARCONA',127),(221,'SANTIAGO DE PUPUJA',18),(222,'TISCO',44),(223,'JOSE DOMINGO CHOQUEHUANCA',18),(224,'SAN JAVIER DE ALPABAMBA',142),(225,'HUATASANI',83),(226,'ARAPA',18),(227,'SAN JUAN DE SALINAS',18),(228,'PEDRO VILCA APAZA',157),(229,'SAN FRANCISCO DE RAVACAYCO',138),(230,'OCORURO',71),(231,'INCHUPALLA',83),(232,'PUCARA',109),(233,'LLALLI',123),(234,'PACAPAUSA',138),(235,'ORCOPAMPA',42),(236,'SUYCKUTAMBO',71),(237,'SANCOS',114),(238,'CHACHAS',42),(239,'VISTA ALEGRE',127),(240,'TIRAPATA',18),(241,'OYOLO',142),(242,'CUPI',123),(243,'CAYLLOMA',44),(244,'SAISA',114),(245,'CHAVIÑA',114),(246,'COJATA',83),(247,'PAMPAMARCA',106),(248,'SAN PEDRO',114),(249,'UPAHUACHO',138),(250,'UMACHIRI',123),(251,'PALLPATA',71),(252,'AZANGARO',18),(253,'ESPINAR',71),(254,'NAZCA',127),(255,'QUILCAPUNCU',157),(256,'SANTA LUCIA',114),(257,'AYAVIRI',123),(258,'PUYCA',106),(259,'SAN CRISTOBAL',114),(260,'HUAYNACOTAS',106),(261,'ALTO PICHIGUA',71),(262,'CAYARANI',58),(263,'CORONEL CASTAÑEDA',138),(264,'PICHIGUA',71),(265,'SAN JUAN',114),(266,'CHANGUILLO',127),(267,'ORURILLO',123),(268,'ACORA',150),(269,'MACARI',123),(270,'ASILLO',18),(271,'EL INGENIO',127),(272,'SAN JOSE',18),(273,'COPORAQUE',71),(274,'LLIPATA',137),(275,'PUQUIO',114),(276,'ANANEA',157),(277,'CORACORA',138),(278,'LEONCIO PRADO',114),(279,'MUÑANI',18),(280,'PUTINA',157),(281,'LAYO',31),(282,'PALPA',137),(283,'SANTA ROSA',123),(284,'CUYOCUYO',165),(285,'KUNTURKANKI',31),(286,'CHECCA',31),(287,'VELILLE',54),(288,'OTOCA',114),(289,'SAN ANTON',18),(290,'JUAN ESPINOZA MEDRANO',10),(291,'SANTO TOMAS',54),(292,'COTARUSE',17),(293,'ANTABAMBA',10),(294,'CARAYBAMBA',17),(295,'CARMEN SALCEDO',114),(296,'LANGUI',31),(297,'LLUSCO',54),(298,'SINA',157),(299,'QUEHUE',31),(300,'SANTA CRUZ',137),(301,'MARANGANI',32),(302,'CHIPAO',114),(303,'QUIACA',165),(304,'OCUCAJE',96),(305,'POTONI',18),(306,'LUCANAS',114),(307,'CABANA',114),(308,'HUAQUIRCA',10),(309,'QUIÑOTA',54),(310,'OCAÑA',114),(311,'SABAINO',10),(312,'VIRUNDO',75),(313,'YANAHUAYA',165),(314,'OROPESA',10),(315,'RIO GRANDE',137),(316,'CHALHUANCA',17),(317,'SANTA ANA DE HUAYCAHUACHO',114),(318,'CRUCERO',37),(319,'YANAOCA',31),(320,'MAMARA',75),(321,'ANTAUTA',123),(322,'SICUANI',32),(323,'TURPAY',75),(324,'CHAMACA',54),(325,'SAN ANTONIO',75),(326,'PATAMBUCO',165),(327,'PATAYPAMPA',75),(328,'SAN PEDRO DE PALCO',114),(329,'POCOHUANCA',17),(330,'SAN PEDRO DE LARCAY',172),(331,'SANDIA',165),(332,'YANACA',17),(333,'SAN JUAN DEL ORO',165),(334,'TATE',96),(335,'HUACAÑA',172),(336,'SANTIAGO',96),(337,'SAÑAYCA',17),(338,'PACHACONAS',10),(339,'SORAYA',17),(340,'PACHACUTEC',96),(341,'SAN PEDRO',32),(342,'LIVITACA',54),(343,'HAQUIRA',63),(344,'PAMPACHIRI',7),(345,'EL ORO',10),(346,'TINTA',32),(347,'PUEBLO NUEVO',96),(348,'PAMPAMARCA',31),(349,'COLQUEMARCA',54),(350,'SANTA ROSA',75),(351,'TUPAC AMARU',31),(352,'SORAS',172),(353,'NUÑOA',123),(354,'HUAC-HUAS',114),(355,'LARAMATE',114),(356,'CAPAYA',17),(357,'LLAUTA',114),(358,'VILCABAMBA',75),(359,'MICAELA BASTIDAS',75),(360,'AJOYANI',37),(361,'SAN PABLO',32),(362,'CCOCHACCASA',8),(363,'MADEAN',193),(364,'MARANURA',104),(365,'AURAHUA',43),(366,'CALLANMARCA',8),(367,'VIÑAC',193),(368,'CHOCOS',193),(369,'TAMBO',105),(370,'ANCO',105),(371,'ANCHONGA',8),(372,'HUEPETUHE',116),(373,'MARCAS',2),(374,'POMACOCHA',2),(375,'NUEVO IMPERIAL',36),(376,'PACARAN',36),(377,'CAJA',2),(378,'CHUPAMARCA',43),(379,'SAN FERNANDO',155),(380,'CUMBA',186),(381,'FLORIDA',24),(382,'TENIENTE CESAR LOPEZ ROJAS',5),(383,'POMAHUACA',99),(384,'COLASAY',99),(385,'SAN FELIPE',99),(386,'AWAJUN',155),(387,'BAGUA GRANDE',186),(388,'JAEN',99),(389,'YURIMAGUAS',5),(390,'EL PARCO',19),(391,'LAS PIRIAS',99),(392,'TAPICHE',154),(393,'SOPLIN',154),(394,'COPALLIN',19),(395,'HUABAL',99),(396,'EL TALLAN',146),(397,'BELLAVISTA',99),(398,'SAN JOSE DEL ALTO',99),(399,'SAN MIGUEL DE EL FAIQUE',82),(400,'CAJARURO',186),(401,'SANTA ROSA',99),(402,'VICE',170),(403,'CURA MORI',146),(404,'SONDORILLO',82),(405,'SALITRAL',125),(406,'LA COIPA',158),(407,'SONDOR',82),(408,'LA UNION',149),(409,'LA ARENA',146),(410,'SAN JUAN DE BIGOTE',125),(411,'CHIRINOS',158),(412,'BUENOS AIRES',125),(413,'CHALLHUAHUACHO',63),(414,'MOSOC LLACTA',3),(415,'POMACOCHA',7),(416,'PARCONA',96),(417,'ICA',96),(418,'LOS AQUIJES',96),(419,'TIBILLO',137),(420,'SANTIAGO DE PAUCARAY',172),(421,'ASQUIPATA',188),(422,'COMBAPATA',32),(423,'OMACHA',139),(424,'AUCARA',114),(425,'HUAYLLO',17),(426,'JUSTO APU SAHUARAURA',17),(427,'TAPAIRIHUA',17),(428,'MORCOLLA',172),(429,'SANTIAGO DE QUIRAHUARA',95),(430,'CURASCO',75),(431,'USICAYOS',37),(432,'SUBTANJALLA',96),(433,'PROGRESO',75),(434,'ACOPIA',3),(435,'APONGO',188),(436,'LA TINGUIÑA',96),(437,'CHUQUIBAMBILLA',75),(438,'OCOYO',95),(439,'PAICO',172),(440,'POMACANCHI',3),(441,'CORDOVA',95),(442,'CAPACMARCA',54),(443,'TORAYA',17),(444,'SAN JUAN BAUTISTA',96),(445,'PHARA',165),(446,'HUAYANA',7),(447,'SAN ISIDRO',95),(448,'SAN MIGUEL DE CHACCRAMPA',7),(449,'CHAPIMARCA',17),(450,'YAUCA DEL ROSARIO',96),(451,'SANGARARA',3),(452,'COLCABAMBA',17),(453,'PILLPINTO',139),(454,'MACUSANI',37),(455,'ACCHA',139),(456,'CANARIA',187),(457,'SAN SALVADOR DE QUIJE',172),(458,'MARA',63),(459,'HUAYLLATI',75),(460,'CHACOCHE',1),(461,'QUEROBAMBA',172),(462,'CURPAHUASI',75),(463,'CHILCAYOC',172),(464,'ACOS',3),(465,'CHECACUPE',32),(466,'INDEPENDENCIA',189),(467,'TUMAY HUARACA',7),(468,'ALTO INAMBARI',165),(469,'CHIARA',7),(470,'ACOMAYO',3),(471,'CHALCOS',172),(472,'SAN JUAN DE CHACÑA',17),(473,'LUCRE',17),(474,'LARAMARCA',95),(475,'SALAS',96),(476,'COLCHA',139),(477,'CUSIPATA',152),(478,'SACSAMARCA',81),(479,'HUAYA',188),(480,'TINTAY',17),(481,'SANCOS',81),(482,'CIRCA',1),(483,'COYLLURQUI',63),(484,'ACCOMARCA',189),(485,'BELEN',172),(486,'CCAPI',139),(487,'PARACAS',145),(488,'SAN FRANCISCO DE SANGAYAICO',95),(489,'CAYARA',188),(490,'SAN JOSE DE LOS MOLINOS',96),(491,'QUERCO',95),(492,'CARAPO',81),(493,'GAMARRA',75),(494,'SAN ANTONIO DE CACHI',7),(495,'CORANI',37),(496,'PITUMARCA',32),(497,'TURPO',7),(498,'SAN ANDRES',145),(499,'TAMBOBAMBA',63),(500,'CARHUANCA',189),(501,'QUIQUIJANA',152),(502,'RONDOCAN',3),(503,'SANTIAGO DE LUCANAMARCA',81),(504,'HUANCARAY',7),(505,'PACCARITAMBO',139),(506,'TUPAC AMARU INCA',145),(507,'LAMBRAMA',1),(508,'PISCO',145),(509,'HUAMBALPA',189),(510,'HUANCARAYLLA',188),(511,'HUARO',152),(512,'COLCA',188),(513,'PICHIRHUA',1),(514,'SAURAMA',189),(515,'HUANCAPI',188),(516,'COTABAMBAS',63),(517,'PARURO',139),(518,'AYAVI',95),(519,'HUAMANQUIQUIA',188),(520,'ALCAMENCA',188),(521,'ITUATA',37),(522,'HUMAY',145),(523,'HUANOQUITE',139),(524,'ANDAHUAYLAS',7),(525,'SAN JERONIMO',7),(526,'URCOS',152),(527,'SANTA MARIA DE CHICMO',7),(528,'YAURISQUE',139),(529,'URANMARCA',51),(530,'SANTIAGO DE CHOCORVOS',95),(531,'SARHUA',188),(532,'OLLACHEA',37),(533,'ANDAHUAYLILLAS',152),(534,'VILCAS HUAMAN',189),(535,'SAN CLEMENTE',145),(536,'HUANCARAMA',7),(537,'INDEPENDENCIA',145),(538,'VILCANCHOS',188),(539,'LUCRE',152),(540,'COCHARCAS',51),(541,'ABANCAY',1),(542,'TAMBURCO',1),(543,'PACUCHA',7),(544,'CCORCA',64),(545,'HUAYACUNDO ARMA',95),(546,'KISHUARA',7),(547,'SANTIAGO',64),(548,'SANTO DOMINGO DE CAPILLAS',95),(549,'WANCHAQ',64),(550,'HUAYTARA',95),(551,'OCONGATE',152),(552,'CHINCHAYPUJIO',9),(553,'CANGALLO',34),(554,'OROPESA',152),(555,'SAYLLA',64),(556,'TOTOS',34),(557,'RANRACANCHA',51),(558,'TALAVERA',7),(559,'SAN JERONIMO',64),(560,'MARIA PARADO DE BELLIDO',34),(561,'CURAHUASI',1),(562,'POROY',64),(563,'ANCO_HUALLO',51),(564,'SAN SEBASTIAN',64),(565,'TAMBO',95),(566,'CAICAY',143),(567,'HUANCARANI',143),(568,'CCATCA',152),(569,'CONCEPCION',189),(570,'QUITO-ARMA',95),(571,'CHINCHEROS',51),(572,'KAQUIABAMBA',7),(573,'CCARHUAYO',152),(574,'CHINCHA BAJA',50),(575,'PUCYURA',9),(576,'ANDARAPA',7),(577,'CUSCO',64),(578,'CACHIMAYO',9),(579,'SAN SALVADOR',28),(580,'MARCAPATA',152),(581,'SAN PEDRO DE CACHORA',1),(582,'TARAY',28),(583,'ZURITE',9),(584,'TAMBO DE MORA',50),(585,'VISCHONGO',189),(586,'PACOBAMBA',7),(587,'SUNAMPE',50),(588,'EL CARMEN',50),(589,'LOS MOROCHUCOS',34),(590,'ANTA',9),(591,'ANCAHUASI',9),(592,'HUANIPACA',1),(593,'OCOBAMBA',51),(594,'SAN ANTONIO DE CUSICANCHA',95),(595,'CHINCHERO',185),(596,'SAN GABAN',37),(597,'COYA',28),(598,'HUANCANO',145),(599,'CHUSCHI',34),(600,'LIMBANI',165),(601,'ONGOY',51),(602,'MOLLEPATA',9),(603,'LIMATAMBO',9),(604,'PARAS',34),(605,'OCROS',80),(606,'PISAC',28),(607,'TICRAPO',43),(608,'HUAROCONDO',9),(609,'MARAS',185),(610,'LAMAY',28),(611,'HUAYLLABAMBA',185),(612,'ALTO LARAN',50),(613,'COLQUEPATA',143),(614,'YUCAY',185),(615,'CAPILLAS',43),(616,'CHINCHA ALTA',50),(617,'COASA',37),(618,'CHIARA',80),(619,'COCAS',43),(620,'URUBAMBA',185),(621,'LUIS CARRANZA',105),(622,'HUACCANA',51),(623,'CALCA',28),(624,'CARMEN ALTO',80),(625,'GROCIO PRADO',50),(626,'ACOCRO',80),(627,'VINCHOS',80),(628,'SAN JUAN',43),(629,'SAN JUAN BAUTISTA',80),(630,'SOCOS',80),(631,'MOLLEPAMPA',43),(632,'PILPICHACA',95),(633,'PUEBLO NUEVO',50),(634,'HUACHOS',43),(635,'CHILCAS',105),(636,'AYAPATA',37),(637,'TAMBILLO',80),(638,'CHUNGUI',105),(639,'PAUCARTAMBO',143),(640,'OLLANTAYTAMBO',185),(641,'JESUS NAZARENO',80),(642,'MACHUPICCHU',185),(643,'SAN JUAN DE YANAC',50),(644,'SANTO TOMAS DE PATA',8),(645,'AYACUCHO',80),(646,'CAMANTI',152),(647,'SAN JOSE DE TICLLAS',80),(648,'SAN VICENTE DE CAÑETE',36),(649,'TANTARA',43),(650,'HUAMATAMBO',43),(651,'SAN ANTONIO DE ANTAPARCO',8),(652,'ACOS VINCHOS',80),(653,'SANTIAGO DE PISCHA',80),(654,'SECCLLA',8),(655,'SAN LUIS',36),(656,'ARMA',43),(657,'SANTA TERESA',104),(658,'SAN PEDRO DE PUTINA PUNCO',165),(659,'PACAYCASA',80),(660,'CHAVIN',50),(661,'IMPERIAL',36),(662,'QUINUA',80),(663,'SAN PEDRO DE HUACARPANA',50),(664,'AZANGARO',193),(665,'JULCAMARCA',8),(666,'LIRCAY',8),(667,'HUAYOPATA',104),(668,'CHALLABAMBA',143),(669,'IGUAIN',86),(670,'HUACHOCOLPA',84),(671,'LARES',28),(672,'HUAMANGUILLA',86),(673,'SANTA ANA',43),(674,'CONGALLA',8),(675,'HUANCA-HUANCA',8),(676,'CHINCHO',8),(677,'LUNAHUANA',36),(678,'HUAYLLAY GRANDE',8),(679,'HUANGASCAR',193),(680,'CASTROVIRREYNA',43),(681,'CERRO AZUL',36),(682,'LURICOCHA',86),(683,'ZUÑIGA',36),(684,'SAN MIGUEL DE MAYOCC',56),(685,'ANTA',2),(686,'ACOBAMBA',2),(687,'SAN MIGUEL',105),(688,'LA MERCED',56),(689,'SANTA ANA',104),(690,'QUILMANA',36),(691,'LINCHA',193),(692,'ASCENSION',84),(693,'HUANCAVELICA',84),(694,'KOSÑIPATA',143),(695,'YAULI',84),(696,'ROSARIO',2),(697,'HONGOS',193),(698,'ASIA',36),(699,'CATAHUASI',193),(700,'CACRA',193),(701,'VILCABAMBA',104),(702,'LOCROJA',56),(703,'HUANTA',86),(704,'OCOBAMBA',104),(705,'SANTA ROSA',105),(706,'EL CARMEN',56),(707,'PUTINZA',193),(708,'CHURCAMPA',56),(709,'PAUCARA',2),(710,'PALCA',84),(711,'INAMBARI',177),(712,'ANDABAMBA',2),(713,'ACOBAMBILLA',84),(714,'MALA',36),(715,'TUPE',193),(716,'SAN ANTONIO',36),(717,'NUEVO OCCORO',84),(718,'SANTILLANA',86),(719,'MARISCAL CACERES',84),(720,'AYNA',105),(721,'COAYLLO',36),(722,'SAN PEDRO DE CORIS',56),(723,'TAURIPAMPA',193),(724,'MANTA',84),(725,'LARIA',84),(726,'PAUCARBAMBA',56),(727,'YANATILE',28),(728,'HUANDO',84),(729,'ANCO',56),(730,'CONAYCA',84),(731,'SANTA CRUZ DE FLORES',36),(732,'IZCUCHACA',84),(733,'COLONIA',193),(734,'ACORIA',84),(735,'PACHAMARCA',56),(736,'SAN PEDRO DE PILAS',193),(737,'SIVIA',86),(738,'AYAUCA',193),(739,'PUCUSANA',112),(740,'SANTA MARIA DEL MAR',112),(741,'VILCA',84),(742,'CUENCA',84),(743,'MOYA',84),(744,'PILCHACA',84),(745,'OMAS',193),(746,'HUANTAN',193),(747,'KIMBIRI',104),(748,'HUAYLLAHUARA',84),(749,'CHINCHIHUASI',56),(750,'SAN BARTOLO',112),(751,'YAUYOS',193),(752,'ACOSTAMBO',180),(753,'ACRAQUIA',180),(754,'CARHUACALLANGA',85),(755,'QUELLOUNO',104),(756,'CALANGO',36),(757,'HUASICANCHA',85),(758,'CHACAPAMPA',85),(759,'HUAMPARA',193),(760,'CHONGOS ALTO',85),(761,'AHUAYCHA',180),(762,'LARAOS',193),(763,'CARANIA',193),(764,'DANIEL HERNANDEZ',180),(765,'ÑAHUIMPUQUIO',180),(766,'CHILCA',36),(767,'PAMPAS',180),(768,'COCHAS',193),(769,'CHICCHE',85),(770,'AYAVIRI',193),(771,'QUINOCAY',193),(772,'QUINCHES',193),(773,'LLOCHEGUA',86),(774,'COLCA',85),(775,'COLCABAMBA',180),(776,'ALIS',193),(777,'HUAÑEC',193),(778,'PICHARI',104),(779,'PUNTA NEGRA',112),(780,'QUISHUAR',180),(781,'MARIATANA',92),(782,'SAN JOAQUIN',193),(783,'CULLHUAS',85),(784,'VILLA EL SALVADOR',112),(785,'PUNTA HERMOSA',112),(786,'AYAHUANCO',86),(787,'LURIN',112),(788,'PAZOS',180),(789,'HUACRAPUQUIO',85),(790,'CHUPURO',85),(791,'CHORRILLOS',112),(792,'VIQUES',85),(793,'SANGALLAYA',92),(794,'BARRANCO',112),(795,'SANTO DOMINGO DE LOS OLLEROS',92),(796,'VILLA MARIA DEL TRIUNFO',112),(797,'SAN JUAN DE MIRAFLORES',112),(798,'HUAYUCACHI',85),(799,'CHONGOS BAJO',55),(800,'LANGA',92),(801,'MIRAFLORES',193),(802,'MIRAFLORES',112),(803,'CUENCA',92),(804,'HUARIBAMBA',180),(805,'SURQUILLO',112),(806,'TINTAY PUNCU',180),(807,'PUCARA',85),(808,'YANACANCHA',55),(809,'TRES DE DICIEMBRE',55),(810,'HUANCAN',85),(811,'SAN ISIDRO',112),(812,'MAGDALENA DEL MAR',112),(813,'SAN JUAN DE YSCOS',55),(814,'SAN BORJA',112),(815,'LINCE',112),(816,'SANTIAGO DE SURCO',112),(817,'SALCABAMBA',180),(818,'VITIS',193),(819,'PUEBLO LIBRE',112),(820,'LA PUNTA',29),(821,'JESUS MARIA',112),(822,'MADRE DE DIOS',116),(823,'LA PERLA',29),(824,'SAN LUIS',112),(825,'SAN MIGUEL',112),(826,'LAHUAYTAMBO',92),(827,'PACHACAMAC',112),(828,'HUAMANCACA CHICO',55),(829,'LA VICTORIA',112),(830,'LA MOLINA',112),(831,'BELLAVISTA',29),(832,'BREÑA',112),(833,'CHILCA',85),(834,'SAPALLANGA',85),(835,'CHUPACA',55),(836,'SAN PEDRO DE HUANCAYRE',92),(837,'SALCAHUASI',180),(838,'SAN JUAN DE JARPA',55),(839,'AHUAC',55),(840,'TOMAS',193),(841,'CARMEN DE LA LEGUA REYNOSO',29),(842,'LIMA',112),(843,'SURCUBAMBA',180),(844,'SANTA ANITA',112),(845,'PILCOMAYO',85),(846,'EL AGUSTINO',112),(847,'HUACHAC',55),(848,'CIENEGUILLA',112),(849,'SAN MARCOS DE ROCCHAC',180),(850,'RIMAC',112),(851,'SAN JOSE DE QUERO',57),(852,'ATE',112),(853,'HUACHOCOLPA',180),(854,'HUANCAYA',193),(855,'TANTA',193),(856,'SICAYA',85),(857,'SANTIAGO DE ANCHUCAYA',92),(858,'MANZANARES',57),(859,'CHACLACAYO',112),(860,'INDEPENDENCIA',112),(861,'ANTIOQUIA',92),(862,'SAN AGUSTIN',85),(863,'HUALHUAS',85),(864,'ORCOTUNA',57),(865,'CALLAO',29),(866,'CHAMBARA',57),(867,'SAN MARTIN DE PORRES',112),(868,'SAÑO',85),(869,'SANTIAGO DE TUNA',92),(870,'SAN ANDRES DE TUPICOCHA',92),(871,'ACO',57),(872,'LOS OLIVOS',112),(873,'SAN LORENZO DE QUINTI',92),(874,'RICARDO PALMA',92),(875,'HUANCAYO',85),(876,'MITO',57),(877,'LABERINTO',177),(878,'SANTA CRUZ DE COCACHACRA',92),(879,'SAN JERONIMO DE TUNAN',85),(880,'COMAS',112),(881,'SAN JUAN DE TANTARANCHE',92),(882,'CONCEPCION',57),(883,'HUAROCHIRI',92),(884,'NUEVE DE JULIO',57),(885,'LURIGANCHO',112),(886,'SINCOS',100),(887,'EL TAMBO',85),(888,'SAN BARTOLOME',92),(889,'SAN JUAN DE LURIGANCHO',112),(890,'MATAHUASI',57),(891,'SANTA ROSA DE OCOPA',57),(892,'SAN DAMIAN',92),(893,'LEONOR ORDOÑEZ',100),(894,'PACCHA',100),(895,'QUILCAS',85),(896,'VENTANILLA',29),(897,'PARIAHUANCA',85),(898,'MUQUI',100),(899,'MANU',116),(900,'HEROINAS TOLEDO',57),(901,'QUICHUAY',85),(902,'PUENTE PIEDRA',112),(903,'MUQUIYAUYO',100),(904,'HUARIPAMPA',100),(905,'INGENIO',85),(906,'SAN LORENZO',100),(907,'EL MANTARO',100),(908,'SURCO',92),(909,'SAUSA',100),(910,'PARCO',100),(911,'SANTA ROSA',112),(912,'ATAURA',100),(913,'CALLAHUANCA',92),(914,'YAUYOS',100),(915,'LLOCLLAPAMPA',100),(916,'SAN MATEO DE OTAO',92),(917,'SANTA EULALIA',92),(918,'JAUJA',100),(919,'SUITUCANCHA',192),(920,'MASMA',100),(921,'HUAMALI',100),(922,'CANCHAYLLO',100),(923,'HUERTAS',100),(924,'JANJAILLO',100),(925,'MASMA CHICCHE',100),(926,'JULCAN',100),(927,'SAN PEDRO DE CASTA',92),(928,'MARCO',100),(929,'PANCAN',100),(930,'CURICACA',100),(931,'MATUCANA',92),(932,'SAN PEDRO DE CHUNAN',100),(933,'CARABAYLLO',112),(934,'SAN MATEO',92),(935,'SAN JUAN DE IRIS',92),(936,'SANTO DOMINGO DE ACOBAMBA',85),(937,'SAN ANTONIO',92),(938,'TUNAN MARCA',100),(939,'CHACAPALPA',192),(940,'HUAY-HUAY',192),(941,'PACA',100),(942,'HUACHUPAMPA',92),(943,'YAULI',100),(944,'ARAHUAY',35),(945,'YAULI',192),(946,'ACOLLA',100),(947,'ANCON',112),(948,'CHICLA',92),(949,'CARAMPOMA',92),(950,'SANTA ROSA DE QUIVES',35),(951,'COCHAS',57),(952,'ANDAMARCA',57),(953,'MARISCAL CASTILLA',57),(954,'POMACANCHA',100),(955,'LACHAQUI',35),(956,'SANTA ROSA DE SACCO',192),(957,'HUANZA',92),(958,'OXAPAMPA',130),(959,'YANACANCHA',140),(960,'HUACHON',140),(961,'VILLA RICA',130),(962,'VILCABAMBA',66),(963,'HUANCAPON',27),(964,'GOYLLARISQUIZGA',66),(965,'TICLACAYAN',140),(966,'SAN FRANCISCO DE ASIS DE YARUSYACAN',140),(967,'CARHUAPAMPA',128),(968,'OYON',131),(969,'YANAHUANCA',66),(970,'ACAS',128),(971,'HUARIACA',140),(972,'SANTIAGO DE CHILCAS',128),(973,'SAN PEDRO DE PILLAO',66),(974,'PALLANCHACRA',140),(975,'TAPUC',66),(976,'SAN CRISTOBAL DE RAJAN',128),(977,'SAN PEDRO',128),(978,'LLIPA',128),(979,'PARAMONGA',20),(980,'SANTA ANA DE TUSI',66),(981,'CHACAYAN',66),(982,'CANIS',23),(983,'CAJATAMBO',27),(984,'ABELARDO PARDO LEZAMETA',23),(985,'PAUCAR',66),(986,'COPA',27),(987,'CONGAS',128),(988,'MANGAS',23),(989,'OCROS',128),(990,'LA PRIMAVERA',23),(991,'CAJAMARQUILLA',128),(992,'SAN MIGUEL DE CORPANQUI',23),(993,'SAN FRANCISCO',6),(994,'SAN RAFAEL',6),(995,'COLQUIOC',23),(996,'HUAYLLACAYAN',23),(997,'PACLLON',23),(998,'TICLLOS',23),(999,'HUANCABAMBA',130),(1000,'ANTONIO RAYMONDI',23),(1001,'COLPAS',6),(1002,'CAJACAY',23),(1003,'RAYMONDI',15),(1004,'CAYNA',6),(1005,'QUEROPALCA',110),(1006,'HUACAR',6),(1007,'SAN MIGUEL DE CAURI',110),(1008,'CHIQUIAN',23),(1009,'AMBO',6),(1010,'LLACLLIN',153),(1011,'JESUS',110),(1012,'TOMAY KICHWA',6),(1013,'BAÑOS',110),(1014,'PAMPAS CHICO',153),(1015,'PARARIN',153),(1016,'JIVIA',110),(1017,'CONCHAMARCA',6),(1018,'HUASTA',23),(1019,'MARCA',153),(1020,'HUAYLLAPAMPA',153),(1021,'SAN FRANCISCO DE CAYRAN',87),(1022,'POZUZO',130),(1023,'SAN PEDRO DE CHAULAN',87),(1024,'PILLCO MARCA',87),(1025,'TAPACOCHA',153),(1026,'COCHAPETI',91),(1027,'SAN FRANCISCO DE ASIS',110),(1028,'YARUMAYO',87),(1029,'IÑAPARI',175),(1030,'MARGOS',87),(1031,'MOLINO',133),(1032,'AMARILIS',87),(1033,'CHACABAMBA',191),(1034,'PALCAZU',130),(1035,'RONDOS',110),(1036,'CHORAS',191),(1037,'COTAPARACO',153),(1038,'MALVAS',91),(1039,'HUANUCO',87),(1040,'HUAYAN',91),(1041,'PANAO',133),(1042,'CAHUAC',191),(1043,'AQUIA',23),(1044,'QUISQUI',87),(1045,'HUARMEY',91),(1046,'JACAS CHICO',191),(1047,'UMARI',133),(1048,'LA UNION',68),(1049,'SUCCHA',4),(1050,'OBAS',191),(1051,'HUACLLAN',4),(1052,'LA OROYA',192),(1053,'LARAOS',92),(1054,'RICRAN',100),(1055,'HUARICOLCA',179),(1056,'MOLINOS',100),(1057,'APATA',100),(1058,'COMAS',57),(1059,'HUAMANTANGA',35),(1060,'CANTA',35),(1061,'MOROCOCHA',192),(1062,'CHANCAY',88),(1063,'LAS PIEDRAS',177),(1064,'TARMA',179),(1065,'AUCALLAMA',88),(1066,'TAPO',179),(1067,'LLAYLLA',169),(1068,'SAN BUENAVENTURA',35),(1069,'PACCHA',192),(1070,'TAHUAMANU',175),(1071,'LA UNION',179),(1072,'SUMBILCA',88),(1073,'PANGOA',169),(1074,'FITZCARRALD',116),(1075,'HUAROS',35),(1076,'ACOBAMBA',179),(1077,'ATAVILLOS BAJO',88),(1078,'PAMPA HERMOSA',169),(1079,'COVIRIALI',169),(1080,'MONOBAMBA',100),(1081,'SAN MIGUEL DE ACOS',88),(1082,'HUARAL',88),(1083,'MARCAPOMACOCHA',192),(1084,'PALCA',179),(1085,'ATAVILLOS ALTO',88),(1086,'IBERIA',175),(1087,'ECHARATE',104),(1088,'PALCAMAYO',179),(1089,'VITOC',47),(1090,'MAZAMARI',169),(1091,'LAMPIAN',88),(1092,'HUACHO',93),(1093,'IHUARI',88),(1094,'CALETA DE CARQUIN',93),(1095,'HUALMAY',93),(1096,'SANTA BARBARA DE CARHUACAYAN',192),(1097,'SANTA MARIA',93),(1098,'SANTA CRUZ DE ANDAMARCA',88),(1099,'SAN RAMON',47),(1100,'VEINTISIETE DE NOVIEMBRE',88),(1101,'TAMBOPATA',177),(1102,'PACARAOS',88),(1103,'SATIPO',169),(1104,'LEONCIO PRADO',93),(1105,'RIO NEGRO',169),(1106,'SAN PEDRO DE CAJAS',179),(1107,'JUNIN',103),(1108,'ONDORES',103),(1109,'HUASAHUASI',179),(1110,'SAYAN',93),(1111,'HUAURA',93),(1112,'PACCHO',93),(1113,'VEGUETA',93),(1114,'CHANCHAMAYO',47),(1115,'SANTA LEONOR',93),(1116,'CHECRAS',93),(1117,'CARHUAMAYO',103),(1118,'VICCO',140),(1119,'SAN LUIS DE SHUARO',47),(1120,'SUPE PUERTO',20),(1121,'COCHAMARCA',131),(1122,'PACHANGARA',131),(1123,'RIO TAMBO',169),(1124,'NAVAN',131),(1125,'HUAYLLAY',140),(1126,'ULCUMAYO',103),(1127,'TINYAHUARCO',140),(1128,'SEPAHUA',15),(1129,'SUPE',20),(1130,'PICHANAQUI',47),(1131,'CAUJUL',131),(1132,'CHAUPIMARCA',140),(1133,'ANDAJES',131),(1134,'BARRANCA',20),(1135,'PERENE',47),(1136,'PAUCARTAMBO',140),(1137,'NINACACA',140),(1138,'AMBAR',93),(1139,'SIMON BOLIVAR',140),(1140,'GORGOR',27),(1141,'MANAS',27),(1142,'CHONTABAMBA',130),(1143,'COCHAS',128),(1144,'PATIVILCA',20),(1145,'RIPAN',68),(1146,'SILLAPATA',68),(1147,'CHAVINILLO',191),(1148,'AIJA',4),(1149,'SHUNQUI',68),(1150,'HUALLANCA',23),(1151,'CORIS',4),(1152,'PAMPAMARCA',191),(1153,'CULEBRAS',91),(1154,'CATAC',153),(1155,'APARICIO POMARES',191),(1156,'HUANCHAY',89),(1157,'RECUAY',153),(1158,'YANAS',68),(1159,'SANTA MARIA DEL VALLE',87),(1160,'TICAPAMPA',153),(1161,'LA MERCED',4),(1162,'CHAGLLA',133),(1163,'CHUQUIS',68),(1164,'PACHAS',68),(1165,'LA LIBERTAD',89),(1166,'QUIVILLA',68),(1167,'COLCABAMBA',89),(1168,'OLLEROS',89),(1169,'PAMPAS',89),(1170,'TAHUANIA',15),(1171,'LLATA',79),(1172,'CHURUBAMBA',87),(1173,'CHAVIN DE HUANTAR',90),(1174,'JACAS GRANDE',79),(1175,'SAN MARCOS',90),(1176,'PUERTO BERMUDEZ',130),(1177,'HUARAZ',89),(1178,'PUÑOS',79),(1179,'PURUS',151),(1180,'HUANTAR',90),(1181,'YURUA',15),(1182,'COCHABAMBA',89),(1183,'YAUTAN',41),(1184,'JANGAS',89),(1185,'CHINCHAO',87),(1186,'PIRA',89),(1187,'PUNCHAO',79),(1188,'MARIAS',68),(1189,'YUYAPICHIS',148),(1190,'SAN PEDRO DE CHANA',90),(1191,'PARIACOTO',89),(1192,'INDEPENDENCIA',89),(1193,'MIRAFLORES',79),(1194,'YUNGAR',39),(1195,'TARICA',89),(1196,'CHAVIN DE PARIARCA',79),(1197,'COMANDANTE NOEL',41),(1198,'PARIAHUANCA',39),(1199,'HUACHIS',90),(1200,'RAHUAPAMPA',90),(1201,'ANTA',39),(1202,'SAN MIGUEL DE ACO',39),(1203,'CODO DEL POZUZO',148),(1204,'MASIN',90),(1205,'MARIANO DAMASO BERAUN',111),(1206,'PONTO',90),(1207,'TANTAMAYO',79),(1208,'ACOPAMPA',39),(1209,'SINGA',79),(1210,'BUENA VISTA ALTA',41),(1211,'HUACACHI',90),(1212,'TINCO',39),(1213,'MARCARA',39),(1214,'ATAQUERO',39),(1215,'QUILLO',194),(1216,'ANRA',90),(1217,'CASCAPARA',194),(1218,'CASMA',41),(1219,'CARHUAZ',39),(1220,'AMASHCA',39),(1221,'SHUPLUY',194),(1222,'SAMANCO',166),(1223,'RAPAYAN',90),(1224,'HUARI',90),(1225,'DANIEL ALOMIAS ROBLES',111),(1226,'SAN JUAN DE RONTOY',11),(1227,'CAJAY',90),(1228,'LUYANDO',111),(1229,'ACZO',11),(1230,'MONZON',79),(1231,'UCO',90),(1232,'JIRCAN',79),(1233,'MANCOS',194),(1234,'RANRAHIRCA',194),(1235,'HUACCHIS',90),(1236,'CHINGAS',11),(1237,'CHACAS',14),(1238,'MATACOTO',194),(1239,'SHILLA',39),(1240,'HERMILIO VALDIZAN',111),(1241,'PUEBLO LIBRE',94),(1242,'RUPA-RUPA',111),(1243,'PAUCAS',90),(1244,'ACOCHACA',14),(1245,'ARANCAY',79),(1246,'MORO',166),(1247,'PUERTO INCA',148),(1248,'MIRGAS',11),(1249,'COISHCO',166),(1250,'LLAMELLIN',11),(1251,'NUEVO CHIMBOTE',166),(1252,'YUNGAY',194),(1253,'COCHABAMBA',76),(1254,'HUATA',94),(1255,'NEPEÑA',166),(1256,'PAMPAROMAS',94),(1257,'SAN LUIS',40),(1258,'CHACCHO',11),(1259,'SANTA',166),(1260,'CARAZ',94),(1261,'YAUYA',40),(1262,'LLUMPA',119),(1263,'MATO',94),(1264,'LUCMA',119),(1265,'YANAMA',194),(1266,'SAN NICOLAS',40),(1267,'LLAMA',119),(1268,'HUAYLLAN',147),(1269,'ELEAZAR GUZMAN BARRON',119),(1270,'CACERES DEL PERU',166),(1271,'HUAYLAS',94),(1272,'MUSGA',119),(1273,'PINRA',76),(1274,'HUACAYBAMBA',76),(1275,'SANTA CRUZ',94),(1276,'PISCOBAMBA',119),(1277,'TOURNAVISTA',148),(1278,'SANTO TORIBIO',94),(1279,'CASCA',119),(1280,'IPARIA',61),(1281,'CANCHABAMBA',76),(1282,'SAN BUENAVENTURA',117),(1283,'FIDEL OLIVAS ESCUDERO',119),(1284,'HUALLANCA',94),(1285,'POMABAMBA',147),(1286,'GUADALUPITO',190),(1287,'YURACMARCA',94),(1288,'CHIMBOTE',166),(1289,'MACATE',166),(1290,'QUINUABAMBA',147),(1291,'LA PAMPA',62),(1292,'YANAC',62),(1293,'SAN JUAN',171),(1294,'YUPAN',62),(1295,'SICSIBAMBA',171),(1296,'HONORIA',148),(1297,'CASHAPAMPA',171),(1298,'BAMBAS',62),(1299,'PAROBAMBA',147),(1300,'SIHUAS',171),(1301,'LLAPO',136),(1302,'SANTA ROSA',136),(1303,'CORONGO',62),(1304,'IRAZOLA',134),(1305,'HUACRACHUCO',117),(1306,'ACO',62),(1307,'PADRE ABAD',134),(1308,'ALFONSO UGARTE',171),(1309,'CHOLON',117),(1310,'HUAYLLABAMBA',171),(1311,'MANANTAY',61),(1312,'CUSCA',62),(1313,'TAUCA',136),(1314,'SANTIAGO DE CHALLAS',141),(1315,'CABANA',136),(1316,'RAGASH',171),(1317,'HUANCASPATA',141),(1318,'MASISEA',61),(1319,'CHAO',190),(1320,'QUICHES',171),(1321,'JOSE CRESPO Y CASTILLO',111),(1322,'CHINGALPO',171),(1323,'NUEVO PROGRESO',181),(1324,'BOLOGNESI',136),(1325,'HUACASCHUQUE',136),(1326,'HUANDOVAL',136),(1327,'URPAY',141),(1328,'SHUNTE',181),(1329,'CAMPOVERDE',61),(1330,'ACOBAMBA',171),(1331,'CURIMANA',134),(1332,'PALLASCA',136),(1333,'LACABAMBA',136),(1334,'TAURIJA',141),(1335,'TAYABAMBA',141),(1336,'SALAVERRY',182),(1337,'HUASO',102),(1338,'UCHIZA',181),(1339,'VIRU',190),(1340,'MOCHE',182),(1341,'HUAYLILLAS',141),(1342,'VICTOR LARCO HERRERA',182),(1343,'CONCHUCOS',136),(1344,'SANTIAGO DE CHUCO',168),(1345,'TRUJILLO',182),(1346,'MOLLEPATA',168),(1347,'FLORENCIA DE MORA',182),(1348,'SANTA CRUZ DE CHUCA',168),(1349,'CARABAMBA',102),(1350,'BULDIBUYO',141),(1351,'ANGASMARCA',168),(1352,'YARINACOCHA',61),(1353,'CHILLIA',141),(1354,'PAMPAS',136),(1355,'MOLLEBAMBA',168),(1356,'LA ESPERANZA',182),(1357,'TOCACHE',181),(1358,'CALAMARCA',102),(1359,'EL PORVENIR',182),(1360,'ONGON',141),(1361,'MACHE',129),(1362,'JULCAN',102),(1363,'LAREDO',182),(1364,'SALPO',129),(1365,'SITABAMBA',168),(1366,'HUAYO',141),(1367,'NUEVA REQUENA',61),(1368,'POROTO',182),(1369,'CACHICADAN',168),(1370,'HUANCHACO',182),(1371,'QUIRUVILCA',168),(1372,'PARCOY',141),(1373,'SANTIAGO DE CAO',13),(1374,'PARANDAY',129),(1375,'AGALLPAMPA',129),(1376,'LA CUESTA',129),(1377,'SARIN',164),(1378,'SIMBAL',182),(1379,'MAGDALENA DE CAO',13),(1380,'CURGOS',164),(1381,'PIAS',141),(1382,'CHARAT',129),(1383,'CHOCOPE',13),(1384,'OTUZCO',129),(1385,'HUAMACHUCO',164),(1386,'COCHORCO',164),(1387,'POLVORA',181),(1388,'PAIJAN',13),(1389,'USQUIL',129),(1390,'SANAGORAN',164),(1391,'CHUGAY',164),(1392,'SINSICAP',129),(1393,'HUARANCHAL',129),(1394,'PATAZ',141),(1395,'MARCABAL',164),(1396,'CHICAMA',13),(1397,'CAJABAMBA',25),(1398,'PADRE MARQUEZ',184),(1399,'RAZURI',13),(1400,'COMPIN',74),(1401,'LUCMA',74),(1402,'ASCOPE',13),(1403,'SAYAPULLO',74),(1404,'SARTIMBAMBA',164),(1405,'CONDEBAMBA',25),(1406,'CONDORMARCA',22),(1407,'CAMPANILLA',118),(1408,'BAMBAMARCA',22),(1409,'CASCAS',74),(1410,'EDUARDO VILLANUEVA',159),(1411,'CASA GRANDE',13),(1412,'SAN BENITO',60),(1413,'CHANCAY',159),(1414,'CACHACHI',25),(1415,'SAN PEDRO DE LLOC',132),(1416,'PACASMAYO',132),(1417,'COSPAN',26),(1418,'ICHOCAN',159),(1419,'SITACOCHA',25),(1420,'JEQUETEPEQUE',132),(1421,'SAN JOSE',132),(1422,'GUZMANGO',60),(1423,'JOSE MANUEL QUIROZ',159),(1424,'SANTA CRUZ DE TOLED',60),(1425,'ASUNCION',26),(1426,'CUPISNIQUE',60),(1427,'CALLERIA',61),(1428,'PEDRO GALVEZ',159),(1429,'MATARA',26),(1430,'SAN JUAN',26),(1431,'GUADALUPE',132),(1432,'CONTUMAZA',60),(1433,'CHILETE',60),(1434,'ALTO BIAVO',21),(1435,'JESUS',26),(1436,'TANTARICA',60),(1437,'YONAN',60),(1438,'MAGDALENA',26),(1439,'LLACANORA',26),(1440,'GREGORIO PITA',159),(1441,'CONTAMANA',184),(1442,'CHEPEN',48),(1443,'PAJARILLO',118),(1444,'NAMORA',26),(1445,'SAN BERNARDINO',162),(1446,'UCUNCHA',22),(1447,'SAN LUIS',162),(1448,'HUALLAGA',21),(1449,'CHETILLA',26),(1450,'BOLIVAR',22),(1451,'PUEBLO NUEVO',48),(1452,'JUANJUI',118),(1453,'JOSE SABOGAL',159),(1454,'SACANCHE',78),(1455,'SAN PABLO',162),(1456,'TINGO DE SAPOSOA',78),(1457,'SAN GREGORIO',161),(1458,'BAJO BIAVO',21),(1459,'LOS BAÑOS DEL INCA',26),(1460,'UNION AGUA BLANCA',161),(1461,'EL PRADO',161),(1462,'LONGOTEA',22),(1463,'PACANGA',48),(1464,'SAN RAFAEL',21),(1465,'OXAMARCA',45),(1466,'UCHUMARCA',22),(1467,'PISCOYACU',78),(1468,'BOLIVAR',161),(1469,'INAHUAYA',184),(1470,'SAN CRISTOBAL',144),(1471,'SAN MIGUEL',161),(1472,'SUCRE',45),(1473,'ETEN PUERTO',49),(1474,'EL ESLABON',78),(1475,'JORGE CHAVEZ',45),(1476,'SHAMBOYACU',144),(1477,'LAGUNAS',49),(1478,'JOSE GALVEZ',45),(1479,'CAJAMARCA',26),(1480,'ETEN',49),(1481,'PICOTA',144),(1482,'NANCHOC',161),(1483,'BELLAVISTA',21),(1484,'SOROCHUCO',45),(1485,'CHUQUIBAMBA',46),(1486,'TINGO DE PONASA',144),(1487,'SAN SILVESTRE DE COCHAN',161),(1488,'CASPISAPA',144),(1489,'NUEVA ARICA',49),(1490,'SAN HILARION',144),(1491,'NIEPOS',161),(1492,'TUMBADEN',162),(1493,'SANTA ROSA',49),(1494,'CALQUIS',161),(1495,'CAYALTI',49),(1496,'UTCO',45),(1497,'LA FLORIDA',161),(1498,'MONSEFU',49),(1499,'REQUE',49),(1500,'LLAPA',161),(1501,'ENCAÑADA',26),(1502,'PAMPA HERMOSA',184),(1503,'LA VICTORIA',49),(1504,'SAÑA',49),(1505,'PUCACACA',144),(1506,'PUCALA',49),(1507,'CHICLAYO',49),(1508,'CATILLUC',161),(1509,'POMALCA',49),(1510,'SAN JOSE',108),(1511,'PIMENTEL',49),(1512,'SAN PABLO',21),(1513,'VARGAS GUERRA',184),(1514,'JOSE LEONARDO ORTIZ',49),(1515,'SAPOSOA',78),(1516,'TONGOD',161),(1517,'PILLUANA',144),(1518,'BALSAS',46),(1519,'TRES UNIDOS',144),(1520,'PICSI',49),(1521,'TUMAN',49),(1522,'BUENOS AIRES',144),(1523,'HUASMIN',45),(1524,'OYOTUN',49),(1525,'PULAN',167),(1526,'SAUCEPAMPA',167),(1527,'HUALGAYOC',77),(1528,'YAUYUCAN',167),(1529,'LEIMEBAMBA',46),(1530,'ANDABAMBA',167),(1531,'SAUCE',160),(1532,'NINABAMBA',167),(1533,'ALBERTO LEVEAU',160),(1534,'AGUA BLANCA',70),(1535,'PATAPO',49),(1536,'CHUGUR',77),(1537,'LA LIBERTAD DE PALLAN',45),(1538,'CATACHE',167),(1539,'CELENDIN',45),(1540,'PUEBLO NUEVO',72),(1541,'SANTA ROSA',70),(1542,'LAMBAYEQUE',108),(1543,'SANTA CRUZ',167),(1544,'MONTEVIDEO',46),(1545,'UTICYACU',167),(1546,'LA ESPERANZA',167),(1547,'FERREÑAFE',72),(1548,'MIGUEL IGLESIAS',45),(1549,'SAN FRANCISCO DEL YESO',115),(1550,'BAMBAMARCA',77),(1551,'MANUEL ANTONIO MESONES MURO',72),(1552,'JUAN GUERRA',160),(1553,'MARISCAL CASTILLA',46),(1554,'PACHIZA',118),(1555,'SAN JOSE DE SISA',70),(1556,'MOCHUMI',108),(1557,'COCABAMBA',115),(1558,'SANTO TOMAS',115),(1559,'SEXI',167),(1560,'CHANCAYBAÑOS',167),(1561,'SHAPAJA',160),(1562,'CUÑUMBUQUI',107),(1563,'CHONGOYAPE',49),(1564,'PACCHA',52),(1565,'CHUMUCH',45),(1566,'CHIRIMOTO',156),(1567,'LAJAS',52),(1568,'TUCUME',108),(1569,'TOTORA',156),(1570,'SHATOJA',70),(1571,'MILPUC',156),(1572,'CHAZUTA',160),(1573,'CHOTA',52),(1574,'ILLIMO',108),(1575,'ZAPATERO',107),(1576,'CHALAMARCA',52),(1577,'MORALES',160),(1578,'SANTA ROSA',156),(1579,'LA JALCA',46),(1580,'COCHABAMBA',52),(1581,'MARIA',115),(1582,'SAN JUAN DE LOPECANCHA',115),(1583,'TARAPOTO',160),(1584,'CACATACHI',160),(1585,'HUAMBO',156),(1586,'PACORA',108),(1587,'CONCHAN',52),(1588,'LLAMA',52),(1589,'RUMISAPA',107),(1590,'CORTEGANA',45),(1591,'CHADIN',52),(1592,'CHIGUIRIP',52),(1593,'HUICUNGO',118),(1594,'LIMABAMBA',156),(1595,'PISUQUIA',115),(1596,'SHANAO',107),(1597,'MORROPE',108),(1598,'PITIPO',72),(1599,'TOCMOCHE',52),(1600,'LA BANDA DE SHILCAYO',160),(1601,'SAN JUAN DE LICUPIS',52),(1602,'MAGDALENA',46),(1603,'LONGUITA',115),(1604,'SAN ANTONIO',160),(1605,'TACABAMBA',52),(1606,'HUAMBOS',52),(1607,'HUIMBAYOC',160),(1608,'ALTO SAPOSOA',78),(1609,'TINGO',115),(1610,'OMIA',156),(1611,'CHIPURANA',160),(1612,'LAMAS',107),(1613,'SAN ISIDRO DE MAINO',46),(1614,'SAN NICOLAS',156),(1615,'ANGUIA',52),(1616,'COCHAMAL',156),(1617,'LONGAR',156),(1618,'LEVANTO',46),(1619,'CHOROPAMPA',52),(1620,'QUEROCOTO',52),(1621,'CUTERVO',65),(1622,'SAN MARTIN',70),(1623,'PROVIDENCIA',115),(1624,'COLCAMAR',115),(1625,'OCUMAL',115),(1626,'CHETO',46),(1627,'SOLOCO',46),(1628,'CHIMBAN',52),(1629,'MIRACOSTA',52),(1630,'SAN LUIS DE LUCMA',65),(1631,'SOCOTA',65),(1632,'INGUILPATA',115),(1633,'SAN FRANCISCO DE DAGUAS',46),(1634,'SANTO DOMINGO DE LA CAPILLA',65),(1635,'MARISCAL BENAVIDES',156),(1636,'CHACHAPOYAS',46),(1637,'LA RAMADA',65),(1638,'LONYA CHICO',115),(1639,'TABALOSOS',107),(1640,'ALONSO DE ALVARADO',107),(1641,'SAN ANDRES DE CUTERVO',65),(1642,'TRITA',115),(1643,'JAYANCA',108),(1644,'OCALLI',115),(1645,'MOLINOPAMPA',46),(1646,'CHOCHOPE',108),(1647,'SONCHE',46),(1648,'SORITOR',126),(1649,'SAN JUAN DE CUTERVO',65),(1650,'HUANCAS',46),(1651,'LUYA',115),(1652,'EL PORVENIR',160),(1653,'YORONGOS',155),(1654,'BARRANQUITA',107),(1655,'PION',52),(1656,'CAMPORREDONDO',115),(1657,'INCAHUASI',72),(1658,'CUJILLO',65),(1659,'LAMUD',115),(1660,'QUEROCOTILLO',65),(1661,'HABANA',126),(1662,'JEPELACIO',126),(1663,'SAN CRISTOBAL',115),(1664,'GRANADA',46),(1665,'LUYA VIEJO',115),(1666,'QUINJALCA',46),(1667,'VALERA',24),(1668,'SANTA CRUZ',65),(1669,'CONILA',115),(1670,'CALLAYUC',65),(1671,'SAN ROQUE DE CUMBAZA',107),(1672,'SANTA CATALINA',115),(1673,'PAPAPLAYA',160),(1674,'VISTA ALEGRE',156),(1675,'PINTO RECODO',107),(1676,'MOTUPE',108),(1677,'SANTO TOMAS',65),(1678,'CHILIQUIN',46),(1679,'CHURUJA',24),(1680,'RIOJA',155),(1681,'CAÑARIS',72),(1682,'PIMPINGOS',65),(1683,'CALZADA',126),(1684,'ELIAS SOPLIN VARGAS',155),(1685,'CAYNARACHI',107),(1686,'LONYA GRANDE',186),(1687,'SAN CARLOS',24),(1688,'ALTO TAPICHE',154),(1689,'ASUNCION',46),(1690,'OLLEROS',46),(1691,'POSIC',155),(1692,'YAMON',186),(1693,'YANTALO',126),(1694,'PUCARA',99),(1695,'SALAS',108),(1696,'JAZAN',24),(1697,'SAN JERONIMO',115),(1698,'TORIBIO CASANOVA',65),(1699,'RECTA',24),(1700,'YURACYACU',155),(1701,'SARAYACU',184),(1702,'CUISPES',24),(1703,'SHIPASBAMBA',24),(1704,'CHISQUILLA',24),(1705,'JUMBILLA',24),(1706,'JAMALCA',186),(1707,'NUEVA CAJAMARCA',155),(1708,'CHOROS',65),(1709,'COROSHA',24),(1710,'EL MILAGRO',186),(1711,'MAQUIA',154),(1712,'CHONTALI',99),(1713,'SALLIQUE',99),(1714,'BAGUA',19),(1715,'OLMOS',108),(1716,'CRISTO NOS VALGA',170),(1717,'SECHURA',170),(1718,'EMILIO SAN MARTIN',154),(1719,'RINCONADA LLICUAR',170),(1720,'SANTA CRUZ',5),(1721,'BALSAPUERTO',5),(1722,'HUARMACA',82),(1723,'BERNAL',170),(1724,'PARDO MIGUEL',155),(1725,'MOYOBAMBA',126),(1726,'BELLAVISTA DE LA UNION',170),(1727,'CANCHAQUE',82),(1728,'ARAMANGO',19),(1729,'TABACONAS',158),(1730,'LA MATANZA',125),(1731,'CATACAOS',146),(1732,'CAPELO',154),(1733,'YAMBRASBAMBA',24),(1734,'LALAQUIZ',82),(1735,'PUINAHUA',154),(1736,'SANTA CATALINA DE MOSSA',125),(1737,'YAMANGO',125),(1738,'MORROPON',125),(1739,'HUANCABAMBA',82),(1740,'SAN IGNACIO',158),(1741,'CHALACO',125),(1742,'JEBEROS',5),(1743,'YAQUERANA',154),(1744,'CASTILLA',146),(1745,'NAMBALLE',158),(1746,'SANTO DOMINGO',125),(1747,'REQUENA',154),(1748,'PIURA',146),(1749,'CHULUCANAS',125),(1750,'PAITA',135),(1751,'MIGUEL CHECA',173),(1752,'ARENAL',135),(1753,'LA HUACA',135),(1754,'BELLAVISTA',173),(1755,'COLAN',135),(1756,'CAHUAPANAS',67),(1757,'EL CARMEN DE LA FRONTERA',82),(1758,'SALITRAL',173),(1759,'VICHAYAL',135),(1760,'FRIAS',16),(1761,'AMOTAPE',135),(1762,'TAMARINDO',135),(1763,'PACAIPAMPA',16),(1764,'IGNACIO ESCUDERO',173),(1765,'JENARO HERRERA',154),(1766,'SAPILLICA',16),(1767,'LAGUNAS',16),(1768,'TAMBO GRANDE',146),(1769,'SULLANA',173),(1770,'SAN JOSE DE LOURDES',158),(1771,'HUARANGO',158),(1772,'QUERECOTILLO',173),(1773,'LA BREA',176),(1774,'LAS LOMAS',146),(1775,'MONTERO',16),(1776,'PAIMAS',16),(1777,'SICCHEZ',16),(1778,'IMAZA',19),(1779,'JILILI',16),(1780,'SAQUENA',154),(1781,'AYABACA',16),(1782,'NIEVA',197),(1783,'PARIÑAS',176),(1784,'LOBITOS',176),(1785,'SUYO',16),(1786,'BARRANCA',67),(1787,'EL ALTO',176),(1788,'MANSERICHE',67),(1789,'MARCAVELICA',173),(1790,'LOS ORGANOS',176),(1791,'MANCORA',176),(1792,'LANCONES',173),(1793,'YAVARI',121),(1794,'PARINARI',113),(1795,'CANOAS DE PUNTA SAL',59),(1796,'NAUTA',113),(1797,'CASITAS',59),(1798,'FERNANDO LORES',122),(1799,'SAN JUAN BAUTISTA',122),(1800,'IQUITOS',122),(1801,'LAGUNAS',5),(1802,'PAMPAS DE HOSPITAL',183),(1803,'ZORRITOS',59),(1804,'SAN JACINTO',183),(1805,'LA PECA',19),(1806,'MATAPALO',196),(1807,'LA CRUZ',183),(1808,'BELEN',122),(1809,'SAN JUAN DE LA VIRGEN',183),(1810,'URARINAS',113),(1811,'CORRALES',183),(1812,'PAPAYAL',196),(1813,'TUMBES',183),(1814,'AGUAS VERDES',196),(1815,'INDIANA',122),(1816,'ZARUMILLA',196),(1817,'EL CENEPA',197),(1818,'PUNCHANA',122),(1819,'SAN PABLO',121),(1820,'RAMON CASTILLA',121),(1821,'PASTAZA',67),(1822,'RIO SANTIAGO',197),(1823,'LAS AMAZONAS',122),(1824,'PEBAS',121),(1825,'MORONA',67),(1826,'ANDOAS',67),(1827,'ALTO NANAY',122),(1828,'MAZAN',122),(1829,'TROMPETEROS',113),(1830,'TIGRE',113),(1831,'NAPO',122),(1832,'PUTUMAYO',122),(1833,'TORRES CAUSANA',122),(1834,'TENIENTE MANUEL CLAVERO',122),(1835,'MI PERU',29);
 /*!40000 ALTER TABLE `distritos` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `especificos`
+--
+
+DROP TABLE IF EXISTS `especificos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `especificos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `especificos`
+--
+
+LOCK TABLES `especificos` WRITE;
+/*!40000 ALTER TABLE `especificos` DISABLE KEYS */;
+INSERT INTO `especificos` VALUES (1,'A. HURTO'),(2,'B. ROBO'),(3,'C. ABIGEATO'),(4,'D. APROPIACIÓN ILICITA'),(5,'E. RECEPTACIÓN'),(6,'F. ESTAFA Y OTRAS DEFRAUDACIONES'),(7,'G. FRAUDE EN LA ADMINISTRACION DE PERSONAS JURIDICAS'),(8,'H. EXTORSION'),(9,'I. USURPACION'),(10,'J. DAÑOS'),(11,'K. DELITOS INFORMATICOS'),(12,'A. DELITOS CONTRA LOS BIENES CULTURALES');
+/*!40000 ALTER TABLE `especificos` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `forma_medio_utilizados`
+--
+
+DROP TABLE IF EXISTS `forma_medio_utilizados`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `forma_medio_utilizados` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `forma_medio_utilizados`
+--
+
+LOCK TABLES `forma_medio_utilizados` WRITE;
+/*!40000 ALTER TABLE `forma_medio_utilizados` DISABLE KEYS */;
+INSERT INTO `forma_medio_utilizados` VALUES (1,'AGRESIÓN VERBAL'),(2,'AGRESIÓN FÍSICA'),(3,'COGOTEO'),(4,'EN BANDA O PANDILLA'),(5,'ESTRANGULAMIENTO/ASFIXIA/ AHOGAMIENTO'),(6,'SECUESTRO'),(7,'CAÍDA'),(8,'SUMINISTRO DE SUSTANCIAS TÓXICAS'),(9,'ENVENENAMIENTO'),(10,'VENTA DE DROGA'),(11,'CON ARMA BLANCA'),(12,'CON ARMA DE FUEGO'),(13,'CON OBJETO CONTUNDENTE'),(14,'USO DE LA FUERZA'),(15,'AL PASO'),(16,'SECUESTRO'),(17,'EQUIPOS DE ALTA TECNOLOGÍA'),(18,'VEHICULO'),(19,'RADIO'),(20,'MEDIOS MECANICOS'),(21,'MOTÍN'),(22,'ENGAÑO'),(23,'GANZUAS');
+/*!40000 ALTER TABLE `forma_medio_utilizados` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `fuente_principales`
+--
+
+DROP TABLE IF EXISTS `fuente_principales`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `fuente_principales` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `fuente_principales`
+--
+
+LOCK TABLES `fuente_principales` WRITE;
+/*!40000 ALTER TABLE `fuente_principales` DISABLE KEYS */;
+INSERT INTO `fuente_principales` VALUES (1,'ATESTADOS POLICIALES'),(2,'INFORMES POLICIALES'),(3,'CARPETAS FISCALES'),(4,'NOTAS INFORMATIVAS'),(5,'OFICIOS'),(6,'ACTAS'),(7,'PARTES POLICIALES'),(8,'DENUNCIA'),(9,'OTRO');
+/*!40000 ALTER TABLE `fuente_principales` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `genericos`
+--
+
+DROP TABLE IF EXISTS `genericos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `genericos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `genericos`
+--
+
+LOCK TABLES `genericos` WRITE;
+/*!40000 ALTER TABLE `genericos` DISABLE KEYS */;
+INSERT INTO `genericos` VALUES (1,'DELITO CONTRA EL PATRIMONIO'),(2,'DELITO CONTRA EL PATRIMONIO CULTURAL');
+/*!40000 ALTER TABLE `genericos` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -326,6 +558,30 @@ LOCK TABLES `groups` WRITE;
 /*!40000 ALTER TABLE `groups` DISABLE KEYS */;
 INSERT INTO `groups` VALUES (1,'Administrador','A','cramos','2017-04-26 01:19:00','',NULL),(2,'managers','A','cramos','2017-04-26 01:22:43','',NULL),(3,'users','A','cramos','2017-04-26 01:22:56','',NULL),(4,'Vendedor','A','cramos','2017-05-06 05:53:41','',NULL);
 /*!40000 ALTER TABLE `groups` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `lugar_ocurrencias`
+--
+
+DROP TABLE IF EXISTS `lugar_ocurrencias`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `lugar_ocurrencias` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `lugar_ocurrencias`
+--
+
+LOCK TABLES `lugar_ocurrencias` WRITE;
+/*!40000 ALTER TABLE `lugar_ocurrencias` DISABLE KEYS */;
+INSERT INTO `lugar_ocurrencias` VALUES (1,'VÍA PÚBLICA'),(2,'CENTRO DE TRABAJO'),(3,'LOCAL COMERCIAL'),(4,'DISCOTECA/BAR/RESTARURANT/OTRO'),(5,'VEHÍCULO'),(6,'VIVIENDA DEL PRESUNTO VICTIMARIO'),(7,'VIVIENDA DE LA VÍCTIMA'),(8,'HOTEL/HOSTAL'),(9,'VIVIENDA DE UN FAMILIAR'),(10,'CAMPO ABIERTO/LUGAR DESOLADO'),(11,'EN EL RIO/MAR/ACANTILADO'),(12,'VIVIENDA DESCONOCIDA'),(13,'VIVIENDA ABANDONADA'),(14,'NO PRECISA'),(15,'OTRO'),(16,'CASA DE LA VICTIMA'),(17,'CASA DEL VICTIMARIO'),(18,'INGRESO DE LA CASA DE LA VICTIMA'),(19,'CERCA DE LA CASA DE LA VICTIMA'),(20,'MERCADO'),(21,'CALLE'),(22,'PARQUE'),(23,'TIENDA'),(24,'ACERA'),(25,'RESTAURANTE'),(26,'CINE'),(27,'SUPERMERCADO'),(28,'AUTOBUS'),(29,'TAXI'),(30,'CERCA AL TRABAJO'),(31,'DENTRO DEL TRABAJO'),(32,'CARRETERA'),(33,'HOTEL'),(34,'CHACRA'),(35,'OTRO');
+/*!40000 ALTER TABLE `lugar_ocurrencias` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -387,6 +643,78 @@ LOCK TABLES `menus` WRITE;
 /*!40000 ALTER TABLE `menus` DISABLE KEYS */;
 INSERT INTO `menus` VALUES (1,'Permisos',NULL,1,12,1,NULL,NULL,NULL,NULL,NULL),(2,'Grupos',1,2,3,1,9,NULL,NULL,NULL,NULL),(3,'Usuarios',1,4,5,1,49,NULL,NULL,NULL,NULL),(4,'Aplicaciones',1,6,7,1,64,NULL,NULL,NULL,NULL),(5,'Accesos',1,8,9,1,63,NULL,NULL,NULL,NULL),(10,'Permisos',NULL,13,14,2,NULL,NULL,NULL,NULL,NULL),(14,'Menu',1,10,11,1,74,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `menus` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `modalidad_denuncias`
+--
+
+DROP TABLE IF EXISTS `modalidad_denuncias`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `modalidad_denuncias` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `modalidad_denuncias`
+--
+
+LOCK TABLES `modalidad_denuncias` WRITE;
+/*!40000 ALTER TABLE `modalidad_denuncias` DISABLE KEYS */;
+INSERT INTO `modalidad_denuncias` VALUES (1,'DIRECTA'),(2,'INDIRECTA'),(3,'DE OFICIO'),(4,'OTRO');
+/*!40000 ALTER TABLE `modalidad_denuncias` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `modalidades`
+--
+
+DROP TABLE IF EXISTS `modalidades`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `modalidades` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `modalidades`
+--
+
+LOCK TABLES `modalidades` WRITE;
+/*!40000 ALTER TABLE `modalidades` DISABLE KEYS */;
+INSERT INTO `modalidades` VALUES (1,'HURTO SIMPLE'),(2,'HURTO AGRAVADO'),(3,'HURTO DE USO'),(4,'ROBO'),(5,'ROBO AGRAVADO'),(6,'HURTO DE GANADO'),(7,'HURTO DE USO DE GANADO'),(8,'OTROS'),(9,'APROPIACION DE PRENDA'),(10,'APROPIACION ILICITA COMUN'),(11,'APROPIACION IRREGULAR'),(12,'SUSTRACCION DE BIEN PROPIO'),(13,'RECEPTACION'),(14,'OTROS'),(15,'ESTAFA AGRAVADA'),(16,'CASOS DE DEFRAUDACION'),(17,'ADMINISTRACION FRAUDULENTA'),(18,'OTROS'),(19,'EXTORSION'),(20,'CHANTAJE'),(21,'USURPACION'),(22,'OTROS'),(23,'DAÑO SIMPLE'),(24,'DAÑO AGRAVADO'),(25,'OTROS'),(26,'DELITO INFORMATICO'),(27,'ALTERACION, DAÑO O DESTRUCCION DE BASES DE DATOS, SITEMA, RED O PROGRAMA DE COMPUTADORAS'),(28,'DELITO INFORMATICO AGRAVADO'),(29,'TRAFICO ILEGAL DE DATOS'),(30,'ATENTADO CONTRA MONUMENTOS ARQUEOLOGICOS'),(31,'EXTRACCION ILEGAL DE BIENES CULTURALES'),(32,'DECOMISO'),(33,'OMISION DE DEBERES DE FUNCIONARIOS PUBLICOS');
+/*!40000 ALTER TABLE `modalidades` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `nombre_fiscalias`
+--
+
+DROP TABLE IF EXISTS `nombre_fiscalias`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `nombre_fiscalias` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=721 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `nombre_fiscalias`
+--
+
+LOCK TABLES `nombre_fiscalias` WRITE;
+/*!40000 ALTER TABLE `nombre_fiscalias` DISABLE KEYS */;
+INSERT INTO `nombre_fiscalias` VALUES (1,'FPM IMAZA - AMAZONAS'),(2,'SEDE LAMBAYEQUE - AMAZONAS'),(3,'DIVISIÓN MÉDICO LEGAL - AMAZONAS'),(4,'FPM YUTUPIS - AMAZONAS'),(5,'SEDE BONGARA - AMAZONAS'),(6,'FMP CAJARURO - AMAZONAS'),(7,'SEDE HIGOS URCO - AMAZONAS'),(8,'FPM- EL TINGO - AMAZONAS'),(9,'FPP RODRIGUÉZ DE MENDOZA - AMAZONAS'),(10,'FPP OMIA - AMAZONAS'),(11,'DML JAZAN - AMAZONAS'),(12,'SEDE FLORIDA - AMAZONAS'),(13,'SEDE ALMACÉN CENTRAL - AMAZONAS'),(14,'FPP JAZAN - AMAZONAS'),(15,'SEDE AMAZONAS - AMAZONAS'),(16,'FPM LONYA GRANDE - AMAZONAS'),(17,'SEDE CENTRAL - AMAZONAS'),(18,'DIVISIÓN MEDICO LEGAL - AMAZONAS'),(19,'SEDE MOGROVEJO - AMAZONAS'),(20,'SEDE ORTIZ ARRIETA - AMAZONAS'),(21,'FPM CUMBA - AMAZONAS'),(22,'FPM MOLINOPAMPA - AMAZONAS'),(23,'FPM LEYMEBAMBA - AMAZONAS'),(24,'FPM LA JALCA - AMAZONAS'),(25,'FPM OCALLI - AMAZONAS'),(26,'FPP LUYA - AMAZONAS'),(27,'SEDE MARIANO MELGAR - AMAZONAS'),(28,'FPP CONDORCANQUI - AMAZONAS'),(29,'SIMON BOLIVAR - ANCASH'),(30,'HUARI. LUZURIAGA - ANCASH'),(31,'SEDE CENTRAL - ANCASH'),(32,'HUARI. ELEAZAR GUZMÁN - ANCASH'),(33,'HUARI. MANUEL ALVAREZ - ANCASH'),(34,'MARÍA ALVARADO TRUJILLO - ANCASH'),(35,'HUALLANCA - ANCASH'),(36,'JOSÉ LARREA Y LAREDO - ANCASH'),(37,'FEDERICO SAL Y ROSAS - ANCASH'),(38,'RODOLFO ESPINAR - ANCASH'),(39,'HUACRACHUCO - ANCASH'),(40,'AV DEL EJERCITO - ANCASH'),(41,'MARCARÁ - ANCASH'),(42,'YUNGAY. CIVIL-FAMILIA - ANCASH'),(43,'CHIQUIAN. FIGUEREDO - ANCASH'),(44,'RECUAY - ANCASH'),(45,'28 DE JULIO - ANCASH'),(46,'CARHUAZ. CARRETERA CENTRAL - ANCASH'),(47,'CARHUAZ. PROGRESO - ANCASH'),(48,'YUNGAY. PENAL - ANCASH'),(49,'CARAZ. LEONCIO PRADO - ANCASH'),(50,'CARAZ. GRAU Y RAIMONDI - ANCASH'),(51,'SIHUAS. 28 DE JULIO - ANCASH'),(52,'PLAZA DE ARMAS - ANCASH'),(53,'AV DEL EJERCITO - ANCASH'),(54,'SIHUAS. JUAN GÓMEZ ARIAS - ANCASH'),(55,'POMABAMBA - ANCASH'),(56,'PISCOBAMBA - ANCASH'),(57,'SAN LUIS - ANCASH'),(58,'CHACAS - ANCASH'),(59,'OCROS - ANCASH'),(60,'AIJA - ANCASH'),(61,'LOS PALTOS - ANCASH'),(62,'SAN MARCOS - ANCASH'),(63,'LLAMELLIN - ANCASH'),(64,'CHIQUIAN. ESPINAR - ANCASH'),(65,'CORAL VEGA - ANCASH'),(66,'SEDE ANTABAMBA I - APURIMAC'),(67,'SEDE FISCALIAS SUPERIORES - APURIMAC'),(68,'SEDE CHALLHUAHUACHO - APURIMAC'),(69,'SEDE CURAHUASI - APURIMAC'),(70,'SEDE GRAU - APURIMAC'),(71,'SEDE CHINCHEROS - APURIMAC'),(72,'SEDE COTABAMBAS - APURIMAC'),(73,'SEDE AYMARAES II - APURIMAC'),(74,'SEDE AYMARAES I - APURIMAC'),(75,'SEDE ANTABAMBA II - APURIMAC'),(76,'SEDE FISCALIAS CORPORATIVAS - APURIMAC'),(77,'SEDE HUANCARAMA - APURIMAC'),(78,'SEDE ANDAHUAYLAS I - APURIMAC'),(79,'SEDE ANDAHUAYLAS II - APURIMAC'),(80,'SEDE MEDICINA LEGAL CHINCHEROS - APURIMAC'),(81,'SEDE OCOBAMBA - APURIMAC'),(82,'SEDE MEDICINA LEGAL - APURIMAC'),(83,'SEDE ANTICORUPCION - APURIMAC'),(84,'SEDE CENTRAL - APURIMAC'),(85,'SEDE ARCHIVO CENTRAL - APURIMAC'),(86,'SEDE MEDICINA LEGAL ANDAHUAYLAS - APURIMAC'),(87,'SEDE MEDICINA LEGAL COTABAMBAS - APURIMAC'),(88,'SEDE ISLAY - PENAL - AREQUIPA'),(89,'SEDE ISLAY - FAMILIA - AREQUIPA'),(90,'SEDE CAMANA - AREQUIPA'),(91,'SEDE CENTRAL - AREQUIPA'),(92,'SEDE CENTRAL - 1FPPC - GERENCIA ADMINISTRATIVA - AREQUIPA'),(93,'SEDE DML III - CLINICA FORENSE - AREQUIPA'),(94,'SEDE ANTICORRUPCION - AREQUIPA'),(95,'SEDE MARIANO MELGAR - FAMILIA - AREQUIPA'),(96,'SEDE DML III - MORGUE - AREQUIPA'),(97,'SEDE ACARI - AREQUIPA'),(98,'SEDE CARAVELI - AREQUIPA'),(99,'FISCALIA PROVINCIAL CORPORATIVA DE CHIVAY - AREQUIPA'),(100,'SEDE PAUCARPATA - AREQUIPA'),(101,'UDAVIT - FEMA - AREQUIPA'),(102,'SEDE COTAHUASI - AREQUIPA'),(103,'SEDE CHUQUIBAMBA - AREQUIPA'),(104,'SEDE HUNTER - PENAL - AREQUIPA'),(105,'SEDE ARCHIVO CENTRAL - AREQUIPA'),(106,'SEDE APLAO - AREQUIPA'),(107,'SEDE CENTRAL - 2FPPC / 3FPPC - AREQUIPA'),(108,'SEDE HUNTER - FAMILIA - AREQUIPA'),(109,'SEDE CENTRAL - FISCALIAS DE CIVIL Y FAMILIA - AREQUIPA'),(110,'SEDE EL PEDREGAL - AREQUIPA'),(111,'SEDE MARIANO MELGAR - PENAL - AREQUIPA'),(112,'SEDE DML ISLAY - AREQUIPA'),(113,'SEDE DML CAMANA - AREQUIPA'),(114,'SEDE DML HUNTER - AREQUIPA'),(115,'SEDE SUCRE - AYACUCHO'),(116,'SEDE SAN JUAN BAUTISTA Nº 07 - AYACUCHO'),(117,'SEDE HUANTA-DML - AYACUCHO'),(118,'SEDE-DML-CANGALLO - AYACUCHO'),(119,'SEDE AYNA - AYACUCHO'),(120,'SEDE-DML-HUANCASANCOS - AYACUCHO'),(121,'SEDE CHUNGUI-DML - AYACUCHO'),(122,'SEDE VILCASHUAMAN-DML - AYACUCHO'),(123,'SEDE PICHARI - AYACUCHO'),(124,'SEDE FAJARDO - AYACUCHO'),(125,'SEDE Nº 06- DML II-AYACUCHO - AYACUCHO'),(126,'SEDE CHURCAMPA-DML - AYACUCHO'),(127,'SEDE-DML-LA MAR - AYACUCHO'),(128,'SEDE LA MAR - AYACUCHO'),(129,'SEDE CANGALLO - AYACUCHO'),(130,'SEDE HUANCASANCOS - AYACUCHO'),(131,'SEDE AYACUCHO Nº 05 - AYACUCHO'),(132,'SEDE AYACUCHO Nº 01 - AYACUCHO'),(133,'SEDE AYACUCHO Nº 02 - AYACUCHO'),(134,'SEDE AYACUCHO Nº 04 - AYACUCHO'),(135,'SEDE SAN JUAN BAUTISTA Nº 08-LIF - AYACUCHO'),(136,'SEDE AYACUCHO Nº 03 - AYACUCHO'),(137,'MORGUE DML - CAÑETE'),(138,'ALMACEN DE BIENES INCAUTADOS - CAÑETE'),(139,'LABORATORIOS DML - CAÑETE'),(140,'FISCALÍA PENAL DE YAUYOS - CAÑETE'),(141,'DISTRITO FISCAL DE MALA - CAÃ‘ETE - CAÑETE'),(142,'FISCALIA CIVIL Y DE FAMILIA DE CAÑETE - CAÑETE'),(143,'SEDE CENTRAL - CAÑETE'),(144,'CONSULTORIO MEDICO - CAÑETE'),(145,'DML- YAUYOS - CAÑETE'),(146,'MORGUE DE ASIA - CAÑETE'),(147,'DML DE MALA - CAÑETE'),(148,'SEDE CENTRAL CAJAMARCA - CAJAMARCA'),(149,'SEDE CENTRAL CAJAMARCA - PRESIDENCIA - CAJAMARCA'),(150,'FISCALÍAS CIVILES Y DE FAMILIA DE CAJAMARCA - CAJAMARCA'),(151,'FISCALÍAS SUPERIORES DE CAJAMARCA - CAJAMARCA'),(152,'FISCALÍA CONTRA LA CRIMINALIDAD ORGANIZADA DE CAJAMARCA - CAJAMARCA'),(153,'DIVISIÓN MÉDICO LEGAL CAJAMARCA - CAJAMARCA'),(154,'MORGUE DE CAJAMARCA - CAJAMARCA'),(155,'ALMACÉN DE BIENES DE CAJAMARCA - CAJAMARCA'),(156,'ALMACÉN DE ARÍCULOS DE CAJAMARCA - CAJAMARCA'),(157,'FISCALÍA PROVINCIAL MIXTA DE ASUNCIÓN - CAJAMARCA'),(158,'FISCALÍA PROVINCIAL MIXTA DE ENCAÑADA - CAJAMARCA'),(159,'FISCALÍA PROVINCIAL DE CAJABAMBA - CAJAMARCA'),(160,'DIVISIÓN MÉDICO LEGAL CAJABAMBA - CAJAMARCA'),(161,'FISCALÍAS PROVINCIALES PENALES DE CELENDIN - CAJAMARCA'),(162,'FISCALÍA PROVINCIAL CIVIL Y DE FAMILIA DE CELENDIN - CAJAMARCA'),(163,'DIVISIÓN MÉDICO LEGAL CELENDIN - CAJAMARCA'),(164,'FISCALÍA PROVINCIAL MIXTA DE MIGUEL IGLESIAS - CAJAMARCA'),(165,'FISCALÍA PROVINCIAL DE CONTUMAZÁ - CAJAMARCA'),(166,'DIVISIÓN MÉDICO LEGAL CONTUMAZÁ - CAJAMARCA'),(167,'FISCALÍA PROVINCIAL MIXTA DE TEMBLADERA - CAJAMARCA'),(168,'FISCALÍA SUPERIOR MIXTA DE CHOTA - CAJAMARCA'),(169,'FISCALÍA PROVINCIAL DE CHOTA - CAJAMARCA'),(170,'DIVISIÓN MÉDICO LEGAL CHOTA - CAJAMARCA'),(171,'FISCALÍA PROVINCIAL MIXTA DE HUAMBOS - CAJAMARCA'),(172,'FISCALÍA PROVINCIAL MIXTA DE TACABAMBA - CAJAMARCA'),(173,'FISCALÍA PROVINCIAL DE HUALGAYOC - BAMBAMARCA - CAJAMARCA'),(174,'DIVISIÓN MÉDICO LEGAL DE HUALGAYOC - BAMBAMARCA - CAJAMARCA'),(175,'FISCALÍA PROVINCIAL DE SANTA CRUZ - CAJAMARCA'),(176,'FISCALÍA PROVINCIAL DE SAN MIGUEL - CAJAMARCA'),(177,'DIVISIÓN MÉDICO LEGAL SAN MIGUEL - CAJAMARCA'),(178,'FISCALÍA PROVINCIAL MIXTA DE LA FLORIDA - CAJAMARCA'),(179,'FISCALÍA PROVINCIAL DE SAN MARCOS - CAJAMARCA'),(180,'FISCALÍA PROVINCIAL DE SAN PABLO - CAJAMARCA'),(181,'FISCALÍA PROVINCIAL MIXTA DE BOLIVAR - CAJAMARCA'),(182,'DIVISIÓN MÉDICO LEGAL BOLIVAR - CAJAMARCA'),(183,'SEDE AEROPUERTO - CALLAO'),(184,'SEDE FISCALIA DE CRIMEN ORGANIZADO - CALLAO'),(185,'SEDE KING I - CALLAO'),(186,'SAENZ PEÑA - CALLAO'),(187,'SEDE KING II - CALLAO'),(188,'SEDE CENTRAL - CALLAO'),(189,'SEDE VENTANILLA - CALLAO'),(190,'SEDE DIVISION MEDICO LEGAL - CALLAO'),(191,'GRAU - CALLAO'),(192,'SEDE EL AGUSTINO 01 - LIMA ESTE'),(193,'SEDE SAN JUAN DE LURIGANCHO 04 - LIMA ESTE'),(194,'SEDE SAN JUAN DE LURIGANCHO 01 - LIMA ESTE'),(195,'SEDE ANITA 01 - LIMA ESTE'),(196,'SEDE CHOSICA - LIMA ESTE'),(197,'SEDE HUAYCAN - LIMA ESTE'),(198,'SEDE SAN JUAN DE LURIGANCHO 05 - LIMA ESTE'),(199,'SEDE EL AGUSTINO 02 - LIMA ESTE'),(200,'SEDE SAN JUAN DE LURIGANCHO 02 - LIMA ESTE'),(201,'SEDE SAN JUAN DE LURIGANCHO 03 - LIMA ESTE'),(202,'SEDE LA MOLINA-CIENEGUILLA - LIMA ESTE'),(203,'SEDE MATUCANA - LIMA ESTE'),(204,'SANTA ANITA 02 - LIMA ESTE'),(205,'SEDE CALCA 2 - CUSCO'),(206,'SEDE CALCA 1 - CUSCO'),(207,'SEDE CANAS 2 - CUSCO'),(208,'SEDE PARURO 2 - CUSCO'),(209,'SEDE ESPINAR 1 - CUSCO'),(210,'SEDE ANTA 3 - CUSCO'),(211,'SEDE ANTA 1 - CUSCO'),(212,'SEDE ACOMAYO 1 - CUSCO'),(213,'SEDE ANTA 2 - CUSCO'),(214,'SEDE LA CONVENCION 4 - CUSCO'),(215,'SEDE ACOMAYO 2 - CUSCO'),(216,'SEDE CHUMBIVILCAS 2 - CUSCO'),(217,'SEDE ECHARATE - CUSCO'),(218,'SEDE PARURO 1 - CUSCO'),(219,'SEDE CHUMBIVILCAS 1 - CUSCO'),(220,'SEDE ESPINAR 2 - CUSCO'),(221,'SEDE URUBAMBA 2 - CUSCO'),(222,'SEDE CENTRAL CUSCO - CUSCO'),(223,'SEDE WANCHAQ 1 - CUSCO'),(224,'SEDE CANAS 3 - CUSCO'),(225,'SEDE SANTIAGO 1 - CUSCO'),(226,'SEDE SANTIAGO 4 - CUSCO'),(227,'SEDE CANCHIS 2 (LOCAL EN CONSTRUCCION) - CUSCO'),(228,'SEDE CANCHIS - CUSCO'),(229,'SEDE SAN SEBASTIAN - CUSCO'),(230,'SEDE SANTIAGO 2 - CUSCO'),(231,'SEDE CANAS 1 - CUSCO'),(232,'SEDE PAUCARTAMBO - CUSCO'),(233,'SEDE URUBAMBA 3 - CUSCO'),(234,'SEDE QUISPICANCHIS 1 - CUSCO'),(235,'SEDE MACHUPICCHU - CUSCO'),(236,'SEDE SANTIAGO 3 - CUSCO'),(237,'SEDE LA CONVENCION 2 - CUSCO'),(238,'SEDE LA CONVENCION 1 - CUSCO'),(239,'SEDE LA CONVENCION 3 - CUSCO'),(240,'SEDE QUISPICANCHIS 2 - CUSCO'),(241,'SEDE URUBAMBA 1 - CUSCO'),(242,'SEDE WANCHAQ 3 - CUSCO'),(243,'SEDE CALCA 3 - CUSCO'),(244,'SEDE WANCHAQ 2 - CUSCO'),(245,'SEDE ACOBAMBA - LEONCIO PRADO - FISCALIA CIVIL Y FAMILIA - HUANCAVELICA'),(246,'SEDE CASTROVIRREYNA - FISCALIAS CORPORATIVAS - HUANCAVELICA'),(247,'SEDE IZCUCHACA FISCALIA MIXTA - HUANCAVELICA'),(248,'SEDE VIRREY TOLEDO - FISCALIAS CORPORATIVAS - HUANCAVELICA'),(249,'SEDE TANTARA - FISC.PROV. MIXTA - DML I - HUANCAVELICA'),(250,'SEDE PAUCARA - FISCALIA MIXTA - DML I - HUANCAVELICA'),(251,'SEDE DML II - CONSULTORIOS - HUANCAVELICA'),(252,'SEDE DML II - MORGUE Y LABORATORIOS - HUANCAVELICA'),(253,'SEDE CASTROVIRREYNA - FISCALIAS CIVIL Y FAMILIA - DML I - HUANCAVELICA'),(254,'SEDE ACOBAMBA 2 DE MAYO - CORPORATIVA - HUANCAVELICA'),(255,'SEDE - ALMACÉN DE ELEMENTOS DE PRUEBA DEL DELITO - HUANCAVELICA'),(256,'SEDE - ARCHIVO DESCONCENTRADO - CENTRAL - HUANCAVELICA'),(257,'SEDE ALMACEN - HUANCAVELICA'),(258,'SEDE CENTRAL - HUANCAVELICA'),(259,'SEDE ANTICORRUPCION - ARCHIVO - HUANCAVELICA'),(260,'SEDE DE LAS FISCALIAS CORPORATIVAS DE AMBO - HUANUCO'),(261,'SEDE DE LA DML-AUCAYACU - HUANUCO'),(262,'SEDE DE LAS FISCALIAS DE FAMILIA Y DML, DE LEONCIO PRADO - HUANUCO'),(263,'CENTRAL DE NOTIFICACIONES DE DOS DE MAYO - HUANUCO'),(264,'SEDE DE LA DML-HUACAYBAMBA - HUANUCO'),(265,'SEDE DE LAS FISCALIAS CORPORATIVAS DE HUACAYBAMBA - HUANUCO'),(266,'SEDE DE LA DML-AMBO - HUANUCO'),(267,'SEDE DE LA DML-HUAMALIES - HUANUCO'),(268,'SEDE DE LAS FISCALIAS CORPORATIVAS DE PACHITEA - HUANUCO'),(269,'SEDE DE LAS FISCALIAS CORPORATIVAS DE LEONCIO PRADO - HUANUCO'),(270,'OFICINA DESCONCENTRADA DE CONTROL INTERNO - HUANUCO'),(271,'SEDE DE LA DML-LAURICOCHA - HUANUCO'),(272,'MORGUE CENTRAL DE HUÁNUCO - HUANUCO'),(273,'SEDE DML-YAROWILCA - HUANUCO'),(274,'SEDE DE LA FISCALIA PROVINCIAL CIVIL Y FAMILIA DE PACHITEA - HUANUCO'),(275,'SEDE DE LA FISCALIA PROVINCIAL PENAL DE AMARILIS - HUANUCO'),(276,'SEDE BARRANCA Y DML BARRANCA - HUAURA'),(277,'MINISTERIO PUBLICO - SEDE CENTRAL Y DML HUAURA - HUAURA'),(278,'SEDE 2 - HUARAL - HUAURA'),(279,'DMLCAJATAMBO - HUAURA'),(280,'DML OYON - HUAURA'),(281,'SEDE CAJATAMBO - HUAURA'),(282,'SEDE OYON - HUAURA'),(283,'SEDE 1 HUARAL Y DML HUARAL - HUAURA'),(284,'SEDE PAUAR DEL SARA SARA - ICA'),(285,'SEDE PARINACOCHAS - ICA'),(286,'SEDE PARCONA - ICA'),(287,'SEDE 2 - ICA'),(288,'SEDE CHINCHA DML - ICA'),(289,'SEDE ALMACEN - ICA'),(290,'SEDE CHINCHA ARCHIVO - ICA'),(291,'SEDE 1 - ICA'),(292,'SEDE CHINCHA 3 - ICA'),(293,'SEDE DML - ICA'),(294,'SEDE FISCALIAS PENALES - ICA'),(295,'SALA DE INVESTIGACION PENAL - ICA'),(296,'SEDE CHINCHA MORGUE - ICA'),(297,'SEDE PISCO PROVINCIALES - ICA'),(298,'SEDE PISCO ALMACEN PRUEBAS - ICA'),(299,'SEDE PARCONA DML - ICA'),(300,'SEDE PISCO SUPERIORES - ICA'),(301,'SEDE CHINCHA 2 - ICA'),(302,'SEDE PISCO DML - ICA'),(303,'SEDE PALPA DML - ICA'),(304,'SEDE PALPA - ICA'),(305,'MORGUE DE PALPA - ICA'),(306,'SEDE NASCA - ICA'),(307,'SEDE NASCA DML - ICA'),(308,'SEDE CHINCHA SUPERIORES - ICA'),(309,'SEDE HUAYTARA - ICA'),(310,'SEDE VISTA ALEGRE - ICA'),(311,'SEDE PUQUIO - ICA'),(312,'SEDE FISCAL DE TAYACAJA - JUNIN'),(313,'SEDE FISCALIA ANTICORRUPCION - JUNIN'),(314,'SEDE CALLE REAL - JUNIN'),(315,'SEDE MEDICINA LEGAL - JUNIN'),(316,'SEDE FISCAL STO. DOMINGO DE ACOBAMBA - JUNIN'),(317,'SEDE FISCAL DE SURCUBAMBA - JUNIN'),(318,'SEDE FISCAL DE JAUJA - JUNIN'),(319,'SEDE SAN CARLOS - JUNIN'),(320,'MEDICINA LEGAL DE CHANCHAMAYO - JUNIN'),(321,'SEDE FISCAL DE TARMA - JUNIN'),(322,'MORGUE DE SATIPO - JUNIN'),(323,'SEDE FISCAL DE JUNIN - JUNIN'),(324,'MEDICINA LEGAL DE CONCEPCION - JUNIN'),(325,'MEDICINA LEGAL DE TAYACAJA - JUNIN'),(326,'DIVISION MEDICINA LEGAL LA OROYA - JUNIN'),(327,'SEDE FISCAL DE CHANCHAMAYO - JUNIN'),(328,'SEDE FISCAL DE LA OROYA - JUNIN'),(329,'FISCALIA PENAL Y CIVIL LA MERCED CHANCHAMAYO - JUNIN'),(330,'SEDE CENTRAL DF JUNIN - JUNIN'),(331,'SEDE MEDICINA LEGAL - JUNIN'),(332,'MORGUE HUANCAYO - JUNIN'),(333,'ALMACEN Y ARCHIVO CENTRAL - JUNIN'),(334,'FISCALIAS ESPECIALIZADAS DE CHANCHAMAYO - JUNIN'),(335,'SEDE FISCAL DE CHUPACA - JUNIN'),(336,'SEDE FISCAL DE CONCEPCION - JUNIN'),(337,'MEDICINA LEGAL DE OXAPAMPA - JUNIN'),(338,'MEDICINA LEGAL DE SATIPO - JUNIN'),(339,'SEDE FISCAL DE OXAPAMPA - JUNIN'),(340,'SEDE FISCAL DE PICHANAQUI - JUNIN'),(341,'SEDE FISCAL DE PUERTO BERMUDEZ - JUNIN'),(342,'SEDE FISCAL DE SATIPO - JUNIN'),(343,'SEDE FISCAL DE TARMA - JUNIN'),(344,'SEDE DE PACASMAYO - LA LIBERTAD'),(345,'SEDE DE JULCÁN - LA LIBERTAD'),(346,'SEDE TRUJILLO 4 - FISC. ESP. - LA LIBERTAD'),(347,'SEDE HUAMACHUCO 2 - MORGUE - LA LIBERTAD'),(348,'SEDE ASCOPE1 - FISCALIA - LA LIBERTAD'),(349,'SEDE TRUJILLO 5 - MÓDULO DE ATENCIÓN AL ADOLESCENTE - LA LIBERTAD'),(350,'SEDE TRUJILLO 1 - SAN LUIS - LA LIBERTAD'),(351,'SEDE ARCHIVO CENTRAL - LA LIBERTAD'),(352,'SEDE DE TAYABAMBA - LA LIBERTAD'),(353,'SEDE DE VIRU - LA LIBERTAD'),(354,'SEDE CHEPEN - LA LIBERTAD'),(355,'SEDE OTUZCO 2 - DML - LA LIBERTAD'),(356,'SEDE SANTIAGO DE CHUCO 2 - DML - LA LIBERTAD'),(357,'SEDE TRUJILLO 2 - DML - LA LIBERTAD'),(358,'SEDE ASCOPE2 - DML - LA LIBERTAD'),(359,'SEDE TRUJILLO 3 - ADMINISTRACION - LA LIBERTAD'),(360,'SEDE CASCAS1 - FISCALIA - LA LIBERTAD'),(361,'SEDE CASCAS 2 - DML - LA LIBERTAD'),(362,'SEDE LA ESPERANZA - LA LIBERTAD'),(363,'SEDE CENTRAL - LA LIBERTAD'),(364,'SEDE OTUZCO 1 - FISCALIA - LA LIBERTAD'),(365,'SEDE DE HUAMACHUCO - LA LIBERTAD'),(366,'SEDE PACASMAYO 2 - MORGUE - LA LIBERTAD'),(367,'FISCALIA DE PAIJAN - LA LIBERTAD'),(368,'SEDE TRUJILLO 6- MÓDULO DE ATENCIÓN AL ADOLESCENTE - LA LIBERTAD'),(369,'SEDE SANTIAGO DE CHUCO 1 - FISCALIA - LA LIBERTAD'),(370,'SEDE ALMACEN DE BIENES INCAUTADOS - LA LIBERTAD'),(371,'LOCAL ARCHIVO DOCUMENTARIO - LAMBAYEQUE'),(372,'SEDE LA VICTORIA - LAMBAYEQUE'),(373,'SEDE LAMBAYEQUE - LAMBAYEQUE'),(374,'SEDE SAN IGNACIO - LAMBAYEQUE'),(375,'SEDE CENTRAL - LAMBAYEQUE'),(376,'DML-III LAMBAYEQUE (MORGUE Y LABORATORIOS) - LAMBAYEQUE'),(377,'DML. CAYALTI - LAMBAYEQUE'),(378,'SEDE CUTERVO - LAMBAYEQUE'),(379,'LOCAL ALMACEN DE ELEMENTOS DE PRUEBAS DEL DELITO - LAMBAYEQUE'),(380,'ARCHIVO CENTRAL CHICLAYO - LAMBAYEQUE'),(381,'SEDE JAEN - LAMBAYEQUE'),(382,'SEDE OLMOS - LAMBAYEQUE'),(383,'SEDE MOTUPE - LAMBAYEQUE'),(384,'SEDE FERREÑAFE - LAMBAYEQUE'),(385,'SEDE JOSE LEONARDO ORTIZ - LAMBAYEQUE'),(386,'SEDE OYOTUN - LAMBAYEQUE'),(387,'SEDE CAYALTI - LAMBAYEQUE'),(388,'SEDE LAMPA - LIMA'),(389,'SEDE LIMA - PRINCIPAL - LIMA'),(390,'ALMACEN DE BIENES INCAUTADOS - LIMA'),(391,'SEDE EX PROGRESO - LIMA'),(392,'FISCALIAS ESPECIALIZADAS CONTRA EL CRIMEN ORGANIZADO - LIMA'),(393,'SEDE AZANGARO - LIMA'),(394,'SEDE WIESE - LIMA'),(395,'SEDE CARABAYA - LIMA'),(396,'FISCALÍA DISTRITAL DE SAN ISIDRO - LIMA'),(397,'UNIDAD DISTRITAL DE PROTECCION Y ASISTENCIA - LIMA'),(398,'SEDE VILLA MARIA DEL TRIUNFO - FISCALÍAS PENALES - LIMA SUR'),(399,'SEDE LURÍN - DIVISIÓN MÉDICO LEGAL - LIMA SUR'),(400,'SEDE SAN JUAN DE MIRAFLORES - MODULO DE JUSTICIA - LIMA SUR'),(401,'SEDE SAN JUAN DE MIRAFLORES - AV. SAN JUAN - LIMA SUR'),(402,'PLAYA DE ESTACIONAMIENTO VEHICULAR - LIMA SUR'),(403,'SEDE SAN JUAN DE MIRAFLORES - AV. CANEVARO - LIMA SUR'),(404,'SEDE VILLA EL SALVADOR - DIVISIÓN MEDICO LEGAL - LIMA SUR'),(405,'SEDE VILLA EL SALVADOR - LIMA SUR'),(406,'SEDE CENTRAL LIMA SUR - LIMA SUR'),(407,'SEDE LURIN - VILLA ALEJANDRO - LIMA SUR'),(408,'SEDE CARABAYLLO DEL DISTRITO FISCAL DE LIMA NORTE - LIMA-NORTE'),(409,'SEDE CARABAYLLO DEL DISTRITO FISCAL DE LIMA NORTE - LIMA-NORTE'),(410,'DISTRITO FISCAL LIMA NORTE - LIMA-NORTE'),(411,'SEDE OLIVOS DEL DISTRITO FISCAL DE LINA NORTE - LIMA-NORTE'),(412,'SEDE OLIVOS DEL DISTRITO FISCAL DE LINA NORTE - LIMA-NORTE'),(413,'SEDE CANTA DEL DISTRITO FISCAL DE LIMA NORTE - LIMA-NORTE'),(414,'SEDE CONDEVILLA - DISTRITO FISCAL LIMA NORTE - LIMA-NORTE'),(415,'SEDE CONDEVILLA DEL DISTRITO FISCAL DE LIMA NORTE - LIMA-NORTE'),(416,'SEDE PUENTE PIEDRA DEL DISTRITO FISCAL DE LIMA NORTE - LIMA-NORTE'),(417,'SEDE ANTICORRUPCIÓN DEL DISTRITO FISCAL DE LIMA NORTE - LIMA-NORTE'),(418,'FISCALIA PROVINCIAL PENAL CORPORATIVA DEL NAUTA - LORETO'),(419,'FISCALIA ESPEPECIALIZADA EN MATERIA AMBIENTAL DEL NAUTA - LORETO'),(420,'FISCALIA PROVINCIAL CIVIL Y FAMILIA DEL NAUTA - LORETO'),(421,'FISCALIA ESPECIALIZADA EN MATERIA AMBIENTAL - SEDE MAYNAS - LORETO'),(422,'FISCALIA ESPECIALIZADA EN MATERIA AMBIENTAL - SEDE IQUITOS - LORETO'),(423,'PRESIDENCIA DE LA JUNTA DE FISCALES SUPERIORES DE LORETO - LORETO'),(424,'PRIMERA FISCALIA SUPERIOR PENAL DE LORETO - LORETO'),(425,'SEGUNDA FISCALIA SUPERIOR PENAL DE LORETO - LORETO'),(426,'TERCERA FISCALIA SUPERIOR PENAL DE LORETO - LORETO'),(427,'CUARTA FISCALIA SUPERIOR PENAL DE LORETO - LORETO'),(428,'FISCALIA SUPERIOR CIVIL Y FAMILIA DE LORETO - LORETO'),(429,'OFICINA DESCONCENTRADA DE CONTROL INTERNO DE LORETO - LORETO'),(430,'FISCALIA ESPECIALIZADA EN TRATA DE PERSONAS - LORETO'),(431,'PRIMERA FISCALIA PENAL CORPORATIVA DE MAYNAS - LORETO'),(432,'SEGUNDA FISCALIA PENAL CORPORATIVA DE MAYNAS - LORETO'),(433,'TERCERA FISCALIA PENAL CORPORATIVA DE MAYNAS - LORETO'),(434,'QUINTA FISCALIA PENAL CORPORATIVA DE MAYNAS - LORETO'),(435,'PRIMERA FISCALIA PROVINCIAL CIVIL Y FAMILIA DE MAYNAS - LORETO'),(436,'SEGUNDA FISCALIA PROVINCIAL CIVIL Y FAMILIA DE MAYNAS - LORETO'),(437,'TERCERA FISCALIA PROVINCIAL CIVIL Y FAMILIA DE MAYNAS - LORETO'),(438,'CUARTA FISCALIA PROVINCIAL CIVIL Y FAMILIA DE MAYNAS - LORETO'),(439,'DIVISIÓN MEDICO LEGAL II DE LORETO - LORETO'),(440,'UDAVIT - MAYNAS - LORETO'),(441,'FISCALIA PROVINCIAL PENAL CORPORATIVA - LORETO'),(442,'DIVISIÓN MEDICO LEGAL - LORETO'),(443,'FISCALIA PROVINCIAL CIVIL Y FAMILIA - LORETO'),(444,'FISCALIA PROVINCIAL MIXTA DEL PUTUMAYO - EL ESTRECHO - LORETO'),(445,'FISCALIA PROVINCIAL PENAL DEL DATEM DEL MARAÑON - LORETO'),(446,'FISCALIA PROVINCIAL CIVIL Y FAMILIA DE DATEM DEL MARAÑON - LORETO'),(447,'FISCALIA PROVINCIAL PENAL CORPORATIVA - LORETO'),(448,'FISCALIA PROVINCIAL CIVIL Y FAMILIA - LORETO'),(449,'FISCALIA PROVINCIAL PENAL CORPORATIVA DE REQUENA - LORETO'),(450,'FISCALIA PROVINCIAL CIVIL Y FAMILIA DE REQUENA - LORETO'),(451,'DIVISIÓN MEDICO LEGAL DE REQUENA - LORETO'),(452,'OFICINA DE ADMINISTRACIÓN - TESORERIA - LORETO'),(453,'OFICINA DE ADMINISTRACIÓN - AREA DE RECURSOS HUMANOS - LORETO'),(454,'OFICINA DE ADMINISTRACIÓN - AREA DE TRANSPORTES - LORETO'),(455,'OFICINA DE ADMINISTRACIÓN - AREA DE INFORMATICA - LORETO'),(456,'VIGILANCIA - LORETO'),(457,'SEDE CENTRAL:PRESIDENCIA JUNTA DE FISCALES SUPERIORES - MADRE DE DIOS'),(458,'MADRE DE DIOS (Coordinador de las Fiscalías Provinciales Penales Corporativas) - MADRE DE DIOS'),(459,'ESPECIALIZADA EN VIOLENCIA CONTRA LA MUJER Y EL ENTORNO FAMILIAR - MADRE DE DIOS'),(460,'SEDE CENTRAL:OFICINA RENADESPPLE - MADRE DE DIOS'),(461,'SEDE CENTRAL:OFICINA DE ADM. AREA DE MESA DE PARTES - MADRE DE DIOS'),(462,'SEDE CENTRAL:OFICINA DE IMAGEN, AUDIO Y VIDEO - MADRE DE DIOS'),(463,'SEDE CENTRAL:AREA DE GESTION DE INDICADORES - MADRE DE DIOS'),(464,'SEDE CENTRAL:AREA DE REDES - MADRE DE DIOS'),(465,'SEDE CENTRAL:ÁREA DE POTENCIAL HUMANO - MADRE DE DIOS'),(466,'SEDE CENTRAL:CENTRAL NOTIFICACIONES MADRE DE DIOS - MADRE DE DIOS'),(467,'SEDE CENTRAL:CONDUCTORES - MADRE DE DIOS'),(468,'SEDE CENTRAL:AREA DE ARCHIVO CENTRAL – TAMBOPATA - MADRE DE DIOS'),(469,'SEDE JR. ICA/JR.PUNO: DIVISION MEDICO LEGAL II - MADRE DE DIOS'),(470,'SEDE URB.SAN PEDRO: DIVISION MEDICO LEGAL II - MADRE DE DIOS'),(471,'SEDE FISCALIA PROVINCIAL MIXTA DE SALVACION - MADRE DE DIOS'),(472,'SEDE FISCALIA PROVINCIAL PENAL CORPORATIVA DE HUEPETUHE - MADRE DE DIOS'),(473,'SEDE DIVISION MEDICO LEGAL I - HUEPETUHE-MANU - MADRE DE DIOS'),(474,'SEDE FISCALIA PROVINCIAL MIXTA DE MAZUKO - MADRE DE DIOS'),(475,'SEDE COINCRI - MADRE DE DIOS'),(476,'SEDE FISCALIA PROVINCIAL MIXTA DE IÑAPARI-TAHUAMANU - MADRE DE DIOS'),(477,'SEDE FISCALIA PROVINCIAL MIXTA DE IBERIA-TAHUAMANU - MADRE DE DIOS'),(478,'SEDE DIVISION MEDICO LEGAL I - IBERIA-TAHUMANU - MADRE DE DIOS'),(479,'Atención contactos - MADRE DE DIOS'),(480,'SEDE DESCENTRALIZADA DE ILO - MOQUEGUA'),(481,'SEDE CERRILLOS - MEDICINA LEGAL - MOQUEGUA'),(482,'SEDE - ALMACEN - MOQUEGUA'),(483,'SEDE DESCENTRALIZADA DE ICHUÑA - MOQUEGUA'),(484,'SEDE BALTA - ESPECIALIZADA EN CORRUPCIÓN DE FUNCIONARIOS - MOQUEGUA'),(485,'SEDE DESCENTRALIZADA OMATE - MOQUEGUA'),(486,'SEDE CENTRAL - MOQUEGUA'),(487,'SEDE VALLEJO - PASCO'),(488,'SEDE SALAVERRY - PASCO'),(489,'SEDE CARRIÓN - PASCO'),(490,'SEDE COMISARIA HUARIACA - PASCO'),(491,'SEDE DAC - PASCO'),(492,'SEDE HUAYLLAY - PASCO'),(493,'SEDE SENATI - PASCO'),(494,'SEDE ARENALES - PASCO'),(495,'SEDE PAUCARTAMBO - PASCO'),(496,'SEDE RICARDO PALMA 312 - PASCO'),(497,'SEDE RICARDO PALMA 310 - PASCO'),(498,'SEDE RICARDO PALMA PROPIO - PASCO'),(499,'SEDE SAN MARTÍN - PASCO'),(500,'SEDE MARIÁTEGUI - PASCO'),(501,'SEDE CENTRAL - PASCO'),(502,'SEDE LOCAL COMUNAL HUARIACA - PASCO'),(503,'SEDE BCP - PASCO'),(504,'SEDE SANTA ANA - PASCO'),(505,'SEDE FISCALÍA PENAL CORPORATIVA DE CASTILLA - PIURA'),(506,'SEDE DE LA FISCALÍA CORPORATIVA DE SECHURA - PIURA'),(507,'SEDE DE LA FISCALÍA PENAL DE PAITA - PIURA'),(508,'SEDE DE LA FISCALÍA PENAL DE TAMBOGRANDE - PIURA'),(509,'SEDE DE LA FISCALÍAS PENALES CORPORATIVAS DE CATACAOS - PIURA'),(510,'SEDE DE LA ODCI Y FISCALÍA DE FAMILIA CASTILLA - PIURA'),(511,'SEDE DE LA DML DE HUANCABAMBA - PIURA'),(512,'SEDE DE LA DML -PAITA - PIURA'),(513,'SEDE ALMACÉN CENTRAL Y BIENES INCAUTADOS - PIURA'),(514,'SEDE DML - PIURA - PIURA'),(515,'SEDE DE LA FISCALÍAS PENALES DE MORROPÓN - CHULUCANAS - PIURA'),(516,'SEDE DE LA FISCALÍA MIXTA DE HUARMACA - PIURA'),(517,'SEDE DE LA FISCALÍA MIXTA DE HUANCABAMBA - PIURA'),(518,'SEDE DE LA DML DE MORROPÓN - CHULUCANAS - PIURA'),(519,'SEDE CENTRAL - PIURA - PIURA'),(520,'SEDE DE LA FISCALÍAS ESPECIALIZADAS DE PIURA - PIURA'),(521,'SEDE CALLAO - PIURA'),(522,'SEDE AYAVIRI - PUNO'),(523,'SEDE RAMIS - PUNO'),(524,'SEDE LAYKAKOTA - PUNO'),(525,'SEDE MOHO - PUNO'),(526,'SEDE SANDIA - PUNO'),(527,'SEDE ACORA - PUNO'),(528,'SEDE ALTASA - PUNO'),(529,'SEDE AZANGARO - PUNO'),(530,'SEDE HUANCANE - PUNO'),(531,'SEDE YUNGUYO - PUNO'),(532,'SEDE JULI - PUNO'),(533,'SEDE ZARUMILLA - PUNO'),(534,'SEDE DML - JULIACA - PUNO'),(535,'SEDE ILAVE - PUNO'),(536,'SEDE PUTINA - PUNO'),(537,'SEDE DESAGUADERO - PUNO'),(538,'SEDE TEODORO VALCARCEL - SEDE CENTRAL - PUNO'),(539,'SEDE LAMPA - PUNO'),(540,'SEDE ANANEA - PUNO'),(541,'SEDE CARABAYA - PUNO'),(542,'SEDE SORITOR - SAN MARTIN'),(543,'SEDE CAYNARACHI - SAN MARTIN'),(544,'SEDE PICOTA 2 - SAN MARTIN'),(545,'SEDE CAMPO FERIAL 2 - SAN MARTIN'),(546,'SEDE CAMPO FERIAL 1 - SAN MARTIN'),(547,'SEDE TABALOSOS - SAN MARTIN'),(548,'SEDE ALMACEN RIOJA - SAN MARTIN'),(549,'SEDE LETICIA - SAN MARTIN'),(550,'SEDE TRIUNFO - SAN MARTIN'),(551,'SEDE RAMIREZ HURTADO - SAN MARTIN'),(552,'SEDE MAYNAS 3 - SAN MARTIN'),(553,'SEDE GRAU - SAN MARTIN'),(554,'SEDE HUALLAGA 1 - SAN MARTIN'),(555,'SEDE ALMACEN CENTRAL - SAN MARTIN'),(556,'SEDE MORGUE - SAN MARTIN'),(557,'SEDE PICOTA 1 - SAN MARTIN'),(558,'SEDE CAMPANILLA - SAN MARTIN'),(559,'SEDE JUANJUI - SAN MARTIN'),(560,'SEDE LAMAS 3 - SAN MARTIN'),(561,'SEDE TOCACHE 1 - SAN MARTIN'),(562,'SEDE LAMAS 1 - SAN MARTIN'),(563,'SEDE LAMAS 2 - SAN MARTIN'),(564,'SEDE MAYNAS 2 - SAN MARTIN'),(565,'SEDE BELLAVISTA - SAN MARTIN'),(566,'SEDE MAYNAS 1 - SAN MARTIN'),(567,'SEDE BAJO BIAVO - SAN MARTIN'),(568,'SEDE YURIMAGUAS - SAN MARTIN'),(569,'SEDE PLAZA DE ARMAS - SAN MARTIN'),(570,'SEDE ROQUE - SAN MARTIN'),(571,'SEDE NUEVA CAJAMARCA - SAN MARTIN'),(572,'SEDE BANDA DE SHILCAYO - SAN MARTIN'),(573,'SEDE JEPELACIO - SAN MARTIN'),(574,'SEDE SAN JOSE DE SISA - SAN MARTIN'),(575,'SEDE 1° DE MAYO - SAN MARTIN'),(576,'SEDE HUALLAGA 2 - SAN MARTIN'),(577,'SEDE CENTRAL - SAN MARTIN'),(578,'SEDE TOCACHE 2 - SAN MARTIN'),(579,'SEDE UCHIZA - SAN MARTIN'),(580,'SEDE CENTRAL - SANTA'),(581,'FISCALÍA CIVIL Y FAMILIA - UDAVIT DE NVO CHIMBOTE - SANTA'),(582,'FISCALÍA PENAL CORP. - UDAVIT - HUARMEY - SANTA'),(583,'FISCALÍA CIVIL Y FAMILIA - DML - HUARMEY - SANTA'),(584,'FISCALÍAS SUPERIOR PENALES - SANTA'),(585,'DML I - CASMA - SANTA'),(586,'FISCALÍAS PENALES DE NUEVO CHIMBOTE - SANTA'),(587,'FISCALÍA MIXTA DEL SANTA - SANTA'),(588,'FISCALÍAS PENALES, CIVIL Y FAMILIA, UDAVIT - CASMA - SANTA'),(589,'FISCALÍA SUPERIOR CIVIL Y FAMILIA - SANTA'),(590,'DML - II - SEDE CHIMBOTE - SANTA'),(591,'FISCALÍAS DE BALTA - SANTA'),(592,'FISCALÍAS ESPECIALIZADAS - SANTA'),(593,'FISCALÍA PENAL, CIVIL Y FAMILIA, DML - PALLASCA - SANTA'),(594,'FISCALÍA PROVINCIAL MIXTA DE CONCHUCOS - SANTA'),(595,'DML - CORONGO - SANTA'),(596,'FISCALÍA PENAL, CIVIL Y FAMILIA - CORONGO - SANTA'),(597,'FISCALÍAS DE MEIGGS - SANTA'),(598,'DML - I - NUEVO CHIMBOTE - SANTA'),(599,'FISCALÍA MIXTA DE NEPEÑA - SANTA'),(600,'SEDE SULLANA 1 - SULLANA'),(601,'SEDE SULLANA 3 - SULLANA'),(602,'SEDE SULLANA 2 - SULLANA'),(603,'SEDE SULLANA 4 - SULLANA'),(604,'SEDE TALARA 2 - SULLANA'),(605,'SEDE TALARA 3 - SULLANA'),(606,'MANCORA - SULLANA'),(607,'SUYO - SULLANA'),(608,'AYABACA - SULLANA'),(609,'SEDE TALARA 1 - SULLANA'),(610,'SEDE ARCHIVO CENTRAL - TACNA'),(611,'SEDE MORGUE - TACNA'),(612,'SEDE CENTRAL - TACNA'),(613,'SEDE GREGORIO ALBARRACIN - TACNA'),(614,'SEDE FISCALIA CANDARAVE - TACNA'),(615,'DIVISION MEDICO LEGAL II NUEVO LOCAL - TACNA'),(616,'SEDE PRESIDENCIA - TACNA'),(617,'SEDE ALTO DE LA ALIANZA - TACNA'),(618,'SEDE FISCALIA TARATA - TACNA'),(619,'SEDE DML JORGE BASADRE - TACNA'),(620,'SEDE DML CANDARAVE - TACNA'),(621,'SEDE FISCALIA JORGE BASADRE - TACNA'),(622,'SEDE TRATA DE PERSONAS - TACNA'),(623,'SEDE DIVISION MEDICO LEGAL II TACNA - TACNA'),(624,'SEDE BOLOGNESI 1128 - TACNA'),(625,'SEDE CONTROL INTERNO - TACNA'),(626,'SEDE UNANUE 301 - TACNA'),(627,'SEDE ANTICORRUPCION - TACNA'),(628,'SEDE UNANUE 481 - TACNA'),(629,'SEDE DML TARATA - TACNA'),(630,'SEDE ZELA 156 - TACNA'),(631,'SEDE ALMACEN DE BIENES INCAUTADOS - TACNA'),(632,'SEDE BOLOGNESI 1126 - TACNA'),(633,'SEDE BOLOGNESI 854 - TACNA'),(634,'SEDE DELEGACIÓN ADMINISTRATIVA Y FISCALÍAS ESPECIALIZADAS - TUMBES'),(635,'SEDE DIVISIÓN MÉDICO LEGAL - ZARUMILLA - TUMBES'),(636,'SEDE ARCHIVO DESCONCENTRADO ZARUMILLA - TUMBES'),(637,'SEDE ALMACEN CENTRAL DE MP- TUMBES - TUMBES'),(638,'SEDE DIVISIÓN MEDICO LEGAL DE TUMBES - TUMBES'),(639,'SEDE FISCALÍA PROVINCIAL MIXTA DE TUMBES - PUYANGO - TUMBES'),(640,'SEDE 2ª FPPCY, DML YARINACOCHA - UCAYALI'),(641,'SEDE FAMILIA YARINACOCHA - UCAYALI'),(642,'SEDE PRIMERA YARINACOCHA - UCAYALI'),(643,'SEDE ARCHIVO - UCAYALI'),(644,'SEDE 4TA Y 5TA FISCALIA PROVINCIAL PENAL - UCAYALI'),(645,'SEDE FEMA Y FETID - UCAYALI'),(646,'SEDE ATALAYA - UCAYALI'),(647,'SEDE PSICOLOGÍA - UCAYALI'),(648,'SEDE MORGUE - UCAYALI'),(649,'SEDE PENAL PUERTO INCA - UCAYALI'),(650,'SEDE BIENES INCAUTADOS, UDAYT, NOTIFICACIONES - UCAYALI'),(651,'SEDE ANTICORRUPCIÓN - UCAYALI'),(652,'SEDE DML ATALAYA - UCAYALI'),(653,'SEDE PURUS - UCAYALI'),(654,'SEDE DML PUERTO INCA - UCAYALI'),(655,'SEDE FAMILIA PUERTO INCA - UCAYALI'),(656,'SEDE AGUAYTÍA - UCAYALI'),(657,'SEDE VON HUMBOLDT - UCAYALI'),(658,'SEDE CAMPO VERDE - UCAYALI'),(659,'SEDE CENTRAL - UCAYALI'),(660,'SEDE CIUDAD DEL DEPORTE - ANTONIA MORENO - VENTANILLA'),(661,'SEDE CORPORATIVA - CERCADO DE VENTANILLA - VENTANILLA'),(662,'SEDE MI PERU - VENTANILLA'),(663,'SEDE SANTA ROSA Y ANCON - VENTANILLA'),(664,'FISCALÍAS ESPECIALIZADAS EN DELITOS DE CORRUPCIÓN DE FUNCIONARIOS'),(665,'SEDE FISCALIA ESPECIALIZADA EN DELITOS DE TRATA DE PERSONAS DEL CALLAO'),(666,'SEDE ANGARAES - FISCALIA COORPORATIVA - CIVIL Y FAMILIA - DML I'),(667,'SEDE CENTRAL (PRESIDENCIA, FISCALIAS SUPERIORES, F. PREVENCION Y F. TERRORISMO Y LH.)'),(668,'SEDE DE DE LAS FISCALIAS CORPORATIVAS DE HUÁNUCO (DE LA 1° A LA 6°)'),(669,'SEDE DE LAS FISCALIAS ESPECIALIZADAS EN: TID., PREVENCION DEL DELITO Y DML-MONZON'),(670,'SEDE DE LAS FISCALIAS CORPORATIVAS Y DE FAMILIA DE AUCAYACU'),(671,'SEDE DE LAS FISCALIAS CORPORATIVAS Y DE FAMILIA DE DOS DE MAYO'),(672,'SEDE DE LA FISCALIA PROVINCIAL CIVIL Y FAMILIA DE HUACAYBAMBA'),(673,'SEDE DE LAS FISCALIAS CORPORATIVAS Y DE FAMILIA DE HUAMALIES'),(674,'FISCALIA ESPECIALIZADA EN T.I.D., MEDIO AMBIENTE Y CLÍNICA FORENSE'),(675,'SEDE DE LA F.P.M. DE MONZON Y F.P.E. MATERIA AMBIENTAL DE LEONCIO PRADO'),(676,'SEDE DE LA FISCALIA CORPORATIVA ESPECIALIZADA EN DELITOS DE CORRUPCIÓN DE FUNCIONARIOS'),(677,'SEDE DE LAS FISCALIAS CORPORATIVAS Y DE FAMILIA DE YAROWILCA'),(678,'SEDE DE LAS FISCALIAS CORPORATIVAS Y FAMILIA DE LAURICOCHA'),(679,'FISCALIA PROVINCIAL ESPECIALIZADA EN DELITOS DE CORRUPCION DE FUNCIONARIOS'),(680,'DML III LAMBAYEQUE (CONSULTORIOS Y OFICINAS ADMINISTRATIVAS) - FISCALIAS PROVINCIALES CIVILES'),(681,'ARCHIVO Y ALMACEN DE ELEMENTOS DE PRUEBAS DEL DELITO - LAMBAYEQUE'),(682,'LOCAL ALMACEN DE BIENES PATRIMONIALES DEL D.F.LAMBAYEQUE'),(683,'FISCALIAS PROVINCIALES ESPECIALIZADAS EN TRATA DE PERSONAS JESUS MARIA'),(684,'FISCALIAS PROVINCIALES PENALES DE TURNO PERMANENTE DE MIRAFLORES'),(685,'SEDE VILLA MARÍA DEL TRIUNFO - FISCALÍA PROVINCIAL DE PREVENCIÓN DEL DELITO'),(686,'FISCALIA PROVINCIAL CORPORATIVA ESPECIALIZADA EN DELITOS DE CORRUPCIÓN DE FUNCIONARIOS DEL NAUTA.'),(687,'FISCALIA PROVINCIAL ESPECIALIZADA EN TRAFICO ILICITO DE DROGAS DE LORETO'),(688,'FISCALIA SUPERIOR ESPECIALIZADA EN DELITOS DE CORRUPCIÓN DE FUNCIONARIOS DE LORETO'),(689,'FISCALIA PROVINCIAL ESPECIALIZADA EN DELITOS DE CORRUPCIÓN DE FUNCIONARIOS DE LORETO'),(690,'OFICINA DE ADMINISTRACIÓN - AREA DE ARCHIVO Y BIENES INCAUTADOS'),(691,'OFICINA DE ADMINISTRACIÓN - AREA DE GESTIÓN DE INDICADORES'),(692,'SEDE CENTRAL:FISCALÍA SUPERIOR MIXTA CIVIL Y FAMILIA DE MADRE DE DIOS'),(693,'SEDE CENTRAL:OFICINA DESCONCENTRADA DE CONTROL INTERNO'),(694,'SEDE CENTRAL:FISCALÍA SUPERIOR PENAL DE APELACIONES DE'),(695,'SEDE CENTRAL: FISCALIA PROVINCIAL COORDINADORA DE LAS FISCALÍAS PROVINCIALES PENALES CORPORATIVAS DE TAMBOPATA Y LAVADO DE ACTIVOS'),(696,'SEDE CENTRAL:PRIMERA FISCALIA PROVINCIAL PENAL CORPORATIVA DE TAMBOPATA'),(697,'SEDE CENTRAL:SEGUNDA FISCALÍA PROVINCIAL PENAL CORPORATIVA DE TAMBOPATA'),(698,'SEDE CENTRAL:FISCALIA PROVINCIAL ESPECIALIZADA EN DELITO DE TRATA DE PERSONAS'),(699,'SEDE CENTRAL:FISCALIA PROVINCIAL ESPECIALIZADA EN CRIMINALIDAD ORGANIZADA'),(700,'SEDE CENTRAL: FISCALIA PROVINCIAL COORDINADORA DE LAS PROVINCIAL TRANSITORIA ESPECIALIZADA EN VIOLENCIA CONTRA LA MUJER Y LOS INTEGRANTES DEL GRUPO FAMILIAR'),(701,'SEDE CENTRAL:FISCALIA PROVINCIAL TRANSITORIA'),(702,'SEDE CENTRAL:OFICINA ATENCION AL USUARIO (MESA PARTES UNICA)'),(703,'SEDE CENTRAL:FISCALIA PROVINCIAL CIVIL Y FAMILIA DE TAMBOPATA'),(704,'SEDE CENTRAL: FISCALÍA PROVINCIAL ESPECIALIZADA EN TRAFICO ILICITO DE DROGAS'),(705,'SEDE CENTRAL:FISCALÍA PROVINCIAL DE PREVENCIÓN DEL DELITO'),(706,'SEDE CENTRAL:FISCAL PROVINCIAL COORDINADOR DE LA FISCALÍA COORPORATIVA ESPECIALIZADA MATERIA AMBIENTAL'),(707,'SEDE CENTRAL:FISCALIA PROVINCIAL COORPORATIVA ESPECIALIZADA MATERIA AMBIENTAL'),(708,'SEDE CENTRAL:UNIDAD DISTRITAL DE ASISTENCIA A VICTIMAS Y TESTIGOS'),(709,'SEDE CENTRAL:OFICINA DE ADMINISTRACIÓN DEL DISTRITO FISCAL DE MADRE DE DIOS'),(710,'SEDE CENTRAL:ALMACEN DE ELEMENTOS DE PRUEBAS DE DELITOS'),(711,'SEDE JR. PIURA 6ta Cdra: LABORATORIO DESCONCENTRADO DE PERITAJES'),(712,'SEDE JR. PIURA 4ta Cdra: FISCALÍA PROVINCIAL ESPECIALIZADA EN MATERIA AMBIENTAL (5° DESPACHO)'),(713,'SEDE JR. PIURA 4ta Cdra: FISCALÍA PROVINCIAL ESPECIALIZADA EN CORRUCIÓN DE FUNCIONARIOS'),(714,'SEDE FISCALIA PROVINCIAL CIVIL, FAMILIA Y PREVENCIÓN DEL DELITO DE HUEPETUHE'),(715,'SEDE UNIDAD DE ASISTENCIA INMEDIATA A VICTIMAS Y TESTIGOS DE HUEPETUHE'),(716,'FISCALÍA ESPECIALIZADA EN DELITOS DE CORRUPCIÓN DE FUNCIONARIOS (SUPERIOR Y PROV. CORPORATIVA)'),(717,'SEDE FISCALIA ESPECIALIZADA EN DELITOS DE TRATA DE PERSONAS , FISCALIA ESPECIALIZADA EN DELITOS DE FUNCIONARIOS, 2DA.'),(718,'SEDE FISCALÍA CORPORATIVA Y DIVISIÓN MEDICA LEGAL DE ZORRITOS'),(719,'SEDE FISCALÍA PROVINCIAL PENAL CORPORATIVA Y FISCALÍA PROVINCIAL MIXTA DE ZARUMILLA'),(720,'SEDE OFICINA DESCONCENTRADA DE CONTROL INTERNO TUMBES - FISCALIA ESPECIALIZADA DE CRIMEN ORGANIZADO DE TUMBES');
+/*!40000 ALTER TABLE `nombre_fiscalias` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -472,6 +800,30 @@ INSERT INTO `personas` VALUES (1,'Cesar','Ramos'),(2,'Vanessa','Medrano Pulido')
 UNLOCK TABLES;
 
 --
+-- Table structure for table `presuntas_causas`
+--
+
+DROP TABLE IF EXISTS `presuntas_causas`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `presuntas_causas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `presuntas_causas`
+--
+
+LOCK TABLES `presuntas_causas` WRITE;
+/*!40000 ALTER TABLE `presuntas_causas` DISABLE KEYS */;
+INSERT INTO `presuntas_causas` VALUES (1,'VENGANZA'),(2,'CELOS'),(3,'DELINCUENCIA COMÚN'),(4,'EN ESTADO DE EBRIEDAD'),(5,'ABUSO SEXUAL'),(6,'VIOLENCIA DOMESTICA'),(7,'DELINCUENCIA COMÚN'),(8,'DELINCUENCIA ORGANIZADA');
+/*!40000 ALTER TABLE `presuntas_causas` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `provincias`
 --
 
@@ -523,6 +875,30 @@ INSERT INTO `region_policiales` VALUES (1,'REG LIM'),(2,'REG CALL'),(3,'REG TUM'
 UNLOCK TABLES;
 
 --
+-- Table structure for table `situacion_denuncias`
+--
+
+DROP TABLE IF EXISTS `situacion_denuncias`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `situacion_denuncias` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `situacion_denuncias`
+--
+
+LOCK TABLES `situacion_denuncias` WRITE;
+/*!40000 ALTER TABLE `situacion_denuncias` DISABLE KEYS */;
+INSERT INTO `situacion_denuncias` VALUES (1,'PENDIENTE'),(2,'RESUELTA');
+/*!40000 ALTER TABLE `situacion_denuncias` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `situacion_hechos`
 --
 
@@ -544,6 +920,30 @@ LOCK TABLES `situacion_hechos` WRITE;
 /*!40000 ALTER TABLE `situacion_hechos` DISABLE KEYS */;
 INSERT INTO `situacion_hechos` VALUES (1,'RESUELTAS'),(2,'PENDIENTES');
 /*!40000 ALTER TABLE `situacion_hechos` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `sub_modalidades`
+--
+
+DROP TABLE IF EXISTS `sub_modalidades`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `sub_modalidades` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `sub_modalidades`
+--
+
+LOCK TABLES `sub_modalidades` WRITE;
+/*!40000 ALTER TABLE `sub_modalidades` DISABLE KEYS */;
+INSERT INTO `sub_modalidades` VALUES (1,'HURTO FRUSTRADO'),(2,'HURTO AGRAVADO DURANTE LA NOCHE'),(3,'HURTO AGRAVADO EN CASA HABITADA'),(4,'HURTO DE VEHICULO'),(5,'DISPOSITIVOS PARA ASISTIR A LA DECODIFICACION DE SEÑALES DE SATELITE PORTADORAS DE PROGRAMAS'),(6,'VEHICULO ROBADO'),(7,'HURTO FRUSTRADO'),(8,'HURTO AGRAVADO DURANTE LA NOCHE'),(9,'HURTO AGRAVADO EN CASA HABITADA'),(10,'HURTO DE VEHICULO'),(11,'DISPOSITIVOS PARA ASISTIR A LA DECODIFICACION DE SEÑALES DE SATELITE PORTADORAS DE PROGRAMAS'),(12,'VEHICULO ROBADO'),(13,'HURTO FRUSTRADO'),(14,'HURTO AGRAVADO DURANTE LA NOCHE'),(15,'HURTO AGRAVADO EN CASA HABITADA'),(16,'HURTO DE VEHICULO'),(17,'DISPOSITIVOS PARA ASISTIR A LA DECODIFICACION DE SEÑALES DE SATELITE PORTADORAS DE PROGRAMAS'),(18,'VEHICULO ROBADO'),(19,'HURTO FRUSTRADO'),(20,'HURTO AGRAVADO DURANTE LA NOCHE');
+/*!40000 ALTER TABLE `sub_modalidades` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -643,6 +1043,30 @@ INSERT INTO `tipo_unidad_especializadas` VALUES (1,'Dirección General DIRGEN'),
 UNLOCK TABLES;
 
 --
+-- Table structure for table `tipo_vias`
+--
+
+DROP TABLE IF EXISTS `tipo_vias`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tipo_vias` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tipo_vias`
+--
+
+LOCK TABLES `tipo_vias` WRITE;
+/*!40000 ALTER TABLE `tipo_vias` DISABLE KEYS */;
+INSERT INTO `tipo_vias` VALUES (1,'AVENIDA'),(2,'CALLE'),(3,'AA.HH'),(4,'ANEXO'),(5,'CARRETERA'),(6,'CASERIO'),(7,'CENTRO POBLADO'),(8,'COMUNIDAD'),(9,'JIRON'),(10,'MALECÓN'),(11,'OTROS'),(12,'PANAMERICANA'),(13,'PARQUE'),(14,'PASAJE'),(15,'UPIS'),(16,'URBANIZACIÓN');
+/*!40000 ALTER TABLE `tipo_vias` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `total_documentos_formulados`
 --
 
@@ -664,6 +1088,29 @@ LOCK TABLES `total_documentos_formulados` WRITE;
 /*!40000 ALTER TABLE `total_documentos_formulados` DISABLE KEYS */;
 INSERT INTO `total_documentos_formulados` VALUES (1,'ATESTADOS'),(2,'PARTES'),(3,'OFICIO DE TRANSCRIPCIÓN'),(4,'INFORME'),(5,'OTROS');
 /*!40000 ALTER TABLE `total_documentos_formulados` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ubigeos`
+--
+
+DROP TABLE IF EXISTS `ubigeos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ubigeos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ubigeos`
+--
+
+LOCK TABLES `ubigeos` WRITE;
+/*!40000 ALTER TABLE `ubigeos` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ubigeos` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -713,4 +1160,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-11-13 12:55:05
+-- Dump completed on 2020-11-17 19:23:06

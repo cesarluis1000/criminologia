@@ -1,31 +1,92 @@
+<br/>
 <fieldset>
-	<legend><?php echo __('Edit Denuncia'); ?></legend>
-	<?php echo $this->Form->create('Denuncia', array('class' => 'form-horizontal',
-		'inputDefaults'=>array('div' => array('class' => 'form-group'),'between' => '<div class="col-sm-6">','after' => '</div>','class'=>'form-control input-xs','error' => array('attributes' => array('wrap' => 'span', 'class' => 'help-inline'))))); ?>
-		<?php
-		echo $this->Form->input('id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('region_policial_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('macro_region_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('departamento_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('provincia_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('distrito_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('comisaria_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('tipo_dependencia_policial_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('tipo_comisaria_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('categoria_comisaria_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('tipo_unidad_especializada_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('situacion_hecho_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('tipo_tramite_hecho_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('total_resolucion',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('total_documentos_formulado_id',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('total_bandas_desarticuladas',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('total_detenidos_captura_bandas',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('total_organizacion_criminal',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('total_personas_desaparecidas',array('label'=>array('class'=>'control-label col-sm-2')));
-		echo $this->Form->input('total_personas_aparecidas',array('label'=>array('class'=>'control-label col-sm-2')));
-	?>
+	<br/>
+	<legend><?php echo __('MODULO II. CARACTERÍSTICAS DE LA DENUNCIA POLICIAL'); ?></legend>
+	
+	<?php
+
+echo $this->Form->create('Denuncia', array(
+    'class' => 'form-horizontal',
+    'inputDefaults' => array(
+        'div' => array(
+            'class' => 'form-group'
+        ),
+        'between' => '<div class="col-sm-6">',
+        'after' => '</div>',
+        'class' => 'form-control input-xs',
+        'error' => array(
+            'attributes' => array(
+                'wrap' => 'span',
+                'class' => 'help-inline'
+            )
+        )
+    )
+));
+?>
+		
+		<div class="row">
+          <div class="col-sm-6, col-md-5">          
+    		<h4>A. Id Denuncia</h4>    		
+    		<?php
+    		echo $this->Form->input('id_sidopl',array('label'=>array('class'=>'control-label col-sm-6')));
+    		echo $this->Form->input('fecha_registro_denuncia',array('label'=>array('class'=>'control-label col-sm-6'),'type' => 'text','placeholder'=>'YYYY-MM-DD HH:mm:ss'));
+    		echo $this->Form->input('modalidad_denuncia_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $modalidadDenuncias,'empty' => 'Seleccionar'));
+    		echo $this->Form->input('fuente_principal_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $fuentePrincipales,'empty' => 'Seleccionar'));
+    		echo $this->Form->input('otro',array('label'=>array('class'=>'control-label col-sm-6')));?>
+          
+          </div>
+          <div class="col-sm-6, col-md-5">          
+    		<h4>B. Localización De La Ocurrencia</h4>
+          <?php 
+		echo $this->Form->input('fecha_ocurrencia',array('label'=>array('class'=>'control-label col-sm-6'),'type' => 'text','placeholder'=>'YYYY-MM-DD HH:mm:ss'));
+		echo $this->Form->input('ubigeo_id',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('tipo_via_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipoVias,'empty' => 'Seleccionar'));
+		echo $this->Form->input('cuadra',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('direccion',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('numero',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('urbanizacion',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('latitud',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('longitud',array('label'=>array('class'=>'control-label col-sm-6')));?>
+		</div>
+          <div class="col-sm-6, col-md-5">          
+    		<h4>Ocurrencia</h4>
+		<?php 		
+		echo $this->Form->input('generico_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $genericos,'empty' => 'Seleccionar'));
+		echo $this->Form->input('especifico_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $especificos,'empty' => 'Seleccionar'));
+		echo $this->Form->input('modalidad_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $modalidades,'empty' => 'Seleccionar'));
+		echo $this->Form->input('sub_modalidad_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $subModalidades,'empty' => 'Seleccionar'));
+		echo $this->Form->input('detalle_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $subModalidades,'empty' => 'Seleccionar'));
+		?>		
+          </div>
+          <div class="col-sm-6, col-md-5">          
+    		<h4>C. Entorno Del Delito</h4>
+          <?php 
+          echo $this->Form->input('lugar_ocurrencia_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $lugarOcurrencias,'empty' => 'Seleccionar'));
+          echo $this->Form->input('forma_medio_utilizado_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $formaMedioUtilizados,'empty' => 'Seleccionar'));
+          echo $this->Form->input('presuntas_causa_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $presuntasCausas,'empty' => 'Seleccionar'));
+		echo $this->Form->input('estado_encontro_victima',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('estado_fisico_mental_victima',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('cometido_organizacion_criminal_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $cometidoOrganizacionCriminales,'empty' => 'Seleccionar'));
+		echo $this->Form->input('nro_victimas',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('nro_presuntos_victimarios',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('tramite_hecho',array('label'=>array('class'=>'control-label col-sm-6')));
+		echo $this->Form->input('documento_formulado',array('label'=>array('class'=>'control-label col-sm-6')));?>
+          </div>
+          <div class="col-sm-6, col-md-5">          
+    		<h4>D. Datos De La Fiscalia</h4>
+          <?php 
+          echo $this->Form->input('derivada_mp_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $derivadaMps,'empty' => 'Seleccionar'));
+          echo $this->Form->input('nombre_fiscalia_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $nombreFiscalias,'empty' => 'Seleccionar'));?>
+          </div>
+          <div class="col-sm-6, col-md-5">          
+    		<h4>E. Otros Datos</h4>
+          <?php 
+          echo $this->Form->input('situacion_denuncia_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $situacionDenuncias,'empty' => 'Seleccionar'));
+	       ?>
+		</div>
+	</div>
 	<div class="form-group">
-		<div class="col-sm-offset-2 col-sm-10">
+		<div class="col-sm-offset-10 col-sm-2">
 					<?php echo $this->Form->button('Guardar', array('type' => 'submit','class'=>'btn btn-success'));  ?>
 		</div>
 	</div>
