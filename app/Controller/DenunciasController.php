@@ -101,13 +101,11 @@ class DenunciasController extends AppController {
 	    $detalles = $this->Denuncia->Detalle->find('list');
 	    $lugarOcurrencias = $this->Denuncia->LugarOcurrencia->find('list');
 	    $formaMedioUtilizados = $this->Denuncia->FormaMedioUtilizado->find('list');
-	    $presuntasCausas = $this->Denuncia->PresuntasCausa->find('list');	    
-	    $cometidoOrganizacionCriminales = $this->Denuncia->CometidoOrganizacionCriminal->find('list');
-	    $derivadaMps = $this->Denuncia->DerivadaMp->find('list');
+	    $presuntasCausas = $this->Denuncia->PresuntasCausa->find('list');	     
 	    $nombreFiscalias = $this->Denuncia->NombreFiscalia->find('list');
 	    $situacionDenuncias = $this->Denuncia->SituacionDenuncia->find('list');
 	    $this->set(compact('denuncia','modulo','modalidadDenuncias', 'fuentePrincipales', 'tipoVias', 'especificos', 'genericos', 'modalidades', 'subModalidades', 
-	        'detalles', 'lugarOcurrencias', 'formaMedioUtilizados', 'presuntasCausas', 'cometidoOrganizacionCriminales', 'derivadaMps', 'nombreFiscalias', 'situacionDenuncias'));
+	        'detalles', 'lugarOcurrencias', 'formaMedioUtilizados', 'presuntasCausas', 'nombreFiscalias', 'situacionDenuncias'));
 	}
 
 /**

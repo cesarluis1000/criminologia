@@ -66,7 +66,7 @@ echo $this->Form->create('Denuncia', array(
           echo $this->Form->input('presuntas_causa_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $presuntasCausas,'empty' => 'Seleccionar'));
 		echo $this->Form->input('estado_encontro_victima',array('label'=>array('class'=>'control-label col-sm-6')));
 		echo $this->Form->input('estado_fisico_mental_victima',array('label'=>array('class'=>'control-label col-sm-6')));
-		echo $this->Form->input('cometido_organizacion_criminal_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $cometidoOrganizacionCriminales,'empty' => 'Seleccionar'));
+		echo $this->Form->input('cometido_organizacion_criminal',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $a_condicion,'empty' => 'Seleccionar'));
 		echo $this->Form->input('nro_victimas',array('label'=>array('class'=>'control-label col-sm-6')));
 		echo $this->Form->input('nro_presuntos_victimarios',array('label'=>array('class'=>'control-label col-sm-6')));
 		echo $this->Form->input('tramite_hecho',array('label'=>array('class'=>'control-label col-sm-6')));
@@ -75,7 +75,7 @@ echo $this->Form->create('Denuncia', array(
           <div class="col-sm-6, col-md-5">          
     		<h4>D. Datos De La Fiscalia</h4>
           <?php 
-          echo $this->Form->input('derivada_mp_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $derivadaMps,'empty' => 'Seleccionar'));
+          echo $this->Form->input('derivada_mp',array('label'=>array('text'=> 'Derivada al MP','class'=>'control-label col-sm-6'),'options'=> $a_condicion,'empty' => 'Seleccionar'));
           echo $this->Form->input('nombre_fiscalia_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $nombreFiscalias,'empty' => 'Seleccionar'));?>
           </div>
           <div class="col-sm-6, col-md-5">          

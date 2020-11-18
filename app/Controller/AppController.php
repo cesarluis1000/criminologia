@@ -187,8 +187,8 @@ class AppController extends Controller {
 	            'Reporte Comisaria' =>'Reporte Comisaria',
 	            'Reporte Mapa de Calor' =>'Reporte Mapa de Calor')
 	        );
-	    
-	    $this->set(compact('a_denuncias','a_simulador'));
+	    $a_condicion = array('SI'=>'SI','NO'=>'NO');
+	    $this->set(compact('a_denuncias','a_simulador','a_condicion'));
 	}
 	
 	public function options(){	    
