@@ -58,6 +58,7 @@ class AppController extends Controller {
 	public $a_estados;
 	
 	function beforeFilter(){
+	    $this->loadModel('Parametro');
 	    $this->response->header('Access-Control-Allow-Origin','*');
 	    $this->response->header('Access-Control-Allow-Credentials','true');
 	    $this->response->header('Access-Control-Allow-Methods', '*');
@@ -87,7 +88,7 @@ class AppController extends Controller {
 	private function __observatorio(){
 	    //Acciones que utilizarar el layout observatorio	    
 	    $this->acciones_ecommerce = array('denuncias');
-	    $this->controladores = array('denuncias');
+	    $this->controladores = array('denuncias','victimas','victimarios');
 	    
 	    if (in_array($this->action, $this->acciones_ecommerce)){
 	        $this->layout = 'observatorio';
@@ -108,6 +109,16 @@ class AppController extends Controller {
 	                'controller' => 'denuncias',
 	                'action' => 'edit',
 	                'alias' => 'Características de la denuncia policial'
+	            ),
+	            array(
+	                'controller' => 'denuncias',
+	                'action' => 'victima',
+	                'alias' => 'Características de la victima'
+	            ),
+	            array(
+	                'controller' => 'denuncias',
+	                'action' => 'victimario',
+	                'alias' => 'Características del presunto victimario'
 	            ),
 	    ));
 	        

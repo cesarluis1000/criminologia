@@ -35,6 +35,14 @@
                 									</tr>
             									<?php endforeach;?>
         									<?php endforeach;?>
+        									
+        										<tr>
+                									<td>           										
+                										<?php  echo $this->Html->link($this->Html->tag('span', '', array('class' => 'glyphicon glyphicon-list text-primary')).'&nbsp;'.__('Mapa criminologico'),
+                										    'https://observatorio.odcpnp.org/Reportes/mapaDelito',array('target'=>'_blank','escape'=>false,'class'=>'menu-level2') ); ?>
+                									</td>
+                								</tr>
+        									
         								</tbody>
         							</table>
         						</div>

@@ -33,7 +33,7 @@ CREATE TABLE `acos` (
   PRIMARY KEY (`id`),
   KEY `idx_acos_lft_rght` (`lft`,`rght`),
   KEY `idx_acos_alias` (`alias`)
-) ENGINE=InnoDB AUTO_INCREMENT=86 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=88 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,7 +42,7 @@ CREATE TABLE `acos` (
 
 LOCK TABLES `acos` WRITE;
 /*!40000 ALTER TABLE `acos` DISABLE KEYS */;
-INSERT INTO `acos` VALUES (1,NULL,NULL,NULL,'controllers',1,92),(8,1,NULL,NULL,'Groups',2,13),(9,8,NULL,NULL,'index',3,4),(10,8,NULL,NULL,'view',5,6),(11,8,NULL,NULL,'add',7,8),(12,8,NULL,NULL,'edit',9,10),(13,8,NULL,NULL,'delete',11,12),(20,1,NULL,NULL,'Pages',14,17),(21,20,NULL,NULL,'display',15,16),(22,1,NULL,NULL,'Parametros',18,29),(23,22,NULL,NULL,'index',19,20),(24,22,NULL,NULL,'view',21,22),(25,22,NULL,NULL,'add',23,24),(26,22,NULL,NULL,'edit',25,26),(27,22,NULL,NULL,'delete',27,28),(46,1,NULL,NULL,'Users',30,47),(47,46,NULL,NULL,'login',31,32),(48,46,NULL,NULL,'logout',33,34),(49,46,NULL,NULL,'index',35,36),(50,46,NULL,NULL,'view',37,38),(51,46,NULL,NULL,'add',39,40),(52,46,NULL,NULL,'edit',41,42),(53,46,NULL,NULL,'delete',43,44),(54,1,NULL,NULL,'AclExtras',48,49),(55,1,NULL,NULL,'DebugKit',50,57),(56,55,NULL,NULL,'ToolbarAccess',51,56),(57,56,NULL,NULL,'history_state',52,53),(58,56,NULL,NULL,'sql_explain',54,55),(61,46,NULL,NULL,'initDB',45,46),(62,1,NULL,NULL,'Permisos',58,71),(63,62,NULL,NULL,'roles',59,60),(64,62,NULL,NULL,'aplicaciones',61,62),(65,62,NULL,NULL,'add',63,64),(66,62,NULL,NULL,'acceso',65,66),(67,62,NULL,NULL,'edit',67,68),(68,62,NULL,NULL,'delete',69,70),(73,1,NULL,NULL,'Menus',72,81),(74,73,NULL,NULL,'index',73,74),(75,73,NULL,NULL,'add',75,76),(79,73,NULL,NULL,'delete',77,78),(80,73,NULL,NULL,'edit',79,80),(81,1,NULL,NULL,'Denuncias',82,91),(82,81,NULL,NULL,'index',83,84),(83,81,NULL,NULL,'add',85,86),(84,81,NULL,NULL,'edit',87,88),(85,81,NULL,NULL,'delete',89,90);
+INSERT INTO `acos` VALUES (1,NULL,NULL,NULL,'controllers',1,96),(8,1,NULL,NULL,'Groups',2,13),(9,8,NULL,NULL,'index',3,4),(10,8,NULL,NULL,'view',5,6),(11,8,NULL,NULL,'add',7,8),(12,8,NULL,NULL,'edit',9,10),(13,8,NULL,NULL,'delete',11,12),(20,1,NULL,NULL,'Pages',14,17),(21,20,NULL,NULL,'display',15,16),(22,1,NULL,NULL,'Parametros',18,29),(23,22,NULL,NULL,'index',19,20),(24,22,NULL,NULL,'view',21,22),(25,22,NULL,NULL,'add',23,24),(26,22,NULL,NULL,'edit',25,26),(27,22,NULL,NULL,'delete',27,28),(46,1,NULL,NULL,'Users',30,47),(47,46,NULL,NULL,'login',31,32),(48,46,NULL,NULL,'logout',33,34),(49,46,NULL,NULL,'index',35,36),(50,46,NULL,NULL,'view',37,38),(51,46,NULL,NULL,'add',39,40),(52,46,NULL,NULL,'edit',41,42),(53,46,NULL,NULL,'delete',43,44),(54,1,NULL,NULL,'AclExtras',48,49),(55,1,NULL,NULL,'DebugKit',50,57),(56,55,NULL,NULL,'ToolbarAccess',51,56),(57,56,NULL,NULL,'history_state',52,53),(58,56,NULL,NULL,'sql_explain',54,55),(61,46,NULL,NULL,'initDB',45,46),(62,1,NULL,NULL,'Permisos',58,71),(63,62,NULL,NULL,'roles',59,60),(64,62,NULL,NULL,'aplicaciones',61,62),(65,62,NULL,NULL,'add',63,64),(66,62,NULL,NULL,'acceso',65,66),(67,62,NULL,NULL,'edit',67,68),(68,62,NULL,NULL,'delete',69,70),(73,1,NULL,NULL,'Menus',72,81),(74,73,NULL,NULL,'index',73,74),(75,73,NULL,NULL,'add',75,76),(79,73,NULL,NULL,'delete',77,78),(80,73,NULL,NULL,'edit',79,80),(81,1,NULL,NULL,'Denuncias',82,95),(82,81,NULL,NULL,'index',83,84),(83,81,NULL,NULL,'add',85,86),(84,81,NULL,NULL,'edit',87,88),(85,81,NULL,NULL,'delete',89,90),(86,81,NULL,NULL,'victima',91,92),(87,81,NULL,NULL,'victimario',93,94);
 /*!40000 ALTER TABLE `acos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -129,7 +129,7 @@ CREATE TABLE `cake_sessions` (
 
 LOCK TABLES `cake_sessions` WRITE;
 /*!40000 ALTER TABLE `cake_sessions` DISABLE KEYS */;
-INSERT INTO `cake_sessions` VALUES ('5dgarapi9pe6kqh7inl4c5mpg4','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377014;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605377014),('5s6lmtvkm7pqt4aehg77vla2t3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605372296;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605372296),('8sfhjnde679v4ldj209s4eukg4','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377014;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605377014),('hmsruausj9a4vvspaam5qbnn06','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605297335;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605297335),('hq5e9m80kpr06eq8usg4loifs7','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605297335;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605297335),('kuae7cosg7rpa0j1r6oaho71k3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377021;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605377021),('m6060igtube1uabn0dsbpkeko3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605543175;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605543175),('pc7aqi54cojtn4ohkt7da6lb62','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377048;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605377049),('tqo3dvd3i3r381r5q1paplotmm','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605659966;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605659967);
+INSERT INTO `cake_sessions` VALUES ('5dgarapi9pe6kqh7inl4c5mpg4','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377014;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605377014),('5s6lmtvkm7pqt4aehg77vla2t3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605372296;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605372296),('8sfhjnde679v4ldj209s4eukg4','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377014;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605377014),('bqr5gl9dm9u8o3e3vk32ecgm07','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605852010;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605852010),('hmsruausj9a4vvspaam5qbnn06','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605297335;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605297335),('hq5e9m80kpr06eq8usg4loifs7','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605297335;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605297335),('kuae7cosg7rpa0j1r6oaho71k3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377021;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605377021),('m6060igtube1uabn0dsbpkeko3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605543175;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605543175),('pc7aqi54cojtn4ohkt7da6lb62','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377048;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605377049);
 /*!40000 ALTER TABLE `cake_sessions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -155,30 +155,6 @@ LOCK TABLES `categoria_comisarias` WRITE;
 /*!40000 ALTER TABLE `categoria_comisarias` DISABLE KEYS */;
 INSERT INTO `categoria_comisarias` VALUES (1,'SECTORIAL'),(2,'NO SECTORIAL');
 /*!40000 ALTER TABLE `categoria_comisarias` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `cometido_organizacion_criminales`
---
-
-DROP TABLE IF EXISTS `cometido_organizacion_criminales`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `cometido_organizacion_criminales` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `nombre` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `cometido_organizacion_criminales`
---
-
-LOCK TABLES `cometido_organizacion_criminales` WRITE;
-/*!40000 ALTER TABLE `cometido_organizacion_criminales` DISABLE KEYS */;
-INSERT INTO `cometido_organizacion_criminales` VALUES (1,'SI'),(2,'NO');
-/*!40000 ALTER TABLE `cometido_organizacion_criminales` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -257,12 +233,13 @@ CREATE TABLE `denuncias` (
   `presuntas_causa_id` int(11) NOT NULL,
   `estado_encontro_victima` varchar(250) DEFAULT NULL,
   `estado_fisico_mental_victima` varchar(250) DEFAULT NULL,
-  `cometido_organizacion_criminal_id` int(11) NOT NULL,
+  `cometido_organizacion_criminal` varchar(45) DEFAULT NULL,
   `nro_victimas` int(11) DEFAULT NULL,
   `nro_presuntos_victimarios` int(11) DEFAULT NULL,
   `tramite_hecho` varchar(250) DEFAULT NULL,
   `documento_formulado` varchar(250) DEFAULT NULL,
   `derivada_mp_id` int(11) NOT NULL,
+  `derivada_mp` varchar(45) DEFAULT NULL,
   `nombre_fiscalia_id` int(11) NOT NULL,
   `situacion_denuncia_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
@@ -290,16 +267,12 @@ CREATE TABLE `denuncias` (
   KEY `fk_denuncias_lugar_ocurrencias1_idx` (`lugar_ocurrencia_id`),
   KEY `fk_denuncias_forma_medio_utilizados1_idx` (`forma_medio_utilizado_id`),
   KEY `fk_denuncias_presuntas_causas1_idx` (`presuntas_causa_id`),
-  KEY `fk_denuncias_cometido_organizacion_criminales1_idx` (`cometido_organizacion_criminal_id`),
-  KEY `fk_denuncias_derivada_al_mps1_idx` (`derivada_mp_id`),
   KEY `fk_denuncias_nombre_fiscalias1_idx` (`nombre_fiscalia_id`),
   KEY `fk_denuncias_situacion_denuncias1_idx` (`situacion_denuncia_id`),
   KEY `fk_denuncias_detalles1_idx` (`detalle_id`),
   CONSTRAINT `fk_denuncias_categoria_comisarias1` FOREIGN KEY (`categoria_comisaria_id`) REFERENCES `categoria_comisarias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_denuncias_cometido_organizacion_criminales1` FOREIGN KEY (`cometido_organizacion_criminal_id`) REFERENCES `cometido_organizacion_criminales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_comisarias1` FOREIGN KEY (`comisaria_id`) REFERENCES `comisarias` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_departamentos1` FOREIGN KEY (`departamento_id`) REFERENCES `departamentos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_denuncias_derivada_al_mps1` FOREIGN KEY (`derivada_mp_id`) REFERENCES `derivada_mps` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_detalles1` FOREIGN KEY (`detalle_id`) REFERENCES `detalles` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_distritos1` FOREIGN KEY (`distrito_id`) REFERENCES `distritos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_denuncias_especificos1` FOREIGN KEY (`especifico_id`) REFERENCES `especificos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
@@ -358,30 +331,6 @@ LOCK TABLES `departamentos` WRITE;
 /*!40000 ALTER TABLE `departamentos` DISABLE KEYS */;
 INSERT INTO `departamentos` VALUES (1,'AMAZONAS'),(2,'ANCASH'),(3,'APURIMAC'),(4,'AREQUIPA'),(5,'AYACUCHO'),(6,'CAJAMARCA'),(7,'CALLAO'),(8,'CUSCO'),(9,'HUANCAVELICA'),(10,'HUANUCO'),(11,'ICA'),(12,'JUNIN'),(13,'LA LIBERTAD'),(14,'LAMBAYEQUE'),(15,'LIMA'),(16,'LORETO'),(17,'MADRE DE DIOS'),(18,'MOQUEGUA'),(19,'PASCO'),(20,'PIURA'),(21,'PUNO'),(22,'SAN MARTIN'),(23,'TACNA'),(24,'TUMBES'),(25,'UCAYALI');
 /*!40000 ALTER TABLE `departamentos` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `derivada_mps`
---
-
-DROP TABLE IF EXISTS `derivada_mps`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `derivada_mps` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `nombre` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `derivada_mps`
---
-
-LOCK TABLES `derivada_mps` WRITE;
-/*!40000 ALTER TABLE `derivada_mps` DISABLE KEYS */;
-INSERT INTO `derivada_mps` VALUES (1,'SI'),(2,'NI');
-/*!40000 ALTER TABLE `derivada_mps` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -755,13 +704,13 @@ CREATE TABLE `parametros` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `modulo` varchar(45) NOT NULL,
   `variable` varchar(45) NOT NULL,
-  `valor` varchar(45) NOT NULL,
+  `valor` varchar(45) DEFAULT NULL,
   `creador` varchar(45) DEFAULT NULL,
   `creado` datetime DEFAULT NULL,
   `modificador` varchar(45) DEFAULT NULL,
   `modificado` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=64 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -770,7 +719,7 @@ CREATE TABLE `parametros` (
 
 LOCK TABLES `parametros` WRITE;
 /*!40000 ALTER TABLE `parametros` DISABLE KEYS */;
-INSERT INTO `parametros` VALUES (3,'migracion_productos','sizePag','500',NULL,NULL,NULL,NULL),(4,'migracion_productos','page','5',NULL,NULL,NULL,NULL);
+INSERT INTO `parametros` VALUES (3,'migracion_productos','sizePag','500',NULL,NULL,NULL,NULL),(4,'migracion_productos','page','5',NULL,NULL,NULL,NULL),(5,'tipo_documento_identidad','DNI','DNI',NULL,NULL,NULL,NULL),(6,'tipo_documento_identidad','CARNET DE EXTRANJERÍA','CARNET DE EXTRANJERÍA',NULL,NULL,NULL,NULL),(7,'tipo_documento_identidad','PASAPORTE','PASAPORTE',NULL,NULL,NULL,NULL),(8,'tipo_documento_identidad','LICENCIA DE CONDUCIR','LICENCIA DE CONDUCIR',NULL,NULL,NULL,NULL),(9,'tipo_documento_identidad','RUC','RUC',NULL,NULL,NULL,NULL),(10,'tipo_documento_identidad','NO PRECISA','NO PRECISA',NULL,NULL,NULL,NULL),(11,'tipo_documento_identidad','NO TIENE ( NUNCA LO TRAMITO)','NO TIENE ( NUNCA LO TRAMITO)',NULL,NULL,NULL,NULL),(12,'sexo','HOMBRE','HOMBRE',NULL,NULL,NULL,NULL),(13,'sexo','MUJER','MUJER',NULL,NULL,NULL,NULL),(14,'sexo','NO PRECISA','NO PRECISA',NULL,NULL,NULL,NULL),(15,'grupo_edad','Menor de 3 años','Menor de 3 años',NULL,NULL,NULL,NULL),(16,'grupo_edad','Menos de 12 años','Menos de 12 años',NULL,NULL,NULL,NULL),(17,'grupo_edad','De 12 años a más años','De 12 años a más años',NULL,NULL,NULL,NULL),(18,'grupo_edad','No precisa','No precisa',NULL,NULL,NULL,NULL),(19,'nivel_educativo_alcanzado','SIN NIVEL','SIN NIVEL',NULL,NULL,NULL,NULL),(20,'nivel_educativo_alcanzado','EDUCACIÓN INICIAL','EDUCACIÓN INICIAL',NULL,NULL,NULL,NULL),(21,'nivel_educativo_alcanzado','PRIMARIA','PRIMARIA',NULL,NULL,NULL,NULL),(22,'nivel_educativo_alcanzado','SECUNDARIA','SECUNDARIA',NULL,NULL,NULL,NULL),(23,'nivel_educativo_alcanzado','SUPERIOR NO UNIVERSITARIA','SUPERIOR NO UNIVERSITARIA',NULL,NULL,NULL,NULL),(24,'nivel_educativo_alcanzado','SUPERIOR UNIVERSITARIO','SUPERIOR UNIVERSITARIO',NULL,NULL,NULL,NULL),(25,'nivel_educativo_alcanzado','POSTGRADO','POSTGRADO',NULL,NULL,NULL,NULL),(26,'nivel_educativo_alcanzado','NO PRECISA','NO PRECISA',NULL,NULL,NULL,NULL),(27,'ocupacion','SIN TRABAJO','SIN TRABAJO',NULL,NULL,NULL,NULL),(28,'ocupacion','CON TRABAJO','CON TRABAJO',NULL,NULL,NULL,NULL),(29,'ocupacion','TRABAJO EVENTUAL','TRABAJO EVENTUAL',NULL,NULL,NULL,NULL),(30,'estado_civil','CONVIVIENTE','CONVIVIENTE',NULL,NULL,NULL,NULL),(31,'estado_civil','CASADO','CASADO',NULL,NULL,NULL,NULL),(32,'estado_civil','VIUDO','VIUDO',NULL,NULL,NULL,NULL),(33,'estado_civil','DIVRCIADO','DIVRCIADO',NULL,NULL,NULL,NULL),(34,'estado_civil','SEPARADO','SEPARADO',NULL,NULL,NULL,NULL),(35,'estado_civil','SOLTERO','SOLTERO',NULL,NULL,NULL,NULL),(36,'estado_civil','NO PRECISA','NO PRECISA',NULL,NULL,NULL,NULL),(37,'nacionalidad','PERUANA/O','PERUANA/O',NULL,NULL,NULL,NULL),(38,'nacionalidad','VENEZONLANA/O','VENEZONLANA/O',NULL,NULL,NULL,NULL),(39,'nacionalidad','COLOMBIANA/O','COLOMBIANA/O',NULL,NULL,NULL,NULL),(40,'nacionalidad','OTRO','OTRO',NULL,NULL,NULL,NULL),(41,'reincidencia','SI','SI',NULL,NULL,NULL,NULL),(42,'reincidencia','NO','NO',NULL,NULL,NULL,NULL),(43,'reincidencia','NO PRECISA','NO PRECISA',NULL,NULL,NULL,NULL),(44,'parentesco_victimaro','ESPOSO/A','ESPOSO/A',NULL,NULL,NULL,NULL),(45,'parentesco_victimaro','EX-ESPOSO/A','EX-ESPOSO/A',NULL,NULL,NULL,NULL),(46,'parentesco_victimaro','PAREJA/CONVIVIENTE','PAREJA/CONVIVIENTE',NULL,NULL,NULL,NULL),(47,'parentesco_victimaro','EX PAREJA/CONVIVIENTE','EX PAREJA/CONVIVIENTE',NULL,NULL,NULL,NULL),(48,'parentesco_victimaro','PADRE/MADRE/SUEGRO','PADRE/MADRE/SUEGRO',NULL,NULL,NULL,NULL),(49,'parentesco_victimaro','HIJOS/A','HIJOS/A',NULL,NULL,NULL,NULL),(50,'parentesco_victimaro','OTROS PARIENTES','OTROS PARIENTES',NULL,NULL,NULL,NULL),(51,'parentesco_victimaro','CONOCIDO/A','CONOCIDO/A',NULL,NULL,NULL,NULL),(52,'parentesco_victimaro','NO PRECISA','NO PRECISA',NULL,NULL,NULL,NULL),(53,'situacion_victima','EBRIEDAD','EBRIEDAD',NULL,NULL,NULL,NULL),(54,'situacion_victima','FALLECIDA','FALLECIDA',NULL,NULL,NULL,NULL),(55,'situacion_victima','TORTURADA','TORTURADA',NULL,NULL,NULL,NULL),(56,'situacion_victima','GOLPEADA','GOLPEADA',NULL,NULL,NULL,NULL),(57,'situacion_victima','CONTUSO','CONTUSO',NULL,NULL,NULL,NULL),(58,'situacion_victima','FRACTURAS','FRACTURAS',NULL,NULL,NULL,NULL),(59,'situacion_victima','MIEDO','MIEDO',NULL,NULL,NULL,NULL),(60,'situacion_victima','DELIRANDO','DELIRANDO',NULL,NULL,NULL,NULL),(61,'situacion_victima','IRACUNDO','IRACUNDO',NULL,NULL,NULL,NULL),(62,'situacion_victima','CALLADA','CALLADA',NULL,NULL,NULL,NULL),(63,'situacion_victima','ILESA','ILESA',NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `parametros` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -885,7 +834,7 @@ CREATE TABLE `situacion_denuncias` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -894,7 +843,7 @@ CREATE TABLE `situacion_denuncias` (
 
 LOCK TABLES `situacion_denuncias` WRITE;
 /*!40000 ALTER TABLE `situacion_denuncias` DISABLE KEYS */;
-INSERT INTO `situacion_denuncias` VALUES (1,'PENDIENTE'),(2,'RESUELTA');
+INSERT INTO `situacion_denuncias` VALUES (1,'PENDIENTE'),(2,'RESUELTA'),(3,'CADENA DE CUSTODIO DE LA EVIDENCIA'),(4,'RETENCIONES Y CAPTURAS'),(5,'VIGILANCIA'),(6,'INCAUTACIONES'),(7,'PERITAJE'),(8,'INFORME PERICIAL'),(9,'IDENTIFICACION PLENA'),(10,'OTROS');
 /*!40000 ALTER TABLE `situacion_denuncias` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1150,6 +1099,91 @@ LOCK TABLES `users` WRITE;
 INSERT INTO `users` VALUES (1,'','','','','odcpnp','bb184ece6cd5c20249847ad35a3c7a2ac6e5983a',1,'A','cramos','2017-04-26 01:24:19','',NULL),(2,NULL,NULL,NULL,NULL,'joselo','bf6a2efc75b87407bbd2d59cd620f9c4948ce1c9',2,'A','cramos','2017-04-26 01:26:18','','2017-04-26 01:26:20'),(3,NULL,NULL,NULL,NULL,'lucia','bf6a2efc75b87407bbd2d59cd620f9c4948ce1c9',3,'A','cramos','2017-04-26 01:26:43','','2017-04-26 01:26:45'),(4,'','','','','paco','8ed787c92ff18d74e2391f173f7b085456ef221d',4,'A','',NULL,'',NULL);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `victimarios`
+--
+
+DROP TABLE IF EXISTS `victimarios`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `victimarios` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `apellido_parterno` varchar(45) DEFAULT NULL,
+  `apellido_marterno` varchar(45) DEFAULT NULL,
+  `nombres` varchar(45) DEFAULT NULL,
+  `tipo_documento_identidad` varchar(45) DEFAULT NULL,
+  `numero_documento` int(11) DEFAULT NULL,
+  `sexo` varchar(45) DEFAULT NULL,
+  `edad` int(11) DEFAULT NULL,
+  `grupo_edad` varchar(45) DEFAULT NULL,
+  `fecha_nacimiento` datetime DEFAULT NULL,
+  `nivel_educativo_alcanzado` varchar(45) DEFAULT NULL,
+  `ocupacion` varchar(45) DEFAULT NULL,
+  `estado_civil` varchar(45) DEFAULT NULL,
+  `lugar_residencia` varchar(45) DEFAULT NULL,
+  `lugar_nacimiento` varchar(45) DEFAULT NULL,
+  `nacionalidad` varchar(45) DEFAULT NULL,
+  `detenido_por` varchar(45) DEFAULT NULL,
+  `antecedentes_penales` varchar(45) DEFAULT NULL,
+  `tipo_delito_anterior` varchar(45) DEFAULT NULL,
+  `situacion_denunciado` varchar(45) DEFAULT NULL,
+  `resp_app` varchar(45) DEFAULT NULL,
+  `resp_apm` varchar(45) DEFAULT NULL,
+  `resp_nombres` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `victimarios`
+--
+
+LOCK TABLES `victimarios` WRITE;
+/*!40000 ALTER TABLE `victimarios` DISABLE KEYS */;
+/*!40000 ALTER TABLE `victimarios` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `victimas`
+--
+
+DROP TABLE IF EXISTS `victimas`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `victimas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `apellido_parterno` varchar(45) DEFAULT NULL,
+  `apellido_marterno` varchar(45) DEFAULT NULL,
+  `nombres` varchar(45) DEFAULT NULL,
+  `tipo_documento_identidad` varchar(45) DEFAULT NULL,
+  `numero_documento` int(11) DEFAULT NULL,
+  `sexo` varchar(45) DEFAULT NULL,
+  `edad` int(11) DEFAULT NULL,
+  `grupo_edad` varchar(45) DEFAULT NULL,
+  `fecha_nacimiento` datetime DEFAULT NULL,
+  `nivel_educativo_alcanzado` varchar(45) DEFAULT NULL,
+  `ocupacion` varchar(45) DEFAULT NULL,
+  `estado_civil` varchar(45) DEFAULT NULL,
+  `lugar_residencia` varchar(45) DEFAULT NULL,
+  `lugar_nacimiento` varchar(45) DEFAULT NULL,
+  `nacionalidad` varchar(45) DEFAULT NULL,
+  `reincidencia` varchar(45) DEFAULT NULL,
+  `tipo_delito_reincidencia` varchar(45) DEFAULT NULL,
+  `parentesco_victimaro` varchar(45) DEFAULT NULL,
+  `situacion_victima` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `victimas`
+--
+
+LOCK TABLES `victimas` WRITE;
+/*!40000 ALTER TABLE `victimas` DISABLE KEYS */;
+/*!40000 ALTER TABLE `victimas` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -1160,4 +1194,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-11-17 19:23:06
+-- Dump completed on 2020-11-20  0:04:24

@@ -16,3 +16,12 @@ $(function () {
       };
     date_input.datetimepicker(options);
 });
+
+$(function () {
+    var date_input=$('input[placeholder="YYYY-MM-DD"]'); //our date input has the name "date"
+    var options={
+    	format: 'YYYY-MM-DD',
+    	locale: 'es'
+      };
+    date_input.datetimepicker(options);
+});
