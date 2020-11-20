@@ -38,7 +38,7 @@
         									
         										<tr>
                 									<td>           										
-                										<?php  echo $this->Html->link($this->Html->tag('span', '', array('class' => 'glyphicon glyphicon-list text-primary')).'&nbsp;'.__('Mapa criminologico'),
+                										<?php  echo $this->Html->link($this->Html->tag('span', '', array('class' => 'glyphicon glyphicon-list text-primary')).'&nbsp;'.__('Reporte Mapa de Calor'),
                 										    'https://observatorio.odcpnp.org/Reportes/mapaDelito',array('target'=>'_blank','escape'=>false,'class'=>'menu-level2') ); ?>
                 									</td>
                 								</tr>

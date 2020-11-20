@@ -120,6 +120,21 @@ class AppController extends Controller {
 	                'action' => 'victimario',
 	                'alias' => 'Características del presunto victimario'
 	            ),
+	            array(
+	                'controller' => 'notes',
+	                'action' => 'denuncias/Delitos/Reporte',
+	                'alias' => 'Total de denuncias de delitos'
+	            ),
+	            array(
+	                'controller' => 'notes',
+	                'action' => 'denuncias/Delitos/Reporte Regional',
+	                'alias' => 'Reporte Comisaria'
+	            ),
+	            array(
+	                'controller' => 'notes',
+	                'action' => 'denuncias/Delitos/Reporte Comisaria',
+	                'alias' => 'Reporte Comisaria'
+	            ),
 	    ));
 	        
 	    $a_denuncias = array(
