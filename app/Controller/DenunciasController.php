@@ -55,23 +55,14 @@ class DenunciasController extends AppController {
  * @return void
  */
 	public function add($denuncia = null, $modulo = null) {
-	    
-	    /*
-		if ($this->request->is('post')) {
-			$this->Denuncia->create();
-			if ($this->Denuncia->save($this->request->data)) {
-				$this->Flash->success(__('The denuncia has been saved.'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Flash->error(__('The denuncia could not be saved. Please, try again.'));
-			}
-		}*/
 		
 		$regionPolicials = $this->Denuncia->RegionPolicial->find('list');
 		$macroRegions = $this->Denuncia->MacroRegion->find('list');
 		$departamentos = $this->Denuncia->Departamento->find('list');
-		$provincias = $this->Denuncia->Provincia->find('list');
-		$distritos = $this->Denuncia->Distrito->find('list');
+		//$provincias = $this->Denuncia->Provincia->find('list');
+		//$distritos = $this->Denuncia->Distrito->find('list');
+		$provincias = null;
+		$distritos = null;
 		$comisarias = $this->Denuncia->Comisaria->find('list');
 		$tipoDependenciaPolicials = $this->Denuncia->TipoDependenciaPolicial->find('list');
 		$tipoComisarias = $this->Denuncia->TipoComisaria->find('list');
@@ -80,7 +71,9 @@ class DenunciasController extends AppController {
 		$situacionHechos = $this->Denuncia->SituacionHecho->find('list');
 		$tipoTramiteHechos = $this->Denuncia->TipoTramiteHecho->find('list');
 		$totalDocumentosFormulados = $this->Denuncia->TotalDocumentosFormulado->find('list');
-		$this->set(compact('denuncia','modulo','regionPolicials', 'macroRegions', 'departamentos', 'provincias', 'distritos', 'comisarias', 'tipoDependenciaPolicials', 'tipoComisarias', 'categoriaComisarias', 'tipoUnidadEspecializadas', 'situacionHechos', 'tipoTramiteHechos', 'totalDocumentosFormulados'));
+		$this->set(compact('denuncia','modulo','regionPolicials', 'macroRegions', 'departamentos', 
+		    'provincias', 'distritos', 
+		    'comisarias', 'tipoDependenciaPolicials', 'tipoComisarias', 'categoriaComisarias', 'tipoUnidadEspecializadas', 'situacionHechos', 'tipoTramiteHechos', 'totalDocumentosFormulados'));
 	}
 
 /**

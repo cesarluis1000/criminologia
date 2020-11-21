@@ -48,7 +48,8 @@
         </div>
 	<div class="form-group">
 		<div class="col-sm-offset-10 col-sm-2">
-					<?php echo $this->Form->button('Guardar', array('type' => 'submit','class'=>'btn btn-success'));  ?>
+			<?php echo $this->Form->button('Regresar', array('type' => 'button','onclick' => 'window.history.back();','class'=>'btn btn-success'));  ?>
+			<?php echo $this->Form->button('Guardar', array('type' => 'submit','class'=>'btn btn-success'));  ?>
 		</div>
 	</div>
 		<?php echo $this->Form->end(); ?>

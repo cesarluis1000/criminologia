@@ -56,3 +56,6 @@
 	</div>
 		<?php echo $this->Form->end(); ?>
 </fieldset>
+<?php 
+    echo $this->Html->script('criminologia.js');
+?>

@@ -16,7 +16,21 @@ class Comisaria extends AppModel {
 
 
 	// The Associations below have been created with all possible keys, those that are not needed can be removed
-
+	
+	/**
+	 * belongsTo associations
+	 *
+	 * @var array
+	 */
+	public $belongsTo = array(
+	    'Departamento' => array(
+	        'className' => 'Departamento',
+	        'foreignKey' => 'departamento_id',
+	        'conditions' => '',
+	        'fields' => '',
+	        'order' => ''
+	    )
+	);
 /**
  * hasMany associations
  *

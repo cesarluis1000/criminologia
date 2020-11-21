@@ -79,7 +79,7 @@ class AppController extends Controller {
 		    $allow = array_merge($allow,array('index','edit','view','add','delete','options'));		    		    
 		}*/
 		//$this->Auth->allow($allow);
-		$this->Auth->allow('index','add','denuncias','login','logout','display','login2','index2','add2','edit2','view2','delete2');
+		$this->Auth->allow('listjson','index','add','denuncias','login','logout','display','login2','index2','add2','edit2','view2','delete2');
 	
 		$this->__checkAuth();
 		$this->__observatorio();
