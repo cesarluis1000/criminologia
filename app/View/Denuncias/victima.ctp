@@ -2,7 +2,7 @@
 <fieldset>
 	<br/>
 	<legend><?php echo __('Características de la victima'); ?></legend>
-	<?php echo $this->Form->create('Victima', array(
+	<?php echo $this->Form->create('moduloIII', array(
 	    'url' => array('controller' => 'denuncias', 'action' => 'victimario'),
 	    'class' => 'form-horizontal',
 		'inputDefaults'=>array('div' => array('class' => 'form-group'),
@@ -39,7 +39,8 @@
         </div>
 	<div class="form-group">
 		<div class="col-sm-offset-10 col-sm-2">
-			<?php echo $this->Form->button('Regresar', array('type' => 'button','onclick' => 'window.history.back();','class'=>'btn btn-success'));  ?>
+			<?php echo $this->Form->button('Anterior',array('type' => 'button','class'=>'btn btn-success',
+					    'onclick' => "location.href='".$this->Html->url(array('controller' => 'denuncias', 'action' => 'edit'))."'")); ?>
 			<?php echo $this->Form->button('Siguiente', array('type' => 'submit','class'=>'btn btn-success'));  ?>
 		</div>
 	</div>

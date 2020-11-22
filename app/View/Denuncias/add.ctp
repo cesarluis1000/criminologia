@@ -2,7 +2,7 @@
 <fieldset>
 	<br/>
 	<legend><?php echo __('MODULO I. LOCALIZACIÓN DE LA DEPENDENCIA POLICIAL'); ?></legend>
-	<?php echo $this->Form->create(false, array(
+	<?php echo $this->Form->create('moduloI', array(
 	    'url' => array('controller' => 'denuncias', 'action' => 'edit'),
 	    'class' => 'form-horizontal',
 		'inputDefaults'=>array('div' => array('class' => 'form-group'),

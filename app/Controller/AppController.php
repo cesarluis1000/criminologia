@@ -58,6 +58,7 @@ class AppController extends Controller {
 	public $a_estados;
 	
 	function beforeFilter(){
+	    
 	    $this->loadModel('Parametro');
 	    $this->response->header('Access-Control-Allow-Origin','*');
 	    $this->response->header('Access-Control-Allow-Credentials','true');
@@ -94,7 +95,9 @@ class AppController extends Controller {
 	        $this->layout = 'observatorio';
 	    }
 	    
-	    if (in_array($this->params['controller'], $this->controladores)){
+	    if (in_array($this->params['controller'], $this->controladores)){        
+	        
+	        //pr($this->Session->read());
 	        $this->layout = 'observatorio';
 	    }
 	    

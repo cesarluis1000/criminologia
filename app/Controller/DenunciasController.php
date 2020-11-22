@@ -56,14 +56,42 @@ class DenunciasController extends AppController {
  */
 	public function add($denuncia = null, $modulo = null) {
 		
+	    $provincias = null;
+	    $distritos = null;
+	    $comisarias = null;
+	     
+	    $this->request->query['moduloI'] = $this->request->data['moduloI'] = $this->Session->read('moduloI');
+		
+	    if (isset($this->request->query['moduloI']['departamento_id'])){
+	        $departamento_id = $this->request->data['moduloI']['departamento_id'] = $this->request->query['moduloI']['departamento_id'];
+		    $options = array('fields'=>array('id','nombre'),
+		        'conditions' => array('departamento_id' => $departamento_id),
+		        'recursive' => -1,
+		        'order' => array('nombre'));
+		    $provincias = $this->Denuncia->Provincia->find('list',$options);
+		    
+		    $options = array('fields'=>array('id','nombre'),
+		        'conditions' => array('departamento_id' => $departamento_id),
+		        'recursive' => -1,
+		        'order' => array('nombre')
+		    );
+		    $comisarias = $this->Denuncia->Comisaria->find('list',$options);
+		}
+		
+		if (isset($this->request->query['moduloI']['provincia_id'])){
+		    $provincia_id = $this->request->data['moduloI']['provincia_id'] = $this->request->query['moduloI']['provincia_id'];
+		    $options = array('fields'=>array('id','nombre'),
+		        'conditions' => array('provincia_id' => $provincia_id),
+		        'recursive' => -1,
+		        'order' => array('nombre')
+		    );
+		    $distritos = $this->Denuncia->Distrito->find('list',$options);
+		}
+		
+	    
 		$regionPolicials = $this->Denuncia->RegionPolicial->find('list');
 		$macroRegions = $this->Denuncia->MacroRegion->find('list');
 		$departamentos = $this->Denuncia->Departamento->find('list');
-		//$provincias = $this->Denuncia->Provincia->find('list');
-		//$distritos = $this->Denuncia->Distrito->find('list');
-		$provincias = null;
-		$distritos = null;
-		$comisarias = $this->Denuncia->Comisaria->find('list');
 		$tipoDependenciaPolicials = $this->Denuncia->TipoDependenciaPolicial->find('list');
 		$tipoComisarias = $this->Denuncia->TipoComisaria->find('list');
 		$categoriaComisarias = $this->Denuncia->CategoriaComisaria->find('list');
@@ -72,8 +100,8 @@ class DenunciasController extends AppController {
 		$tipoTramiteHechos = $this->Denuncia->TipoTramiteHecho->find('list');
 		$totalDocumentosFormulados = $this->Denuncia->TotalDocumentosFormulado->find('list');
 		$this->set(compact('denuncia','modulo','regionPolicials', 'macroRegions', 'departamentos', 
-		    'provincias', 'distritos', 
-		    'comisarias', 'tipoDependenciaPolicials', 'tipoComisarias', 'categoriaComisarias', 'tipoUnidadEspecializadas', 'situacionHechos', 'tipoTramiteHechos', 'totalDocumentosFormulados'));
+		    'provincias', 'distritos', 'comisarias', 'tipoDependenciaPolicials', 'tipoComisarias',
+		     'categoriaComisarias', 'tipoUnidadEspecializadas', 'situacionHechos', 'tipoTramiteHechos', 'totalDocumentosFormulados'));
 	}
 
 /**
@@ -84,6 +112,13 @@ class DenunciasController extends AppController {
  * @return void
  */
 	public function edit($denuncia = null, $modulo = null) {
+	    	    
+	    if (isset($this->request->data['moduloI']) && !empty($this->request->data['moduloI'])){
+	        $this->Session->write('moduloI', $this->request->data['moduloI']);
+	    }
+	    
+	    $this->request->query['moduloII'] = $this->request->data['moduloII'] = $this->Session->read('moduloII');
+	    
 	    $modalidadDenuncias = $this->Denuncia->ModalidadDenuncia->find('list');
 	    $fuentePrincipales = $this->Denuncia->FuentePrincipal->find('list');
 	    $tipoVias = $this->Denuncia->TipoVia->find('list');
@@ -102,6 +137,16 @@ class DenunciasController extends AppController {
 	}
 	
 	public function victima($denuncia = null, $modulo = null) {
+	    
+	    if (isset($this->request->data['moduloII']) && !empty($this->request->data['moduloII'])){
+	        $this->Session->write('moduloII', $this->request->data['moduloII']);
+	    }
+	    
+	    if (isset($this->request->data['moduloVI']) && !empty($this->request->data['moduloVI'])){
+	        $this->Session->write('moduloVI', $this->request->data['moduloVI']);
+	    }    
+	    
+	    $this->request->query['moduloIII'] = $this->request->data['moduloIII'] = $this->Session->read('moduloIII');
 	    
 	    $condicion = array(
 	        'fields' => array('Parametro.variable','Parametro.valor'),
@@ -169,7 +214,14 @@ class DenunciasController extends AppController {
 	}
 	
 	public function victimario($denuncia = null, $modulo = null) {
-	    	    
+
+	    
+	    if (isset($this->request->data['moduloIII']) && !empty($this->request->data['moduloIII'])){
+	        $this->Session->write('moduloIII', $this->request->data['moduloIII']);
+	    }
+	    
+	    $this->request->query['moduloVI'] = $this->request->data['moduloVI'] = $this->Session->read('moduloVI');
+	    
 	    $condicion = array(
 	        'fields' => array('Parametro.variable','Parametro.valor'),
 	        'conditions' => array('Parametro.modulo' => 'tipo_documento_identidad'));

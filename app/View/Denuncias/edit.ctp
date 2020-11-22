@@ -5,7 +5,7 @@
 	
 	<?php
 
-echo $this->Form->create('Denuncia', array(
+	echo $this->Form->create('moduloII', array(
     'url' => array('controller' => 'denuncias', 'action' => 'victima'),
     'class' => 'form-horizontal',
     'inputDefaults' => array(
@@ -88,7 +88,8 @@ echo $this->Form->create('Denuncia', array(
 	</div>
 	<div class="form-group">
 		<div class="col-sm-offset-10 col-sm-2">
-					<?php echo $this->Form->button('Regresar', array('type' => 'button','onclick' => 'window.history.back();','class'=>'btn btn-success'));  ?>
+					<?php echo $this->Form->button('Anterior',array('type' => 'button','class'=>'btn btn-success',
+					    'onclick' => "location.href='".$this->Html->url(array('controller' => 'denuncias', 'action' => 'add'))."'")); ?>
 					<?php echo $this->Form->button('Siguiente', array('type' => 'submit','class'=>'btn btn-success'));  ?>
 		</div>
 	</div>
