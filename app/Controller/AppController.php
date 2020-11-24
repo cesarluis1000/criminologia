@@ -126,12 +126,12 @@ class AppController extends Controller {
 	            array(
 	                'controller' => 'notes',
 	                'action' => 'denuncias/Delitos/Reporte',
-	                'alias' => 'Total de denuncias de delitos'
+	                'alias' => 'Total de delitos'
 	            ),
 	            array(
 	                'controller' => 'notes',
 	                'action' => 'denuncias/Delitos/Reporte Regional',
-	                'alias' => 'Reporte Comisaria'
+	                'alias' => 'Total de denuncias de delitos'
 	            ),
 	            array(
 	                'controller' => 'notes',
