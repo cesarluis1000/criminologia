@@ -283,7 +283,7 @@ class DenunciasController extends AppController {
 	    $parametros = $this->Parametro->find('all',$condicion);
 	    $reincidencias = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
 	    
-	    $this->set(compact('denuncia','modulo','tipo_documento_identidades','sexos','grupo_edades',
+	    $this->set(compact('denuncia','modulo','tipo_documento_identidades','sexos','grupo_edades','nivel_educativo_alcanzados',
 	        'estado_civiles','nacionalidades','nivel_educativo_alcanzados','ocupaciones','parentesco_victimaros','reincidencias'));
 	}
 

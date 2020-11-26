@@ -131,7 +131,7 @@ class AppController extends Controller {
 	            array(
 	                'controller' => 'notes',
 	                'action' => 'denuncias/Delitos/Reporte Regional',
-	                'alias' => 'Total de denuncias de delitos'
+	                'alias' => 'Taza de denuncias de delitos'
 	            ),
 	            array(
 	                'controller' => 'notes',
@@ -147,7 +147,7 @@ class AppController extends Controller {
 	            'MODULO III' =>'Características de la victima',
 	            'MODULO IV' =>'Características del presunto victimario',
 	            'Reporte' =>'Total de delitos',
-	            'Reporte Regional' =>'Total de denuncias de delitos',
+	            'Reporte Regional' =>'Taza de denuncias de delitos',
 	            'Reporte Comisaria' =>'Reporte Comisaria',
 	            'Reporte Mapa de Calor' =>'Reporte Mapa de Calor'),	        
 	        'Faltas' => array(
