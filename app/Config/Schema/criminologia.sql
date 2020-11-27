@@ -129,7 +129,7 @@ CREATE TABLE `cake_sessions` (
 
 LOCK TABLES `cake_sessions` WRITE;
 /*!40000 ALTER TABLE `cake_sessions` DISABLE KEYS */;
-INSERT INTO `cake_sessions` VALUES ('1co4el0jti2j9dgb63u5oaja7n','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605939821;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605939821),('5dgarapi9pe6kqh7inl4c5mpg4','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377014;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605377014),('5s6lmtvkm7pqt4aehg77vla2t3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605372296;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605372296),('8sfhjnde679v4ldj209s4eukg4','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377014;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605377014),('hmsruausj9a4vvspaam5qbnn06','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605297335;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605297335),('hq5e9m80kpr06eq8usg4loifs7','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605297335;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605297335),('kuae7cosg7rpa0j1r6oaho71k3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377021;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:8:\"redirect\";s:14:\"/denuncias/add\";}',1605377021),('m6060igtube1uabn0dsbpkeko3','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605543175;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605543175),('pc7aqi54cojtn4ohkt7da6lb62','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1605377048;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}',1605377049);
+INSERT INTO `cake_sessions` VALUES ('lue875l8igoqat55rf12kt1iqh','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1606458469;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}moduloI|a:19:{s:18:\"region_policial_id\";s:1:\"1\";s:15:\"macro_region_id\";s:0:\"\";s:15:\"departamento_id\";s:2:\"15\";s:12:\"provincia_id\";s:2:\"20\";s:11:\"distrito_id\";s:3:\"979\";s:12:\"comisaria_id\";s:4:\"3256\";s:28:\"tipo_dependencia_policial_id\";s:1:\"1\";s:17:\"tipo_comisaria_id\";s:1:\"1\";s:22:\"categoria_comisaria_id\";s:1:\"1\";s:28:\"tipo_unidad_especializada_id\";s:1:\"1\";s:18:\"situacion_hecho_id\";s:1:\"1\";s:21:\"tipo_tramite_hecho_id\";s:1:\"1\";s:16:\"total_resolucion\";s:3:\"123\";s:29:\"total_documentos_formulado_id\";s:1:\"1\";s:27:\"total_bandas_desarticuladas\";s:3:\"123\";s:30:\"total_detenidos_captura_bandas\";s:3:\"123\";s:27:\"total_organizacion_criminal\";s:3:\"123\";s:28:\"total_personas_desaparecidas\";s:3:\"123\";s:25:\"total_personas_aparecidas\";s:3:\"123\";}',1606458469);
 /*!40000 ALTER TABLE `cake_sessions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -205,27 +205,27 @@ CREATE TABLE `denuncias` (
   `tipo_unidad_especializada_id` int(11) NOT NULL,
   `situacion_hecho_id` int(11) NOT NULL,
   `tipo_tramite_hecho_id` int(11) NOT NULL,
-  `total_resolucion` int(11) DEFAULT NULL,
+  `total_resolucion` int(11) NOT NULL,
   `total_documentos_formulado_id` int(11) NOT NULL,
-  `total_bandas_desarticuladas` int(11) DEFAULT NULL,
-  `total_detenidos_captura_bandas` int(11) DEFAULT NULL,
-  `total_organizacion_criminal` int(11) DEFAULT NULL,
-  `total_personas_desaparecidas` int(11) DEFAULT NULL,
-  `total_personas_aparecidas` int(11) DEFAULT NULL,
-  `id_sidopl` int(11) DEFAULT NULL,
-  `fecha_registro_denuncia` datetime DEFAULT NULL,
+  `total_bandas_desarticuladas` int(11) NOT NULL,
+  `total_detenidos_captura_bandas` int(11) NOT NULL,
+  `total_organizacion_criminal` int(11) NOT NULL,
+  `total_personas_desaparecidas` int(11) NOT NULL,
+  `total_personas_aparecidas` int(11) NOT NULL,
+  `id_sidopl` int(11) NOT NULL,
+  `fecha_registro_denuncia` datetime NOT NULL,
   `modalidad_denuncia_id` int(11) NOT NULL,
   `fuente_principal_id` int(11) NOT NULL,
-  `otro` varchar(250) DEFAULT NULL,
-  `fecha_ocurrencia` datetime DEFAULT NULL,
+  `otro` varchar(250) NOT NULL,
+  `fecha_ocurrencia` datetime NOT NULL,
   `ubigeo_id` int(11) NOT NULL,
   `tipo_via_id` int(11) NOT NULL,
-  `cuadra` varchar(250) DEFAULT NULL,
-  `direccion` varchar(250) DEFAULT NULL,
-  `numero` varchar(45) DEFAULT NULL,
-  `urbanizacion` varchar(250) DEFAULT NULL,
-  `latitud` varchar(45) DEFAULT NULL,
-  `longitud` varchar(45) DEFAULT NULL,
+  `cuadra` varchar(250) NOT NULL,
+  `direccion` varchar(250) NOT NULL,
+  `numero` varchar(45) NOT NULL,
+  `urbanizacion` varchar(250) NOT NULL,
+  `latitud` varchar(45) NOT NULL,
+  `longitud` varchar(45) NOT NULL,
   `generico_id` int(11) NOT NULL,
   `especifico_id` int(11) NOT NULL,
   `modalidad_id` int(11) NOT NULL,
@@ -234,17 +234,18 @@ CREATE TABLE `denuncias` (
   `lugar_ocurrencia_id` int(11) NOT NULL,
   `forma_medio_utilizado_id` int(11) NOT NULL,
   `presuntas_causa_id` int(11) NOT NULL,
-  `estado_encontro_victima` varchar(250) DEFAULT NULL,
-  `estado_fisico_mental_victima` varchar(250) DEFAULT NULL,
-  `cometido_organizacion_criminal` varchar(45) DEFAULT NULL,
-  `nro_victimas` int(11) DEFAULT NULL,
-  `nro_presuntos_victimarios` int(11) DEFAULT NULL,
-  `tramite_hecho` varchar(250) DEFAULT NULL,
-  `documento_formulado` varchar(250) DEFAULT NULL,
+  `estado_encontro_victima` varchar(250) NOT NULL,
+  `estado_fisico_mental_victima` varchar(250) NOT NULL,
+  `cometido_organizacion_criminal` varchar(45) NOT NULL,
+  `nro_victimas` int(11) NOT NULL,
+  `nro_presuntos_victimarios` int(11) NOT NULL,
+  `tramite_hecho` varchar(250) NOT NULL,
+  `documento_formulado` varchar(250) NOT NULL,
   `derivada_mp_id` int(11) NOT NULL,
-  `derivada_mp` varchar(45) DEFAULT NULL,
+  `derivada_mp` varchar(45) NOT NULL,
   `nombre_fiscalia_id` int(11) NOT NULL,
   `situacion_denuncia_id` int(11) NOT NULL,
+  `denunciascol` varchar(45) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_denuncias_region_policiales1_idx` (`region_policial_id`),
   KEY `fk_denuncias_macro_regiones1_idx` (`macro_region_id`),
@@ -322,7 +323,10 @@ DROP TABLE IF EXISTS `departamentos`;
 CREATE TABLE `departamentos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `region_policial_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_departamentos_region_policiales1_idx` (`region_policial_id`),
+  CONSTRAINT `fk_departamentos_region_policiales1` FOREIGN KEY (`region_policial_id`) REFERENCES `region_policiales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -332,7 +336,7 @@ CREATE TABLE `departamentos` (
 
 LOCK TABLES `departamentos` WRITE;
 /*!40000 ALTER TABLE `departamentos` DISABLE KEYS */;
-INSERT INTO `departamentos` VALUES (1,'AMAZONAS'),(2,'ANCASH'),(3,'APURIMAC'),(4,'AREQUIPA'),(5,'AYACUCHO'),(6,'CAJAMARCA'),(7,'CALLAO'),(8,'CUSCO'),(9,'HUANCAVELICA'),(10,'HUANUCO'),(11,'ICA'),(12,'JUNIN'),(13,'LA LIBERTAD'),(14,'LAMBAYEQUE'),(15,'LIMA'),(16,'LORETO'),(17,'MADRE DE DIOS'),(18,'MOQUEGUA'),(19,'PASCO'),(20,'PIURA'),(21,'PUNO'),(22,'SAN MARTIN'),(23,'TACNA'),(24,'TUMBES'),(25,'UCAYALI');
+INSERT INTO `departamentos` VALUES (1,'AMAZONAS',20),(2,'ANCASH',21),(3,'APURIMAC',14),(4,'AREQUIPA',17),(5,'AYACUCHO',15),(6,'CAJAMARCA',6),(7,'CALLAO',2),(8,'CUSCO',13),(9,'HUANCAVELICA',12),(10,'HUANUCO',9),(11,'ICA',16),(12,'JUNIN',10),(13,'LA LIBERTAD',7),(14,'LAMBAYEQUE',5),(15,'LIMA',1),(16,'LORETO',8),(17,'MADRE DE DIOS',25),(18,'MOQUEGUA',24),(19,'PASCO',11),(20,'PIURA',4),(21,'PUNO',18),(22,'SAN MARTIN',19),(23,'TACNA',23),(24,'TUMBES',3),(25,'UCAYALI',22);
 /*!40000 ALTER TABLE `departamentos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -812,7 +816,10 @@ DROP TABLE IF EXISTS `region_policiales`;
 CREATE TABLE `region_policiales` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `macro_region_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_region_policiales_macro_regiones1_idx` (`macro_region_id`),
+  CONSTRAINT `fk_region_policiales_macro_regiones1` FOREIGN KEY (`macro_region_id`) REFERENCES `macro_regiones` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -822,7 +829,7 @@ CREATE TABLE `region_policiales` (
 
 LOCK TABLES `region_policiales` WRITE;
 /*!40000 ALTER TABLE `region_policiales` DISABLE KEYS */;
-INSERT INTO `region_policiales` VALUES (1,'REG LIM'),(2,'REG CALL'),(3,'REG TUM'),(4,'REG PIU'),(5,'REG LAM'),(6,'REG CAJ'),(7,'REG LAL'),(8,'REG LOR'),(9,'REG HCO'),(10,'REG JUN'),(11,'REG PAS'),(12,'REG HCA'),(13,'REG CUS'),(14,'REG APU'),(15,'REG AYA'),(16,'REG ICA'),(17,'REG AQP'),(18,'REG PUN'),(19,'REG SAM'),(20,'REG AMA'),(21,'REG ANC'),(22,'REG UCA'),(23,'REG TAC'),(24,'REG MOQ'),(25,'REG MDD');
+INSERT INTO `region_policiales` VALUES (1,'REG LIMA',NULL),(2,'REG CALLAO',NULL),(3,'REG TUMBES',1),(4,'REG PIURA',1),(5,'REG LAMBAYEQUE',2),(6,'REG CAJAMARCA',2),(7,'REG LA LIBERTAD',3),(8,'REG LORETO',4),(9,'REG HUÁNUCO',5),(10,'REG JUNIN',6),(11,'REG PASCO',6),(12,'REG HUANCAVELICA',6),(13,'REG CUSCO',7),(14,'REG APURIMAC',7),(15,'REG AYACUCHO',8),(16,'REG ICA',8),(17,'REG AREQUIPA',9),(18,'REG PUNO',10),(19,'REG SAN MARTÍN',11),(20,'REG AMAZONAS',11),(21,'REG ANCASH',12),(22,'REG UCAYALI',13),(23,'REG TACNA',14),(24,'REG MOQUEGUA',14),(25,'REG MADRE DE DIOS',15);
 /*!40000 ALTER TABLE `region_policiales` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1197,4 +1204,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-11-21  0:26:42
+-- Dump completed on 2020-11-27  0:43:32

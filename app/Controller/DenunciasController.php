@@ -56,6 +56,7 @@ class DenunciasController extends AppController {
  */
 	public function add($denuncia = null, $modulo = null) {
 		
+	    $departamentos = null;
 	    $provincias = null;
 	    $distritos = null;
 	    $comisarias = null;
