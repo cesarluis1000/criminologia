@@ -4,6 +4,7 @@ App::uses('AppModel', 'Model');
  * MacroRegion Model
  *
  * @property Denuncia $Denuncia
+ * @property RegionPolicial $RegionPolicial
  */
 class MacroRegion extends AppModel {
 
@@ -25,6 +26,19 @@ class MacroRegion extends AppModel {
 	public $hasMany = array(
 		'Denuncia' => array(
 			'className' => 'Denuncia',
+			'foreignKey' => 'macro_region_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'RegionPolicial' => array(
+			'className' => 'RegionPolicial',
 			'foreignKey' => 'macro_region_id',
 			'dependent' => false,
 			'conditions' => '',

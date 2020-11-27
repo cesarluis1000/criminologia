@@ -61,6 +61,16 @@ class DenunciasController extends AppController {
 	    $comisarias = null;
 	     
 	    $this->request->query['moduloI'] = $this->request->data['moduloI'] = $this->Session->read('moduloI');
+	    
+	    if (isset($this->request->query['moduloI']['region_policial_id'])){
+	        $region_policial_id = $this->request->data['moduloI']['region_policial_id'] = $this->request->query['moduloI']['region_policial_id'];
+	        $options = array('fields'=>array('id','nombre'),
+	            'conditions' => array('region_policial_id' => $region_policial_id),
+	            'recursive' => -1,
+	            'order' => array('nombre')
+	        );
+	        $departamentos = $this->Denuncia->Departamento->find('list',$options);
+	    }
 		
 	    if (isset($this->request->query['moduloI']['departamento_id'])){
 	        $departamento_id = $this->request->data['moduloI']['departamento_id'] = $this->request->query['moduloI']['departamento_id'];
@@ -91,7 +101,7 @@ class DenunciasController extends AppController {
 	    
 		$regionPolicials = $this->Denuncia->RegionPolicial->find('list');
 		$macroRegions = $this->Denuncia->MacroRegion->find('list');
-		$departamentos = $this->Denuncia->Departamento->find('list');
+		//$departamentos = $this->Denuncia->Departamento->find('list');
 		$tipoDependenciaPolicials = $this->Denuncia->TipoDependenciaPolicial->find('list');
 		$tipoComisarias = $this->Denuncia->TipoComisaria->find('list');
 		$categoriaComisarias = $this->Denuncia->CategoriaComisaria->find('list');

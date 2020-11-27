@@ -33,7 +33,7 @@
     		echo $this->Form->input('fecha_registro_denuncia',array('label'=>array('class'=>'control-label col-sm-6'),'type' => 'text', 'value' => date("Y-m-d H:i:s"), 'placeholder'=>'YYYY-MM-DD HH:mm:ss', 'required'=>true));
     		echo $this->Form->input('modalidad_denuncia_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $modalidadDenuncias,'empty' => 'Seleccionar', 'required'=>true));
     		echo $this->Form->input('fuente_principal_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $fuentePrincipales,'empty' => 'Seleccionar', 'required'=>true));
-    		echo $this->Form->input('otro',array('label'=>array('class'=>'control-label col-sm-6')));
+    		echo $this->Form->input('otro',array('label'=>array('class'=>'control-label col-sm-6'), 'readonly' => true));
     		?>
           
           </div>
@@ -97,3 +97,6 @@
 	</div>
 		<?php echo $this->Form->end(); ?>
 </fieldset>
+<?php 
+    echo $this->Html->script('criminologia.js');
+?>

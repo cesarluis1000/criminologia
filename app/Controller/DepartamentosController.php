@@ -13,7 +13,30 @@ class DepartamentosController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator');
+    public $components = array('Paginator');
+    
+    public function listjson(){
+        $this->autoRender = false;
+        $this->response->type('json');
+        $this->loadModel('Parametro');
+        
+        $region_policial_id = $this->request->query['region_policial_id'];
+        
+        $options = array('fields'=>array('id','nombre'),
+            'conditions' => array('region_policial_id' => $region_policial_id),
+            'recursive' => -1,
+            'order' => array('nombre')
+        );
+        
+        if (isset($this->request->query['departamento_id'])){
+            $departamento_id = $this->request->query['departamento_id'];
+            $options['conditions']['id'] = $departamento_id;
+        }
+        
+        $departamentos = $this->Departamento->find('all',$options);
+        $json = json_encode($departamentos);
+        $this->response->body($json);
+    }
 
 /**
  * index method

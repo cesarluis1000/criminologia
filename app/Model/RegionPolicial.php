@@ -3,6 +3,7 @@ App::uses('AppModel', 'Model');
 /**
  * RegionPolicial Model
  *
+ * @property MacroRegion $MacroRegion
  * @property Denuncia $Denuncia
  */
 class RegionPolicial extends AppModel {
@@ -16,6 +17,21 @@ class RegionPolicial extends AppModel {
 
 
 	// The Associations below have been created with all possible keys, those that are not needed can be removed
+
+/**
+ * belongsTo associations
+ *
+ * @var array
+ */
+	public $belongsTo = array(
+		'MacroRegion' => array(
+			'className' => 'MacroRegion',
+			'foreignKey' => 'macro_region_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		)
+	);
 
 /**
  * hasMany associations
