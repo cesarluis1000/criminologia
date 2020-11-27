@@ -1,5 +1,87 @@
 $(function(){
 	
+	$('#moduloVIGrupoEdad').click(function(){
+		var grupo_edad = $(this).val();
+		$('#moduloVIEdad').val('');
+		if (grupo_edad == "No precisa"){
+			$('#moduloVIEdad').attr("readonly", true);
+			$('#moduloVIEdad').attr("required", false);
+		}else{
+			$('#moduloVIEdad').attr("readonly", false);
+			$('#moduloVIEdad').attr("required", true);
+		}
+	});
+	
+	$('#moduloVIEdad').change(function(){
+		var grupo_edad = $('#moduloVIGrupoEdad').val();
+		var edad = $(this).val();
+		
+		validacion = false;
+		switch(grupo_edad){
+			case "Menor de 3 años": 
+				if(edad <= 3){
+					validacion = true;
+				}
+				break;
+			case "Menos de 12 años": 
+				if(edad > 3 && edad <= 12){
+					validacion = true;
+				}
+				break;
+			case "De 12 años a más años": 
+				if(edad > 12){
+					validacion = true;
+				}
+				break;
+		}
+		
+		if(validacion == false){
+			$('#moduloVIEdad').val('');			
+		}
+		
+	});	
+	
+	$('#moduloIIIGrupoEdad').click(function(){
+		var grupo_edad = $(this).val();
+		$('#moduloIIIEdad').val('');
+		if (grupo_edad == "No precisa"){
+			$('#moduloIIIEdad').attr("readonly", true);
+			$('#moduloIIIEdad').attr("required", false);
+		}else{
+			$('#moduloIIIEdad').attr("readonly", false);
+			$('#moduloIIIEdad').attr("required", true);
+		}
+	});
+	
+	$('#moduloIIIEdad').change(function(){
+		var grupo_edad = $('#moduloIIIGrupoEdad').val();
+		var edad = $(this).val();
+		
+		validacion = false;
+		switch(grupo_edad){
+			case "Menor de 3 años": 
+				if(edad <= 3){
+					validacion = true;
+				}
+				break;
+			case "Menos de 12 años": 
+				if(edad > 3 && edad <= 12){
+					validacion = true;
+				}
+				break;
+			case "De 12 años a más años": 
+				if(edad > 12){
+					validacion = true;
+				}
+				break;
+		}
+		
+		if(validacion == false){
+			$('#moduloIIIEdad').val('');			
+		}
+		
+	});
+	
 	$('#moduloIIFuentePrincipalId').click(function(){
 		var fuente_principal_id = $(this).val();
 		if (fuente_principal_id == 9){
