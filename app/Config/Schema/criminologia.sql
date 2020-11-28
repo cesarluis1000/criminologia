@@ -129,7 +129,7 @@ CREATE TABLE `cake_sessions` (
 
 LOCK TABLES `cake_sessions` WRITE;
 /*!40000 ALTER TABLE `cake_sessions` DISABLE KEYS */;
-INSERT INTO `cake_sessions` VALUES ('lue875l8igoqat55rf12kt1iqh','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1606458469;s:9:\"countdown\";i:10;}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}moduloI|a:19:{s:18:\"region_policial_id\";s:1:\"1\";s:15:\"macro_region_id\";s:0:\"\";s:15:\"departamento_id\";s:2:\"15\";s:12:\"provincia_id\";s:2:\"20\";s:11:\"distrito_id\";s:3:\"979\";s:12:\"comisaria_id\";s:4:\"3256\";s:28:\"tipo_dependencia_policial_id\";s:1:\"1\";s:17:\"tipo_comisaria_id\";s:1:\"1\";s:22:\"categoria_comisaria_id\";s:1:\"1\";s:28:\"tipo_unidad_especializada_id\";s:1:\"1\";s:18:\"situacion_hecho_id\";s:1:\"1\";s:21:\"tipo_tramite_hecho_id\";s:1:\"1\";s:16:\"total_resolucion\";s:3:\"123\";s:29:\"total_documentos_formulado_id\";s:1:\"1\";s:27:\"total_bandas_desarticuladas\";s:3:\"123\";s:30:\"total_detenidos_captura_bandas\";s:3:\"123\";s:27:\"total_organizacion_criminal\";s:3:\"123\";s:28:\"total_personas_desaparecidas\";s:3:\"123\";s:25:\"total_personas_aparecidas\";s:3:\"123\";}',1606458469);
+INSERT INTO `cake_sessions` VALUES ('gpo4lktlbl1vnt2efdc2snfjrb','Config|a:3:{s:9:\"userAgent\";s:32:\"74953a685e35c7fd19e3b8e1b1801f74\";s:4:\"time\";i:1606535356;s:9:\"countdown\";i:10;}Message|a:1:{s:4:\"auth\";a:4:{s:7:\"message\";s:51:\"No está autorizado para acceder a esta aplicación\";s:3:\"key\";s:4:\"auth\";s:7:\"element\";s:13:\"Flash/default\";s:6:\"params\";a:0:{}}}Auth|a:1:{s:4:\"User\";a:13:{s:2:\"id\";s:1:\"1\";s:7:\"nombres\";s:0:\"\";s:3:\"app\";s:0:\"\";s:3:\"apm\";s:0:\"\";s:6:\"correo\";s:0:\"\";s:8:\"username\";s:6:\"odcpnp\";s:8:\"group_id\";s:1:\"1\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:24:19\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;s:5:\"Group\";a:7:{s:2:\"id\";s:1:\"1\";s:4:\"name\";s:13:\"Administrador\";s:6:\"estado\";s:1:\"A\";s:7:\"creador\";s:6:\"cramos\";s:6:\"creado\";s:19:\"2017-04-26 01:19:00\";s:11:\"modificador\";s:0:\"\";s:10:\"modificado\";N;}}}moduloII|a:31:{s:9:\"id_sidopl\";s:3:\"123\";s:23:\"fecha_registro_denuncia\";s:19:\"2020-11-28 03:47:20\";s:21:\"modalidad_denuncia_id\";s:1:\"1\";s:19:\"fuente_principal_id\";s:1:\"1\";s:4:\"otro\";s:0:\"\";s:16:\"fecha_ocurrencia\";s:19:\"2020-11-27 21:48:41\";s:11:\"tipo_via_id\";s:1:\"1\";s:6:\"cuadra\";s:4:\"asdf\";s:9:\"direccion\";s:33:\"Calle Paramonga 151 Tahuantinsuyo\";s:6:\"numero\";s:3:\"123\";s:12:\"urbanizacion\";s:3:\"sdf\";s:7:\"latitud\";s:3:\"123\";s:8:\"longitud\";s:3:\"123\";s:11:\"generico_id\";s:1:\"1\";s:13:\"especifico_id\";s:1:\"2\";s:12:\"modalidad_id\";s:1:\"1\";s:16:\"sub_modalidad_id\";s:1:\"1\";s:10:\"detalle_id\";s:1:\"1\";s:19:\"lugar_ocurrencia_id\";s:1:\"1\";s:24:\"forma_medio_utilizado_id\";s:1:\"1\";s:18:\"presuntas_causa_id\";s:1:\"1\";s:23:\"estado_encontro_victima\";s:4:\"Lima\";s:28:\"estado_fisico_mental_victima\";s:3:\"asd\";s:30:\"cometido_organizacion_criminal\";s:2:\"SI\";s:12:\"nro_victimas\";s:3:\"123\";s:25:\"nro_presuntos_victimarios\";s:3:\"123\";s:13:\"tramite_hecho\";s:3:\"asd\";s:19:\"documento_formulado\";s:3:\"asd\";s:11:\"derivada_mp\";s:2:\"SI\";s:18:\"nombre_fiscalia_id\";s:2:\"10\";s:21:\"situacion_denuncia_id\";s:1:\"1\";}',1606535356);
 /*!40000 ALTER TABLE `cake_sessions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -401,7 +401,10 @@ DROP TABLE IF EXISTS `especificos`;
 CREATE TABLE `especificos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(250) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `generico_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_especificos_genericos1_idx` (`generico_id`),
+  CONSTRAINT `fk_especificos_genericos1` FOREIGN KEY (`generico_id`) REFERENCES `genericos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -411,7 +414,7 @@ CREATE TABLE `especificos` (
 
 LOCK TABLES `especificos` WRITE;
 /*!40000 ALTER TABLE `especificos` DISABLE KEYS */;
-INSERT INTO `especificos` VALUES (1,'A. HURTO'),(2,'B. ROBO'),(3,'C. ABIGEATO'),(4,'D. APROPIACIÓN ILICITA'),(5,'E. RECEPTACIÓN'),(6,'F. ESTAFA Y OTRAS DEFRAUDACIONES'),(7,'G. FRAUDE EN LA ADMINISTRACION DE PERSONAS JURIDICAS'),(8,'H. EXTORSION'),(9,'I. USURPACION'),(10,'J. DAÑOS'),(11,'K. DELITOS INFORMATICOS'),(12,'A. DELITOS CONTRA LOS BIENES CULTURALES');
+INSERT INTO `especificos` VALUES (1,'A. HURTO',1),(2,'B. ROBO',1),(3,'C. ABIGEATO',1),(4,'D. APROPIACIÓN ILICITA',1),(5,'E. RECEPTACIÓN',1),(6,'F. ESTAFA Y OTRAS DEFRAUDACIONES',1),(7,'G. FRAUDE EN LA ADMINISTRACION DE PERSONAS JURIDICAS',1),(8,'H. EXTORSION',1),(9,'I. USURPACION',1),(10,'J. DAÑOS',1),(11,'K. DELITOS INFORMATICOS',1),(12,'A. DELITOS CONTRA LOS BIENES CULTURALES',1);
 /*!40000 ALTER TABLE `especificos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1204,4 +1207,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-11-27  0:43:32
+-- Dump completed on 2020-11-27 21:52:14
