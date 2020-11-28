@@ -102,7 +102,6 @@ class DenunciasController extends AppController {
 	    
 		$regionPolicials = $this->Denuncia->RegionPolicial->find('list');
 		$macroRegions = $this->Denuncia->MacroRegion->find('list');
-		//$departamentos = $this->Denuncia->Departamento->find('list');
 		$tipoDependenciaPolicials = $this->Denuncia->TipoDependenciaPolicial->find('list');
 		$tipoComisarias = $this->Denuncia->TipoComisaria->find('list');
 		$categoriaComisarias = $this->Denuncia->CategoriaComisaria->find('list');
@@ -130,11 +129,22 @@ class DenunciasController extends AppController {
 	    
 	    $this->request->query['moduloII'] = $this->request->data['moduloII'] = $this->Session->read('moduloII');
 	    
+	    $especificos = null;
+	    
+	    if (isset($this->request->query['moduloII']['generico_id'])){
+	        $generico_id = $this->request->data['moduloII']['generico_id'] = $this->request->query['moduloII']['generico_id'];
+	        $options = array('fields'=>array('id','nombre'),
+	            'conditions' => array('generico_id' => $generico_id),
+	            'recursive' => -1,
+	            'order' => array('nombre')
+	        );
+	        $especificos = $this->Denuncia->Especifico->find('list',$options);
+	    }
+	    
 	    $modalidadDenuncias = $this->Denuncia->ModalidadDenuncia->find('list');
 	    $fuentePrincipales = $this->Denuncia->FuentePrincipal->find('list');
 	    $tipoVias = $this->Denuncia->TipoVia->find('list');
 	    $genericos = $this->Denuncia->Generico->find('list');
-	    $especificos = $this->Denuncia->Especifico->find('list');
 	    $modalidades = $this->Denuncia->Modalidad->find('list');
 	    $subModalidades = $this->Denuncia->SubModalidad->find('list');
 	    $detalles = $this->Denuncia->Detalle->find('list');

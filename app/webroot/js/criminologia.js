@@ -189,4 +189,26 @@ $(function(){
 		}
 	});
 	
+
+	
+	$('#moduloIIGenericoId').click(function(){
+		var generico_id = $(this).val();
+		if (generico_id !== '' && generico_id !== undefined) {
+			$.ajax({
+				url: base+'/Especificos/listjson?generico_id='+generico_id,
+				dataType: 'json',
+			    async: false,
+			}).done(function(data){				
+				var len = data.length;
+				$('#moduloIIEspecificoId').empty();
+				$("#moduloIIEspecificoId").append("<option value=''>Seleccionar</option>");
+				for(var i=0; i<len; i++){
+					var id = data[i]['Especifico']['id'];	
+					var name = data[i]['Especifico']['nombre'];
+					$("#moduloIIEspecificoId").append("<option value='"+id+"'>"+name+"</option>");
+				}
+			});
+		}
+	});
+	
 });
