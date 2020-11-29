@@ -27,9 +27,9 @@
           <?php 
           echo $this->Form->input('comisaria_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $comisarias,'empty' => 'Seleccionar', 'required'=>true));
           echo $this->Form->input('tipo_dependencia_policial_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipoDependenciaPolicials,'empty' => 'Seleccionar', 'required'=>true));
-          echo $this->Form->input('tipo_comisaria_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipoComisarias,'empty' => 'Seleccionar', 'required'=>true));
-          echo $this->Form->input('categoria_comisaria_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $categoriaComisarias,'empty' => 'Seleccionar', 'required'=>true));
-          echo $this->Form->input('tipo_unidad_especializada_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipoUnidadEspecializadas,'empty' => 'Seleccionar', 'required'=>true));?>
+          echo $this->Form->input('tipo_comisaria_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipoComisarias,'empty' => 'Seleccionar', 'required'=>true, 'disabled' => true));
+          echo $this->Form->input('categoria_comisaria_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $categoriaComisarias,'empty' => 'Seleccionar', 'required'=>true, 'disabled' => true));
+          echo $this->Form->input('tipo_unidad_especializada_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipoUnidadEspecializadas,'empty' => 'Seleccionar', 'required'=>true, 'disabled' => true));?>
           </div>
           <div class="col-sm-6, col-md-5">          
     		<h4>C. Datos complementarios</h4>

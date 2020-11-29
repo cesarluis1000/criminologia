@@ -57,6 +57,7 @@ class DenunciasController extends AppController {
 	public function add($denuncia = null, $modulo = null) {
 		
 	    $departamentos = null;
+	    $macroRegions = null;
 	    $provincias = null;
 	    $distritos = null;
 	    $comisarias = null;
@@ -65,6 +66,25 @@ class DenunciasController extends AppController {
 	    
 	    if (isset($this->request->query['moduloI']['region_policial_id'])){
 	        $region_policial_id = $this->request->data['moduloI']['region_policial_id'] = $this->request->query['moduloI']['region_policial_id'];
+	        
+	        $options = array(
+	            'conditions' => array('RegionPolicial.id' => $region_policial_id)         ,
+	            'recursive' => -1,
+	            'order' => array('nombre')
+	        );
+	        
+	        $regionPolicial = $this->Denuncia->RegionPolicial->find('first',$options);
+	        
+	        $macro_region_id = $regionPolicial['RegionPolicial']['macro_region_id'];
+	        
+	        $options = array(
+	            'conditions' => array('MacroRegion.id' => $macro_region_id)         ,
+	            'recursive' => -1,
+	            'order' => array('nombre')
+	        );
+	        
+	        $macroRegion = $this->Denuncia->MacroRegion->find('all',$options);
+	        
 	        $options = array('fields'=>array('id','nombre'),
 	            'conditions' => array('region_policial_id' => $region_policial_id),
 	            'recursive' => -1,
@@ -101,7 +121,7 @@ class DenunciasController extends AppController {
 		
 	    
 		$regionPolicials = $this->Denuncia->RegionPolicial->find('list');
-		$macroRegions = $this->Denuncia->MacroRegion->find('list');
+		//$macroRegions = $this->Denuncia->MacroRegion->find('list');
 		$tipoDependenciaPolicials = $this->Denuncia->TipoDependenciaPolicial->find('list');
 		$tipoComisarias = $this->Denuncia->TipoComisaria->find('list');
 		$categoriaComisarias = $this->Denuncia->CategoriaComisaria->find('list');

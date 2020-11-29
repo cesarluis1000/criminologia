@@ -1,98 +1,41 @@
+function validacionDatos(){
+	var region_policial_id = $('#moduloIRegionPolicialId').val();
+	if(region_policial_id == 1 || region_policial_id == 2){
+		$('#moduloIMacroRegionId').attr("required", false);	
+	}else{
+		$('#moduloIMacroRegionId').attr("required", true );
+	}
+}
+
+function validacionTipoDependenciaPolicialId(){
+  	var tipo_dependencia_policial_id = $('#moduloITipoDependenciaPolicialId').val();
+	
+	$('#moduloITipoComisariaId').attr("disabled", true);
+	$('#moduloICategoriaComisariaId').attr("disabled", true);
+	$('#moduloITipoUnidadEspecializadaId').attr("disabled", true);
+	
+	if(tipo_dependencia_policial_id == 1 || tipo_dependencia_policial_id == 2){
+		$('#moduloITipoComisariaId').attr("disabled", false);
+		$('#moduloICategoriaComisariaId').attr("disabled", false);			
+	}
+	
+	if(tipo_dependencia_policial_id == 3){	
+		$('#moduloITipoUnidadEspecializadaId').attr("disabled", false);
+	}		
+}
+
 $(function(){
 	
-	$('#moduloVIGrupoEdad').click(function(){
-		var grupo_edad = $(this).val();
-		$('#moduloVIEdad').val('');
-		if (grupo_edad == "No precisa"){
-			$('#moduloVIEdad').attr("readonly", true);
-			$('#moduloVIEdad').attr("required", false);
-		}else{
-			$('#moduloVIEdad').attr("readonly", false);
-			$('#moduloVIEdad').attr("required", true);
-		}
+	var base = $('base').attr('href');	  
+	
+	validacionDatos();
+	
+	validacionTipoDependenciaPolicialId();
+	
+	$('#moduloITipoDependenciaPolicialId').click(function() {
+		validacionTipoDependenciaPolicialId();
 	});
 	
-	$('#moduloVIEdad').change(function(){
-		var grupo_edad = $('#moduloVIGrupoEdad').val();
-		var edad = $(this).val();
-		
-		validacion = false;
-		switch(grupo_edad){
-			case "Menor de 3 años": 
-				if(edad <= 3){
-					validacion = true;
-				}
-				break;
-			case "Menos de 12 años": 
-				if(edad > 3 && edad <= 12){
-					validacion = true;
-				}
-				break;
-			case "De 12 años a más años": 
-				if(edad > 12){
-					validacion = true;
-				}
-				break;
-		}
-		
-		if(validacion == false){
-			$('#moduloVIEdad').val('');			
-		}
-		
-	});	
-	
-	$('#moduloIIIGrupoEdad').click(function(){
-		var grupo_edad = $(this).val();
-		$('#moduloIIIEdad').val('');
-		if (grupo_edad == "No precisa"){
-			$('#moduloIIIEdad').attr("readonly", true);
-			$('#moduloIIIEdad').attr("required", false);
-		}else{
-			$('#moduloIIIEdad').attr("readonly", false);
-			$('#moduloIIIEdad').attr("required", true);
-		}
-	});
-	
-	$('#moduloIIIEdad').change(function(){
-		var grupo_edad = $('#moduloIIIGrupoEdad').val();
-		var edad = $(this).val();
-		
-		validacion = false;
-		switch(grupo_edad){
-			case "Menor de 3 años": 
-				if(edad <= 3){
-					validacion = true;
-				}
-				break;
-			case "Menos de 12 años": 
-				if(edad > 3 && edad <= 12){
-					validacion = true;
-				}
-				break;
-			case "De 12 años a más años": 
-				if(edad > 12){
-					validacion = true;
-				}
-				break;
-		}
-		
-		if(validacion == false){
-			$('#moduloIIIEdad').val('');			
-		}
-		
-	});
-	
-	$('#moduloIIFuentePrincipalId').click(function(){
-		var fuente_principal_id = $(this).val();
-		if (fuente_principal_id == 9){
-			$('#moduloIIOtro').attr("readonly", false);
-		}else{
-			$('#moduloIIOtro').attr("readonly", true);
-		}
-	});
-	
-	var base = $('base').attr('href');
-		
 	$('#moduloIRegionPolicialId').click(function(){
 		var region_policial_id = $(this).val();
 		if (region_policial_id !== '' && region_policial_id !== undefined) {
@@ -189,8 +132,16 @@ $(function(){
 		}
 	});
 	
-
 	
+	$('#moduloIIFuentePrincipalId').click(function(){
+		var fuente_principal_id = $(this).val();
+		if (fuente_principal_id == 9){
+			$('#moduloIIOtro').attr("readonly", false);
+		}else{
+			$('#moduloIIOtro').attr("readonly", true);
+		}
+	});
+		
 	$('#moduloIIGenericoId').click(function(){
 		var generico_id = $(this).val();
 		if (generico_id !== '' && generico_id !== undefined) {
@@ -210,5 +161,88 @@ $(function(){
 			});
 		}
 	});
+	
+	$('#moduloIIIGrupoEdad').click(function(){
+		var grupo_edad = $(this).val();
+		$('#moduloIIIEdad').val('');
+		if (grupo_edad == "No precisa"){
+			$('#moduloIIIEdad').attr("readonly", true);
+			$('#moduloIIIEdad').attr("required", false);
+		}else{
+			$('#moduloIIIEdad').attr("readonly", false);
+			$('#moduloIIIEdad').attr("required", true);
+		}
+	});
+	
+	$('#moduloIIIEdad').change(function(){
+		var grupo_edad = $('#moduloIIIGrupoEdad').val();
+		var edad = $(this).val();
+		
+		validacion = false;
+		switch(grupo_edad){
+			case "Menor de 3 años": 
+				if(edad <= 3){
+					validacion = true;
+				}
+				break;
+			case "Menos de 12 años": 
+				if(edad > 3 && edad <= 12){
+					validacion = true;
+				}
+				break;
+			case "De 12 años a más años": 
+				if(edad > 12){
+					validacion = true;
+				}
+				break;
+		}
+		
+		if(validacion == false){
+			$('#moduloIIIEdad').val('');			
+		}
+		
+	});
+	
+	
+	$('#moduloVIGrupoEdad').click(function(){
+		var grupo_edad = $(this).val();
+		$('#moduloVIEdad').val('');
+		if (grupo_edad == "No precisa"){
+			$('#moduloVIEdad').attr("readonly", true);
+			$('#moduloVIEdad').attr("required", false);
+		}else{
+			$('#moduloVIEdad').attr("readonly", false);
+			$('#moduloVIEdad').attr("required", true);
+		}
+	});
+	
+	$('#moduloVIEdad').change(function(){
+		var grupo_edad = $('#moduloVIGrupoEdad').val();
+		var edad = $(this).val();
+		
+		validacion = false;
+		switch(grupo_edad){
+			case "Menor de 3 años": 
+				if(edad <= 3){
+					validacion = true;
+				}
+				break;
+			case "Menos de 12 años": 
+				if(edad > 3 && edad <= 12){
+					validacion = true;
+				}
+				break;
+			case "De 12 años a más años": 
+				if(edad > 12){
+					validacion = true;
+				}
+				break;
+		}
+		
+		if(validacion == false){
+			$('#moduloVIEdad').val('');			
+		}
+		
+	});	
 	
 });
