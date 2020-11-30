@@ -39,19 +39,39 @@
           </div>
           <div class="col-sm-6, col-md-5">          
     		<h4>B. Localización De La Ocurrencia</h4>
-          <?php 
-          echo $this->Form->input('fecha_ocurrencia',array('label'=>array('class'=>'control-label col-sm-6'),'type' => 'text','placeholder'=>'YYYY-MM-DD HH:mm:ss', 'required'=>true));
-          echo $this->Form->input('tipo_via_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipoVias,'empty' => 'Seleccionar', 'required'=>true));
-          echo $this->Form->input('cuadra',array('label'=>array('class'=>'control-label col-sm-6'), 'required'=>true));
-          echo $this->Form->input('direccion',array('label'=>array('class'=>'control-label col-sm-6'), 'required'=>true));
-          echo $this->Form->input('numero',array('label'=>array('class'=>'control-label col-sm-6'), 'type' => 'number', 'required'=>true));
-          echo $this->Form->input('urbanizacion',array('label'=>array('class'=>'control-label col-sm-6'), 'required'=>true));
-            echo $this->Form->input('ubigeo_id',array('label'=>array('class'=>'control-label col-sm-6')));
+              <?php 
+              echo $this->Form->input('fecha_ocurrencia',array('label'=>array('class'=>'control-label col-sm-6'),'type' => 'text','placeholder'=>'YYYY-MM-DD HH:mm:ss', 'required'=>true));
+              echo $this->Form->input('tipo_via_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipoVias,'empty' => 'Seleccionar', 'required'=>true));
+              echo $this->Form->input('cuadra',array('label'=>array('class'=>'control-label col-sm-6'), 'required'=>true));
+              echo $this->Form->input('direccion',array('label'=>array('class'=>'control-label col-sm-6'), 'required'=>true));
+              echo $this->Form->input('numero',array('label'=>array('class'=>'control-label col-sm-6'), 'type' => 'number', 'required'=>true));
+              echo $this->Form->input('urbanizacion',array('label'=>array('class'=>'control-label col-sm-6'), 'required'=>true));
+              ?>
+        
+            <div class="form-group">
+    			<label for="moduloIIUbigeoId" class="control-label col-sm-6">Ubigeo</label>
+    			<div class="col-sm-6">
+    				<?php 
+    				echo $this->Html->link(
+    				    $this->Html->tag('span', '',array('class' => 'glyphicon glyphicon-map-marker')).'&nbsp;'.__('Google map'),
+    				    'https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/utils/geocoder',
+    				    array('target'=>'_blank','escape'=>false,'class'=>'btn btn-default btn-xs') );
+    				?>
+    			</div>
+    		</div>
+        
+          
+          	<?php 
+            //echo $this->Form->input('ubigeo_id',array('label'=>array('class'=>'control-label col-sm-6')));            
             echo $this->Form->input('latitud',array('label'=>array('class'=>'control-label col-sm-6'), 'type' => 'number', 'required'=>true));
             echo $this->Form->input('longitud',array('label'=>array('class'=>'control-label col-sm-6'), 'type' => 'number', 'required'=>true));
             ?>
 		</div>
-          <div class="col-sm-6, col-md-5">          
+
+		
+
+
+		<div class="col-sm-6, col-md-5">          
     		<h4>Ocurrencia</h4>
 		<?php 		
 		echo $this->Form->input('generico_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $genericos,'empty' => 'Seleccionar', 'required'=>true));
