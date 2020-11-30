@@ -58,19 +58,15 @@
     				    array('target'=>'_blank','escape'=>false,'class'=>'btn btn-default btn-xs') );
     				?>
     			</div>
-    		</div>
-        
+    		</div>        
           
           	<?php 
             //echo $this->Form->input('ubigeo_id',array('label'=>array('class'=>'control-label col-sm-6')));            
-            echo $this->Form->input('latitud',array('label'=>array('class'=>'control-label col-sm-6'), 'type' => 'number', 'required'=>true));
-            echo $this->Form->input('longitud',array('label'=>array('class'=>'control-label col-sm-6'), 'type' => 'number', 'required'=>true));
+          	echo $this->Form->input('latitud',array('label'=>array('class'=>'control-label col-sm-6'), 'type' => 'number', 'min'=>"-90.000000", 'max'=>"90.000000", 'step'=>"0.000001", 'required'=>true));
+          	echo $this->Form->input('longitud',array('label'=>array('class'=>'control-label col-sm-6'), 'type' => 'number', 'min'=>"-180.000000", 'max'=>"-180.000000", 'step'=>"0.000001", 'required'=>true));
             ?>
 		</div>
-
 		
-
-
 		<div class="col-sm-6, col-md-5">          
     		<h4>Ocurrencia</h4>
 		<?php 		
