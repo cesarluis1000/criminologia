@@ -27,7 +27,7 @@
 		
 		<div class="row">
           <div class="col-sm-6, col-md-5">          
-    		<h4>A. Id Denuncia</h4>    		
+    		<h4>A. Id Denuncia</h4>
     		<?php
     		echo $this->Form->input('id_sidopl',array('label'=>array('class'=>'control-label col-sm-6'), 'type' => 'number', 'required'=>true));
     		echo $this->Form->input('fecha_registro_denuncia',array('label'=>array('class'=>'control-label col-sm-6'),'type' => 'text', 'value' => date("Y-m-d H:i:s"), 'placeholder'=>'YYYY-MM-DD HH:mm:ss', 'required'=>true));

@@ -243,19 +243,56 @@ class DenunciasController extends AppController {
 	        'conditions' => array('Parametro.modulo' => 'parentesco_victimaro'));
 	    $parametros = $this->Parametro->find('all',$condicion);
 	    $parentesco_victimaros = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
-	    	    
+	    
 	    $condicion = array(
 	        'fields' => array('Parametro.variable','Parametro.valor'),
-	        'conditions' => array('Parametro.modulo' => 'reincidencia'));
+	        'conditions' => array('Parametro.modulo' => 'situacion_victima'));
 	    $parametros = $this->Parametro->find('all',$condicion);
-	    $reincidencias = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    $situacion_victimas = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'estado_encontro_victima'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $estado_encontro_victimas = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'presenta_problemas_mental'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $presenta_problemas_mentales = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'tipo_problemas_mental'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $tipo_problemas_mentales = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'presenta_discapacidad'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $presenta_discapacidades = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'tipo_discapacidad'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $tipo_discapacidades = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'situacion_denuncia'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $situacion_denuncias = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
 	    
 	    $this->set(compact('denuncia','modulo','tipo_documento_identidades','sexos','grupo_edades',
-	        'estado_civiles','nacionalidades','nivel_educativo_alcanzados','ocupaciones','parentesco_victimaros','reincidencias'));
+	        'estado_civiles','nacionalidades','nivel_educativo_alcanzados','ocupaciones','reincidencias',
+	        'parentesco_victimaros','situacion_victimas','estado_encontro_victimas','presenta_problemas_mentales',
+	        'tipo_problemas_mentales','presenta_discapacidades','tipo_discapacidades','situacion_denuncias'));
 	}
 	
 	public function victimario($denuncia = null, $modulo = null) {
-
 	    
 	    if (isset($this->request->data['moduloIII']) && !empty($this->request->data['moduloIII'])){
 	        $this->Session->write('moduloIII', $this->request->data['moduloIII']);
@@ -291,8 +328,7 @@ class DenunciasController extends AppController {
 	        'fields' => array('Parametro.variable','Parametro.valor'),
 	        'conditions' => array('Parametro.modulo' => 'ocupacion'));
 	    $parametros = $this->Parametro->find('all',$condicion);
-	    $ocupaciones = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
-	    
+	    $ocupaciones = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');	    
 	    
 	    $condicion = array(
 	        'fields' => array('Parametro.variable','Parametro.valor'),
@@ -314,18 +350,50 @@ class DenunciasController extends AppController {
 	    
 	    $condicion = array(
 	        'fields' => array('Parametro.variable','Parametro.valor'),
-	        'conditions' => array('Parametro.modulo' => 'parentesco_victimaro'));
+	        'conditions' => array('Parametro.modulo' => 'parentesco_victima'));
 	    $parametros = $this->Parametro->find('all',$condicion);
-	    $parentesco_victimaros = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    $parentesco_victimas = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
 	    
 	    $condicion = array(
 	        'fields' => array('Parametro.variable','Parametro.valor'),
-	        'conditions' => array('Parametro.modulo' => 'reincidencia'));
+	        'conditions' => array('Parametro.modulo' => 'situacion_presunto_victimario'));
 	    $parametros = $this->Parametro->find('all',$condicion);
-	    $reincidencias = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    $situacion_presunto_victimarios = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'estado_encontro_victimario'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $estado_encontro_victimarios = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'presenta_problemas_mental'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $presenta_problemas_mentales = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'tipo_problemas_mentales_victimario'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $tipo_problemas_mentales_victimarios = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');	        
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'presenta_discapacidad'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $presenta_discapacidades = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
+	    
+	    $condicion = array(
+	        'fields' => array('Parametro.variable','Parametro.valor'),
+	        'conditions' => array('Parametro.modulo' => 'tipo_discapacidad'));
+	    $parametros = $this->Parametro->find('all',$condicion);
+	    $tipo_discapacidades = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
 	    
 	    $this->set(compact('denuncia','modulo','tipo_documento_identidades','sexos','grupo_edades','nivel_educativo_alcanzados',
-	        'estado_civiles','nacionalidades','nivel_educativo_alcanzados','ocupaciones','parentesco_victimaros','reincidencias'));
+	        'estado_civiles','nacionalidades','nivel_educativo_alcanzados','ocupaciones','reincidencias', 'presenta_problemas_mentales',
+	        'parentesco_victimas','situacion_presunto_victimarios','estado_encontro_victimarios','tipo_problemas_mentales_victimarios',
+	        'presenta_discapacidades','tipo_discapacidades'));
 	}
 
 /**
