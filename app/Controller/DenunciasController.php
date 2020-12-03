@@ -286,10 +286,15 @@ class DenunciasController extends AppController {
 	    $parametros = $this->Parametro->find('all',$condicion);
 	    $situacion_denuncias = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
 	    
+	    $tipo_delitos = array();
+	    $modalidad_delitos = array();
+	    $especificacion_delitos = array();
+	    
 	    $this->set(compact('denuncia','modulo','tipo_documento_identidades','sexos','grupo_edades',
 	        'estado_civiles','nacionalidades','nivel_educativo_alcanzados','ocupaciones','reincidencias',
 	        'parentesco_victimaros','situacion_victimas','estado_encontro_victimas','presenta_problemas_mentales',
-	        'tipo_problemas_mentales','presenta_discapacidades','tipo_discapacidades','situacion_denuncias'));
+	        'tipo_problemas_mentales','presenta_discapacidades','tipo_discapacidades','situacion_denuncias'
+	        ,'tipo_delitos','modalidad_delitos','especificacion_delitos'));
 	}
 	
 	public function victimario($denuncia = null, $modulo = null) {
