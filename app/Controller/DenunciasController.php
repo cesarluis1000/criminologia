@@ -121,7 +121,6 @@ class DenunciasController extends AppController {
 		
 	    
 		$regionPolicials = $this->Denuncia->RegionPolicial->find('list');
-		//$macroRegions = $this->Denuncia->MacroRegion->find('list');
 		$tipoDependenciaPolicials = $this->Denuncia->TipoDependenciaPolicial->find('list');
 		$tipoComisarias = $this->Denuncia->TipoComisaria->find('list');
 		$categoriaComisarias = $this->Denuncia->CategoriaComisaria->find('list');
@@ -179,6 +178,9 @@ class DenunciasController extends AppController {
 	
 	public function victima($denuncia = null, $modulo = null) {
 	    
+	    $modalidad_delitos = null;
+	    $especificacion_delitos = null;
+	    
 	    if (isset($this->request->data['moduloII']) && !empty($this->request->data['moduloII'])){
 	        $this->Session->write('moduloII', $this->request->data['moduloII']);
 	    }
@@ -188,6 +190,25 @@ class DenunciasController extends AppController {
 	    }    
 	    
 	    $this->request->query['moduloIII'] = $this->request->data['moduloIII'] = $this->Session->read('moduloIII');
+	    
+	    if (isset($this->request->query['moduloIII']['tipo_delito_id'])){
+	        $tipo_delito_id = $this->request->data['moduloIII']['tipo_delito_id'] = $this->request->query['moduloIII']['tipo_delito_id'];
+	        $options = array('fields'=>array('id','nombre'),
+	            'conditions' => array('tipo_delito_id' => $tipo_delito_id),
+	            'recursive' => -1,
+	            'order' => array('nombre'));
+	        $modalidad_delitos = $this->Denuncia->ModalidadesDelito->find('list',$options);
+	    }
+	    
+	    if (isset($this->request->query['moduloIII']['modalidades_delito_id'])){
+	        $modalidades_delito_id = $this->request->data['moduloIII']['modalidades_delito_id'] = $this->request->query['moduloIII']['modalidades_delito_id'];
+	        $options = array('fields'=>array('id','nombre'),
+	            'conditions' => array('modalidades_delito_id' => $modalidades_delito_id),
+	            'recursive' => -1,
+	            'order' => array('nombre')
+	        );
+	        $especificacion_delitos = $this->Denuncia->EspecificacionDelito->find('list',$options);
+	    }
 	    
 	    $condicion = array(
 	        'fields' => array('Parametro.variable','Parametro.valor'),
@@ -286,9 +307,8 @@ class DenunciasController extends AppController {
 	    $parametros = $this->Parametro->find('all',$condicion);
 	    $situacion_denuncias = Hash::combine($parametros, '{n}.Parametro.variable', '{n}.Parametro.valor');
 	    
-	    $tipo_delitos = array();
-	    $modalidad_delitos = array();
-	    $especificacion_delitos = array();
+	    $tipo_delitos =  $this->Denuncia->TipoDelito->find('list');
+	    
 	    
 	    $this->set(compact('denuncia','modulo','tipo_documento_identidades','sexos','grupo_edades',
 	        'estado_civiles','nacionalidades','nivel_educativo_alcanzados','ocupaciones','reincidencias',

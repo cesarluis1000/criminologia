@@ -779,6 +779,27 @@ class Denuncia extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
-		)
+		),
+	    'TipoDelito' => array(
+	        'className' => 'TipoDelito',
+	        'foreignKey' => 'tipo_delito_id',
+	        'conditions' => '',
+	        'fields' => '',
+	        'order' => ''
+	    ),
+	    'ModalidadesDelito' => array(
+	        'className' => 'ModalidadesDelito',
+	        'foreignKey' => 'modalidades_delito_id',
+	        'conditions' => '',
+	        'fields' => '',
+	        'order' => ''
+	    ),
+	    'EspecificacionDelito' => array(
+	        'className' => 'EspecificacionDelito',
+	        'foreignKey' => 'modalidades_delito_id',
+	        'conditions' => '',
+	        'fields' => '',
+	        'order' => ''
+	    )
 	);
 }

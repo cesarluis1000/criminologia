@@ -33,9 +33,9 @@
       <h4>Situación de la Víctima</h4>         
       <?php
         echo $this->Form->input('reincidencia',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $reincidencias,'empty' => 'Seleccionar', 'required'=>true));
-        echo $this->Form->input('tipo_delito',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipo_delitos,'empty' => 'Seleccionar', 'required'=>true));
-        echo $this->Form->input('modalidad_delitos',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $modalidad_delitos,'empty' => 'Seleccionar', 'required'=>true));
-        echo $this->Form->input('especificacion_delitos',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $especificacion_delitos,'empty' => 'Seleccionar', 'required'=>true));
+        echo $this->Form->input('tipo_delito_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $tipo_delitos,'empty' => 'Seleccionar', 'required'=>true));
+        echo $this->Form->input('modalidades_delito_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $modalidad_delitos,'empty' => 'Seleccionar', 'required'=>true));
+        echo $this->Form->input('especificacion_delito_id',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $especificacion_delitos,'empty' => 'Seleccionar', 'required'=>true));
         echo $this->Form->input('parentesco_victimaro',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $parentesco_victimaros,'empty' => 'Seleccionar', 'required'=>true));
         echo $this->Form->input('situacion_victima',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $situacion_victimas,'empty' => 'Seleccionar', 'required'=>true));
         echo $this->Form->input('estado_encontro_victima',array('label'=>array('class'=>'control-label col-sm-6'),'options'=> $estado_encontro_victimas,'empty' => 'Seleccionar', 'required'=>true));
@@ -57,5 +57,6 @@
 		<?php echo $this->Form->end(); ?>
 </fieldset>
 <?php 
-    echo $this->Html->script('criminologia.js');
+echo $this->Html->script('criminologia.js');
+echo $this->Html->script('tipo_delitos.js');
 ?>
